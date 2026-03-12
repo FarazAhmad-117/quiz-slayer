@@ -88,7 +88,7 @@ export function SubjectCard({ subject, slug, questionCount, guessQuestions, onSt
               {totalCount} Q
             </span>
             {guessQuestions?.length > 0 && (
-              <span className="text-[10px] text-content-secondary font-semibold pl-1">+AI practice</span>
+              <span className="text-[10px] text-content-secondary font-semibold pl-1">+Documents extracted MCQS</span>
             )}
           </div>
 

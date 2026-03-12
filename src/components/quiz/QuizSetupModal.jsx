@@ -70,7 +70,7 @@ export function QuizSetupModal({ subject, isOpen, onClose, onConfirm }) {
             )}>
               <div className="flex items-center gap-2">
                 <input type="radio" name="qset" value="guess" checked={questionSet === 'guess'} onChange={() => { setQuestionSet('guess'); setMode('all') }} className="accent-themed-accent" />
-                <span className="text-sm font-bold text-content-primary">AI Practice</span>
+                <span className="text-sm font-bold text-content-primary">MCQS genreated from Documents shared by Sir</span>
               </div>
               <p className="text-xs text-content-secondary pl-5">{subject.guessQuestions.length} practice Qs</p>
             </label>
