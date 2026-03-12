@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Light mode CSS custom properties ─────────────────────────────── */
+:root {
+  --bg-primary:    250 248 245;
+  --bg-secondary:  240 235 228;
+  --bg-card:       245 241 235;
+  --text-primary:  42 37 32;
+  --text-secondary: 106 101 96;
+  --border:        214 206 196;
+  --accent:        229 57 53;
+  --accent-hover:  183 28 28;
+}
+
+/* ─── Dark mode CSS custom properties ──────────────────────────────── */
+.dark {
+  --bg-primary:    10 10 15;
+  --bg-secondary:  18 18 26;
+  --bg-card:       26 26 37;
+  --text-primary:  232 230 227;
+  --text-secondary: 154 149 144;
+  --border:        50 47 42;
+  --accent:        196 167 125;
+  --accent-hover:  216 190 150;
+}
+/* hsl(1, 77%, 55%) */
+/* ─── Base layer ────────────────────────────────────────────────────── */
+@layer base {
+  * {
+    @apply border-themed-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply text-content-primary font-sans antialiased;
+    background: linear-gradient(160deg, rgb(var(--bg-primary)) 0%, rgb(var(--bg-secondary)) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    transition: background 0.3s ease, color 0.3s ease;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-themed-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-content-secondary;
+  }
+}
+
+/* ─── Component layer ───────────────────────────────────────────────── */
+@layer components {
+  .card {
+    @apply bg-surface-card rounded-2xl border border-themed-border;
+    box-shadow:
+      0 1px 3px rgb(0 0 0 / 0.04),
+      0 6px 16px -4px rgb(0 0 0 / 0.08),
+      0 20px 40px -12px rgb(0 0 0 / 0.06);
+  }
+
+  .dark .card {
+    box-shadow:
+      0 1px 3px rgb(0 0 0 / 0.25),
+      0 6px 16px -4px rgb(0 0 0 / 0.30),
+      0 20px 40px -12px rgb(0 0 0 / 0.35);
+  }
+
+  .focus-ring {
+    @apply focus:outline-none focus-visible:ring-2 focus-visible:ring-themed-accent focus-visible:ring-offset-2 focus-visible:ring-offset-surface-primary;
+  }
+}

@@ -1,0 +1,2649 @@
+{
+  "subject": "Parallel & Distributed Computing",
+  "slug": "parallel-distributed-computing",
+  "description": "Concurrency, parallelism, distributed systems, CUDA, MapReduce, and big data processing.",
+  "icon": "🖧",
+  "color": "teal",
+  "questions": [
+    {
+      "id": 1,
+      "text": "False information mainly impacts:",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Veracity",
+        "Variety"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "text": "Traditional systems are limited by:",
+      "options": [
+        "Infinite storage",
+        "Hardware capacity",
+        "Cloud automation",
+        "Distributed compute"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "Concurrency without parallelism occurs on:",
+      "options": [
+        "Multi-core CPU",
+        "Single-core CPU",
+        "GPU cluster",
+        "Supercomputer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "Warp size in CUDA is typically:",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "text": "HDFS is optimized for:",
+      "options": [
+        "Random writes",
+        "Large sequential reads",
+        "OLTP transactions",
+        "Small edits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "Images, videos, and logs together illustrate:",
+      "options": [
+        "Volume",
+        "Veracity",
+        "Variety",
+        "Value"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 7,
+      "text": "Revenue forecasting uses:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "Concurrent queues enable:",
+      "options": [
+        "Thread-safe operations",
+        "Serialization",
+        "GPU memory",
+        "Disk caching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 9,
+      "text": "Why is high Velocity challenging?",
+      "options": [
+        "Data moves slowly",
+        "Data must be processed quickly",
+        "Data becomes structured",
+        "Data decreases in size"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "HDFS achieves scalability by:",
+      "options": [
+        "Central server",
+        "Adding nodes",
+        "Removing replication",
+        "Vertical scaling only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "Which schema supports OLAP best?",
+      "options": [
+        "Star schema",
+        "Flat file",
+        "Key-value",
+        "Blockchain"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "text": "True parallel execution means:",
+      "options": [
+        "Simultaneous processing",
+        "Interleaving tasks",
+        "Context switching",
+        "Blocking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 13,
+      "text": "HDFS favors:",
+      "options": [
+        "Low latency",
+        "High throughput",
+        "Small writes",
+        "Frequent updates"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "text": "Parallel systems improve performance through:",
+      "options": [
+        "Sequential execution",
+        "Task division",
+        "Hardware removal",
+        "Centralization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "OLAP queries often involve:",
+      "options": [
+        "Row locking",
+        "Aggregated metrics",
+        "Frequent inserts",
+        "ATM updates"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "Metadata in HDFS includes:",
+      "options": [
+        "File locations",
+        "User passwords",
+        "SQL queries",
+        "Analytics results"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 17,
+      "text": "High concurrency benefits:",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "MapReduce only",
+        "Warehousing only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "text": "MapReduce is best for:",
+      "options": [
+        "Large batch analytics",
+        "ATM transactions",
+        "Instant updates",
+        "Small edits"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 19,
+      "text": "Incorrect data mainly affects which V?",
+      "options": [
+        "Velocity",
+        "Volume",
+        "Variety",
+        "Veracity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 20,
+      "text": "Updating customer address uses:",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "Hadoop",
+        "HDFS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "text": "Shared memory is limited per:",
+      "options": [
+        "Block",
+        "Grid",
+        "CPU",
+        "Disk"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 22,
+      "text": "Inaccurate sensor readings affect which V?",
+      "options": [
+        "Veracity",
+        "Volume",
+        "Velocity",
+        "Visualization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 23,
+      "text": "Blocking calls reduce:",
+      "options": [
+        "Concurrency",
+        "Storage",
+        "GPU threads",
+        "Scalability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 24,
+      "text": "Mapper outputs:",
+      "options": [
+        "Key-value pairs",
+        "Final reports",
+        "Dashboards",
+        "Metadata only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 25,
+      "text": "Each CUDA block contains:",
+      "options": [
+        "One thread",
+        "Multiple threads",
+        "One CPU",
+        "One grid"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "text": "Speedup is calculated by comparing:",
+      "options": [
+        "Disk size",
+        "Parallel vs serial time",
+        "Network hops",
+        "GPU threads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "text": "Parallelism increases:",
+      "options": [
+        "Responsiveness only",
+        "Throughput",
+        "Blocking",
+        "Waiting time"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "text": "Merging logs and audio files increases:",
+      "options": [
+        "Variety",
+        "Velocity",
+        "Volume only",
+        "Veracity"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 29,
+      "text": "Traditional warehouses depend on:",
+      "options": [
+        "Cloud elasticity",
+        "Physical servers",
+        "Serverless systems",
+        "Distributed storage only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "text": "CUDA kernels execute on:",
+      "options": [
+        "CPU",
+        "GPU",
+        "Disk",
+        "Router"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "text": "Pinned memory improves:",
+      "options": [
+        "Data transfer speed",
+        "Disk storage",
+        "CPU frequency",
+        "Warp divergence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "text": "Which workload is unsuitable for OLTP?",
+      "options": [
+        "Ticket booking",
+        "Balance checking",
+        "Monthly trend analysis",
+        "Fund transfer"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 33,
+      "text": "Load balancing improves:",
+      "options": [
+        "Idle time",
+        "Scalability",
+        "Redundancy",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "text": "Shared memory systems require:",
+      "options": [
+        "Message passing",
+        "Synchronization",
+        "Network routing",
+        "Disk partitioning"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "text": "CUDA performance improves with:",
+      "options": [
+        "Memory coalescing",
+        "Blocking",
+        "Serialization",
+        "Context switching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 36,
+      "text": "Drill-down reporting belongs to:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "text": "Fast-changing IoT streams mainly affect:",
+      "options": [
+        "Variety",
+        "Velocity",
+        "Volume",
+        "Veracity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "text": "Shuffle phase groups data by:",
+      "options": [
+        "Value",
+        "Key",
+        "Node",
+        "User"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "text": "Distributed systems improve availability through:",
+      "options": [
+        "Replication",
+        "Serialization",
+        "Blocking",
+        "Single node design"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 40,
+      "text": "Context switching overhead impacts:",
+      "options": [
+        "Concurrency performance",
+        "Disk capacity",
+        "GPU cores",
+        "File size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "text": "Why does OLAP improve decision-making?",
+      "options": [
+        "It speeds transactions",
+        "It enables historical comparisons",
+        "It prevents replication",
+        "It limits storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "text": "CUDA registers are:",
+      "options": [
+        "Fast per-thread memory",
+        "Global disk storage",
+        "Network buffers",
+        "Shared between CPUs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 43,
+      "text": "Storage-compute separation increases:",
+      "options": [
+        "Dependency",
+        "Flexibility",
+        "Coupling",
+        "Hardware cost"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "text": "Thousands of CUDA threads improve:",
+      "options": [
+        "Throughput",
+        "Blocking",
+        "Serialization",
+        "Disk speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 45,
+      "text": "OLTP systems prioritize:",
+      "options": [
+        "Aggregation",
+        "Transaction speed",
+        "Trend analysis",
+        "Cube operations"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "text": "Aggregation-heavy workloads suit:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "text": "Asynchronous memory copy overlaps:",
+      "options": [
+        "Computation and transfer",
+        "Disk formatting",
+        "CPU shutdown",
+        "Serialization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 48,
+      "text": "Data locality reduces:",
+      "options": [
+        "Storage",
+        "Network transfer",
+        "Blocks",
+        "Replication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "text": "Reliable datasets enhance:",
+      "options": [
+        "Veracity",
+        "Velocity",
+        "Hardware limits",
+        "Duplication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 50,
+      "text": "Which component tracks block locations?",
+      "options": [
+        "DataNode",
+        "Reduce",
+        "NameNode",
+        "OLAP"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 51,
+      "text": "HDFS replication default improves:",
+      "options": [
+        "Performance only",
+        "Fault tolerance",
+        "Query speed",
+        "Normalization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "text": "Data lake compatibility improves:",
+      "options": [
+        "Modern warehouse integration",
+        "ATM systems",
+        "POS devices",
+        "OLTP only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 53,
+      "text": "Cloud pricing is usually:",
+      "options": [
+        "Fixed hardware",
+        "Pay-as-you-go",
+        "Manual billing only",
+        "Static scaling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "text": "HDFS block distribution improves:",
+      "options": [
+        "Centralization",
+        "Fault tolerance",
+        "Hardware cost",
+        "Latency always"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "text": "Data inconsistency reduces:",
+      "options": [
+        "Veracity",
+        "Volume",
+        "Variety",
+        "Speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 56,
+      "text": "Traditional systems scale by:",
+      "options": [
+        "Adding nodes easily",
+        "Increasing RAM in server",
+        "Cloud automation",
+        "Serverless expansion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "text": "Distributed nodes reduce:",
+      "options": [
+        "Fault tolerance",
+        "Single-point failure",
+        "Scalability",
+        "Resource sharing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "text": "Trend forecasting requires:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "File storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 59,
+      "text": "Which supports operational tasks?",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "Data lake",
+        "Hadoop only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "text": "Vertical scaling increases:",
+      "options": [
+        "Node count",
+        "Machine capacity",
+        "Network hops",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "text": "Which feature best defines OLTP systems?",
+      "options": [
+        "Complex aggregation",
+        "Transaction consistency",
+        "Historical trends",
+        "Multidimensional cubes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "text": "Modern systems improve concurrency by:",
+      "options": [
+        "Fixed CPU",
+        "Dynamic clusters",
+        "Tape storage",
+        "Manual upgrades"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "text": "Threads share:",
+      "options": [
+        "Separate memory",
+        "Same address space",
+        "Different CPUs only",
+        "Separate disks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 64,
+      "text": "Why are modern warehouses cloud-based?",
+      "options": [
+        "To restrict growth",
+        "To reduce flexibility",
+        "To enable scalability",
+        "To avoid analytics"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 65,
+      "text": "Data lakes integrate well with:",
+      "options": [
+        "Traditional warehouses",
+        "Modern warehouses",
+        "OLTP systems",
+        "ATM machines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 66,
+      "text": "CUDA improves:",
+      "options": [
+        "Serial CPU tasks",
+        "Data-parallel workloads",
+        "Disk storage",
+        "Networking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "text": "Consistency in distributed systems means:",
+      "options": [
+        "Same data view",
+        "Faster disk",
+        "Higher clock speed",
+        "More registers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 68,
+      "text": "Parallelism improves:",
+      "options": [
+        "Execution speed",
+        "Waiting time",
+        "Serialization",
+        "Blocking"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 69,
+      "text": "Which V addresses inconsistent data sources?",
+      "options": [
+        "Volume",
+        "Veracity",
+        "Velocity",
+        "Visualization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "text": "Deadlock is related to:",
+      "options": [
+        "Concurrency",
+        "Disk I/O",
+        "GPU registers",
+        "Parallel hardware only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 71,
+      "text": "Block dimension defines:",
+      "options": [
+        "Threads per block",
+        "Nodes per cluster",
+        "Disks per server",
+        "CPUs per system"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 72,
+      "text": "Metadata failure affects:",
+      "options": [
+        "Data access coordination",
+        "Data content",
+        "ATM network",
+        "OLAP cube"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "text": "Context switching occurs in:",
+      "options": [
+        "Concurrency",
+        "GPU memory",
+        "CUDA blocks",
+        "RAID storage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "text": "Replicated blocks ensure:",
+      "options": [
+        "Data recovery",
+        "Data loss",
+        "Reduced storage",
+        "Slower access"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 75,
+      "text": "HDFS is optimized for:",
+      "options": [
+        "High throughput",
+        "Random writes",
+        "Small edits",
+        "OLTP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 76,
+      "text": "Adding DataNodes improves:",
+      "options": [
+        "Scalability",
+        "Centralization",
+        "Dependency",
+        "Hardware limits"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 77,
+      "text": "Which design reduces redundancy in OLTP?",
+      "options": [
+        "Star schema",
+        "Normalization",
+        "Denormalization",
+        "Clustering"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 78,
+      "text": "Mapper output is organized by:",
+      "options": [
+        "Keys",
+        "Tables",
+        "Rows",
+        "Indexes"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 79,
+      "text": "High throughput supports:",
+      "options": [
+        "Big data workloads",
+        "Small edits",
+        "Row locking",
+        "Instant messaging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 80,
+      "text": "CUDA streams allow:",
+      "options": [
+        "Overlapping execution",
+        "Serialization only",
+        "Disk partition",
+        "Router configuration"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "text": "Traditional warehouses often lack:",
+      "options": [
+        "Hardware",
+        "Elastic scaling",
+        "Storage",
+        "Security"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "text": "CUDA is mainly used in:",
+      "options": [
+        "Graphics and AI",
+        "Word processing",
+        "File compression only",
+        "Email servers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "text": "Mapper emits:",
+      "options": [
+        "Final reports",
+        "Key-value pairs",
+        "Metadata only",
+        "Dashboards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "text": "Which system commonly uses MapReduce?",
+      "options": [
+        "Hadoop",
+        "MySQL",
+        "Oracle Forms",
+        "Excel"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "text": "Embarrassingly parallel tasks require:",
+      "options": [
+        "Heavy communication",
+        "Minimal interaction",
+        "Central memory",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "text": "Real-time stock trading emphasizes:",
+      "options": [
+        "Volume",
+        "Variety",
+        "Velocity",
+        "Veracity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "text": "Traditional warehouses often use:",
+      "options": [
+        "Serverless storage",
+        "Dedicated hardware",
+        "Cloud-only compute",
+        "Elastic nodes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "text": "Parallel computing reduces:",
+      "options": [
+        "Execution time",
+        "Data size",
+        "Storage cost",
+        "Accuracy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "text": "Multitasking supports:",
+      "options": [
+        "Concurrency",
+        "Serialization",
+        "Disk partitioning",
+        "GPU warps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "text": "Distributed computing increases:",
+      "options": [
+        "Hardware limits",
+        "Scalability",
+        "Centralization",
+        "Downtime"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 91,
+      "text": "Asynchronous I/O supports:",
+      "options": [
+        "Concurrency",
+        "Serialization",
+        "Blocking",
+        "Single-threading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 92,
+      "text": "CUDA occupancy measures:",
+      "options": [
+        "Active warps per SM",
+        "Disk usage",
+        "CPU speed",
+        "File count"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 93,
+      "text": "Which task suits MapReduce?",
+      "options": [
+        "Live messaging",
+        "Fraud alert instant response",
+        "Large-scale indexing",
+        "ATM query"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 94,
+      "text": "Snowflake is an example of:",
+      "options": [
+        "Traditional warehouse",
+        "Modern cloud warehouse",
+        "OLTP system",
+        "HDFS block"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "text": "Hadoop assigns tasks based on:",
+      "options": [
+        "Central command",
+        "Data locality",
+        "User preference",
+        "ATM load"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "text": "Shuffle phase occurs between:",
+      "options": [
+        "Reduce and output",
+        "Map and Reduce",
+        "Input and Map",
+        "Output and storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 97,
+      "text": "Summarized reporting suits:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM system",
+        "POS device"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "text": "Incorrect entries mainly reduce:",
+      "options": [
+        "Velocity",
+        "Volume",
+        "Veracity",
+        "Storage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 99,
+      "text": "Which model shares memory among processors?",
+      "options": [
+        "Distributed memory",
+        "Shared memory",
+        "Cloud-only",
+        "Sequential"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "text": "Modern warehouses improve:",
+      "options": [
+        "Flexibility",
+        "Hardware dependence",
+        "Manual scaling",
+        "Physical storage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 101,
+      "text": "Batch analytics typically use:",
+      "options": [
+        "OLTP",
+        "MapReduce",
+        "POS terminal",
+        "ATM network"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "text": "GPU acceleration is best for:",
+      "options": [
+        "Massive parallel arithmetic",
+        "Single-thread logging",
+        "Disk cleanup",
+        "Email handling"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 103,
+      "text": "Distributed storage reduces:",
+      "options": [
+        "Single point of failure",
+        "Scalability",
+        "Flexibility",
+        "Parallelism"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 104,
+      "text": "Parallel efficiency measures:",
+      "options": [
+        "Disk size",
+        "Resource utilization",
+        "Network cables",
+        "Cache hits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 105,
+      "text": "Task partitioning increases:",
+      "options": [
+        "Serial execution",
+        "Parallel efficiency",
+        "Latency",
+        "Blocking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 106,
+      "text": "Poor data quality negatively impacts:",
+      "options": [
+        "Velocity",
+        "Veracity",
+        "Volume",
+        "Storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "text": "Parallel execution means:",
+      "options": [
+        "Interleaving tasks",
+        "Simultaneous processing",
+        "Delayed tasks",
+        "Queued threads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 108,
+      "text": "Modern warehouses improve:",
+      "options": [
+        "Downtime",
+        "Flexibility",
+        "Hardware limits",
+        "Fixed schemas"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 109,
+      "text": "MapReduce works best with:",
+      "options": [
+        "Structured OLTP queries",
+        "Large batch processing",
+        "Manual reports",
+        "Small datasets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "text": "Task parallelism differs from data parallelism by:",
+      "options": [
+        "Different tasks executed",
+        "Same data processed",
+        "Disk formatting",
+        "Single core use"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "text": "Multiple data formats increase:",
+      "options": [
+        "Variety",
+        "Volume only",
+        "Veracity only",
+        "Speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 112,
+      "text": "Replication improves:",
+      "options": [
+        "Fault tolerance",
+        "Serialization",
+        "Deadlock",
+        "Latency always"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 113,
+      "text": "Which V relates to data size growth?",
+      "options": [
+        "Velocity",
+        "Veracity",
+        "Volume",
+        "Value"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 114,
+      "text": "Threads in CUDA are grouped into:",
+      "options": [
+        "Blocks",
+        "Tables",
+        "Cubes",
+        "Files"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 115,
+      "text": "OLTP databases usually maintain:",
+      "options": [
+        "Denormalized structures",
+        "High redundancy",
+        "Data warehouses",
+        "High consistency"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 116,
+      "text": "CUDA memory copy uses:",
+      "options": [
+        "cudaMemcpy",
+        "printf",
+        "scanf",
+        "fopen"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 117,
+      "text": "High transaction throughput characterizes:",
+      "options": [
+        "OLAP",
+        "Data warehouse",
+        "OLTP",
+        "Hadoop"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 118,
+      "text": "Replication increases:",
+      "options": [
+        "Fault tolerance",
+        "Data loss",
+        "Latency always",
+        "Centralization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 119,
+      "text": "MapReduce handles failures by:",
+      "options": [
+        "Ignoring errors",
+        "Reassigning tasks",
+        "Stopping cluster",
+        "Removing replication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 120,
+      "text": "Aggregated dashboards rely on:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "POS",
+        "ATM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "text": "Parallel speedup measures:",
+      "options": [
+        "Memory size",
+        "Performance gain",
+        "Disk usage",
+        "Network latency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 122,
+      "text": "Traditional warehouses rely on:",
+      "options": [
+        "Elastic scaling",
+        "Dedicated hardware",
+        "Serverless compute",
+        "Data lakes only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 123,
+      "text": "Distributed computing increases:",
+      "options": [
+        "Hardware limits",
+        "Parallelism",
+        "Centralization",
+        "Latency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 124,
+      "text": "Cloud clusters are example of:",
+      "options": [
+        "Sequential computing",
+        "Distributed computing",
+        "Single-core processing",
+        "Local scripting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "text": "Real-time GPS tracking stresses:",
+      "options": [
+        "Variety",
+        "Velocity",
+        "Volume",
+        "Veracity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 126,
+      "text": "Scalability testing evaluates:",
+      "options": [
+        "Performance under growth",
+        "Disk space",
+        "Register use",
+        "File format"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 127,
+      "text": "Cluster computing is example of:",
+      "options": [
+        "Sequential computing",
+        "Distributed computing",
+        "Single-threading",
+        "Local scripting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 128,
+      "text": "What does Volume refer to in Big Data?",
+      "options": [
+        "Data processing speed",
+        "Data storage location",
+        "Amount of data generated",
+        "Data accuracy level"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 129,
+      "text": "CUDA thread index helps:",
+      "options": [
+        "Identify data portion",
+        "Format disk",
+        "Route packets",
+        "Increase clock"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 130,
+      "text": "Historical business analysis uses:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "POS",
+        "ATM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 131,
+      "text": "Batch processing is typical for:",
+      "options": [
+        "Real-time chat",
+        "MapReduce",
+        "ATM system",
+        "OLTP only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 132,
+      "text": "MapReduce processes data:",
+      "options": [
+        "Sequentially",
+        "In parallel",
+        "Manually",
+        "Centrally"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 133,
+      "text": "Normalization mainly supports:",
+      "options": [
+        "OLAP cubes",
+        "OLTP consistency",
+        "Hadoop clusters",
+        "Data lakes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 134,
+      "text": "DataNodes communicate with:",
+      "options": [
+        "OLAP server",
+        "NameNode",
+        "Excel",
+        "ATM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "text": "Process isolation improves:",
+      "options": [
+        "Fault containment",
+        "Serialization",
+        "GPU warps",
+        "Disk space"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 136,
+      "text": "Global memory in CUDA is:",
+      "options": [
+        "Fastest",
+        "Shared across device",
+        "CPU-only",
+        "Register-based"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 137,
+      "text": "Modern warehouses enable:",
+      "options": [
+        "Fixed capacity",
+        "Dynamic scaling",
+        "Manual tuning only",
+        "Physical limits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 138,
+      "text": "Speedup greater than one indicates:",
+      "options": [
+        "Slower execution",
+        "Performance improvement",
+        "Deadlock",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 139,
+      "text": "CPU-bound tasks benefit from:",
+      "options": [
+        "Parallelism",
+        "Blocking",
+        "Serialization",
+        "Single thread"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 140,
+      "text": "CUDA memory transfer occurs between:",
+      "options": [
+        "CPU and GPU",
+        "Disk and RAM",
+        "Router and CPU",
+        "Cache and register"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 141,
+      "text": "Network partition mainly affects:",
+      "options": [
+        "Disk speed",
+        "Distributed coordination",
+        "GPU threads",
+        "Registers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 142,
+      "text": "Kernel launch configuration defines:",
+      "options": [
+        "Grid and block size",
+        "Disk partition",
+        "Router path",
+        "CPU speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 143,
+      "text": "Social media misinformation affects:",
+      "options": [
+        "Volume",
+        "Variety",
+        "Veracity",
+        "Speed"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 144,
+      "text": "Host refers to:",
+      "options": [
+        "GPU",
+        "CPU",
+        "Block",
+        "Warp"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "text": "Cooperative multitasking relies on:",
+      "options": [
+        "Threads yielding control",
+        "Preemption only",
+        "GPU cores",
+        "Disk interrupts"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 146,
+      "text": "Processing streaming IoT data requires focus on:",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Veracity",
+        "Variety"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 147,
+      "text": "Data cubes are associated with:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "HDFS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 148,
+      "text": "CUDA threads within block share:",
+      "options": [
+        "Shared memory",
+        "Global disk",
+        "CPU cache",
+        "Router"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 149,
+      "text": "Supercomputers use:",
+      "options": [
+        "Parallel architectures",
+        "Single CPU",
+        "Hard disk only",
+        "Routers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 150,
+      "text": "Traditional warehouses require:",
+      "options": [
+        "Fixed hardware capacity",
+        "Infinite storage",
+        "No schema",
+        "No maintenance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 151,
+      "text": "Analytical dashboards rely on:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "POS devices",
+        "ATM machines"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 152,
+      "text": "Shared resources cause:",
+      "options": [
+        "Race conditions",
+        "Scalability",
+        "Serialization",
+        "GPU divergence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 153,
+      "text": "Embarrassingly parallel tasks require:",
+      "options": [
+        "Heavy synchronization",
+        "Minimal communication",
+        "Central server",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 154,
+      "text": "ETL in traditional warehouses is usually:",
+      "options": [
+        "Real-time only",
+        "Batch-oriented",
+        "Serverless",
+        "Optional"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 155,
+      "text": "Parallelism requires:",
+      "options": [
+        "Single thread",
+        "Multiple execution units",
+        "One process",
+        "Blocking calls"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 156,
+      "text": "Big Data challenges grow with:",
+      "options": [
+        "Decreasing volume",
+        "Increasing complexity",
+        "Fewer sources",
+        "Smaller files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 157,
+      "text": "Modern warehouses support:",
+      "options": [
+        "Distributed architecture",
+        "Single server only",
+        "Tape storage",
+        "Manual backup only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 158,
+      "text": "Why are OLTP databases highly normalized?",
+      "options": [
+        "To increase redundancy",
+        "To reduce data duplication",
+        "To simplify cubes",
+        "To improve analytics"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 159,
+      "text": "High insert rate characterizes:",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "Warehouse",
+        "Hadoop"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 160,
+      "text": "CAP theorem applies to:",
+      "options": [
+        "Parallel CPU design",
+        "Distributed systems",
+        "CUDA kernels",
+        "Thread scheduling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 161,
+      "text": "Communication overhead affects:",
+      "options": [
+        "CPU frequency",
+        "Distributed performance",
+        "Register count",
+        "Disk storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "text": "ATMs primarily rely on:",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "MapReduce",
+        "Spark"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 163,
+      "text": "MapReduce clusters enhance:",
+      "options": [
+        "Parallelism",
+        "Centralization",
+        "Downtime",
+        "Hardware limits"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 164,
+      "text": "HDFS commonly integrates with:",
+      "options": [
+        "Hadoop ecosystem",
+        "POS terminals",
+        "ATM only",
+        "Excel files"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 165,
+      "text": "Social media posts include text, video, and audio. Which V applies?",
+      "options": [
+        "Velocity",
+        "Variety",
+        "Veracity",
+        "Volume"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 166,
+      "text": "Large log file analysis suits:",
+      "options": [
+        "OLTP",
+        "MapReduce",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 167,
+      "text": "Cloud data warehouses reduce:",
+      "options": [
+        "Hardware management burden",
+        "Scalability",
+        "Flexibility",
+        "Concurrency"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 168,
+      "text": "Elastic resources reduce:",
+      "options": [
+        "Downtime",
+        "Scalability",
+        "Concurrency",
+        "Flexibility"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 169,
+      "text": "If one DataNode fails:",
+      "options": [
+        "Data is lost",
+        "System stops",
+        "Replicas provide backup",
+        "Files corrupt permanently"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 170,
+      "text": "If replication factor increases:",
+      "options": [
+        "Fault tolerance improves",
+        "Storage decreases",
+        "Latency increases always",
+        "Nodes reduce"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 171,
+      "text": "Which task fits OLTP?",
+      "options": [
+        "Update inventory",
+        "Forecast revenue",
+        "Analyze trends",
+        "Aggregate sales"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 172,
+      "text": "Real-time analytics systems must prioritize:",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Variety",
+        "Veracity only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 173,
+      "text": "Distributed file systems enhance:",
+      "options": [
+        "Centralization",
+        "Scalability",
+        "Single-node limits",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 174,
+      "text": "Combining structured and unstructured data reflects:",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Variety",
+        "Veracity"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 175,
+      "text": "Mutex is used for:",
+      "options": [
+        "GPU blocks",
+        "Synchronization",
+        "Disk storage",
+        "Networking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 176,
+      "text": "Parallel streams in programming support:",
+      "options": [
+        "Parallelism",
+        "Serialization",
+        "Blocking",
+        "Disk I/O only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 177,
+      "text": "HDFS works best with:",
+      "options": [
+        "Hadoop ecosystem",
+        "Standalone Excel",
+        "OLTP only",
+        "ATM server"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 178,
+      "text": "GPU parallelism is suited for:",
+      "options": [
+        "Matrix operations",
+        "Sequential logging",
+        "File renaming",
+        "Printing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 179,
+      "text": "Distributed systems communicate via:",
+      "options": [
+        "Registers",
+        "Network messages",
+        "Shared cache",
+        "Single CPU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 180,
+      "text": "Concurrency is about:",
+      "options": [
+        "Structure",
+        "Hardware only",
+        "GPU cores",
+        "Registers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 181,
+      "text": "Distributed computing uses:",
+      "options": [
+        "Single processor",
+        "Multiple networked machines",
+        "One thread only",
+        "Local memory only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 182,
+      "text": "HDFS stores data across:",
+      "options": [
+        "Single disk",
+        "Multiple nodes",
+        "One server",
+        "ATM network"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "text": "Grid-stride loop supports:",
+      "options": [
+        "Flexible workload distribution",
+        "Disk expansion",
+        "CPU-only execution",
+        "Serialization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 184,
+      "text": "Cloud warehouses reduce need for:",
+      "options": [
+        "Analytics",
+        "Hardware management",
+        "Data integration",
+        "Reporting"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 185,
+      "text": "Message passing is typical in:",
+      "options": [
+        "Shared memory",
+        "Distributed memory",
+        "Sequential systems",
+        "Single threads"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 186,
+      "text": "NameNode failure affects:",
+      "options": [
+        "Metadata access",
+        "Data storage only",
+        "OLTP transactions",
+        "Reducers"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 187,
+      "text": "Why separate OLTP from OLAP systems?",
+      "options": [
+        "To combine workloads",
+        "To avoid performance conflicts",
+        "To increase redundancy",
+        "To remove normalization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 188,
+      "text": "Asynchronous tasks execute:",
+      "options": [
+        "Without waiting",
+        "Sequentially only",
+        "On disk",
+        "In cache"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 189,
+      "text": "Fine-grained tasks require:",
+      "options": [
+        "Less communication",
+        "More coordination",
+        "No synchronization",
+        "Single CPU"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 190,
+      "text": "DataNodes store:",
+      "options": [
+        "Metadata",
+        "Actual data",
+        "Cubes",
+        "Reports"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 191,
+      "text": "Why does high Variety complicate analytics?",
+      "options": [
+        "It slows processors",
+        "It increases redundancy",
+        "It includes multiple data formats",
+        "It reduces security"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 192,
+      "text": "Why must Big Data systems scale horizontally?",
+      "options": [
+        "To reduce redundancy",
+        "To manage increasing Volume",
+        "To slow processing",
+        "To centralize data"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 193,
+      "text": "Traditional scaling increases:",
+      "options": [
+        "Nodes easily",
+        "Hardware cost",
+        "Elasticity",
+        "Flexibility"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 194,
+      "text": "Insert-heavy operations suit:",
+      "options": [
+        "OLAP",
+        "OLTP",
+        "MapReduce",
+        "Hadoop clusters"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 195,
+      "text": "DataNodes handle:",
+      "options": [
+        "Metadata only",
+        "Actual data storage",
+        "Cube building",
+        "Dashboard reports"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 196,
+      "text": "NameNode failure affects:",
+      "options": [
+        "Metadata access",
+        "Data block content",
+        "ATM network",
+        "OLAP cube"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 197,
+      "text": "Starvation occurs when:",
+      "options": [
+        "Thread never gains resource",
+        "Disk is full",
+        "GPU memory fails",
+        "Cache misses"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 198,
+      "text": "Parallelism increases:",
+      "options": [
+        "Waiting time",
+        "Execution throughput",
+        "Blocking",
+        "Serialization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 199,
+      "text": "Shuffle phase organizes:",
+      "options": [
+        "Files",
+        "Keys",
+        "Hardware",
+        "Queries"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 200,
+      "text": "Drill-down analysis is common in:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "File systems",
+        "DataNodes"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 201,
+      "text": "Large dataset indexing suits:",
+      "options": [
+        "OLTP",
+        "MapReduce",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 202,
+      "text": "Why does high Veracity improve analytics?",
+      "options": [
+        "It reduces storage",
+        "It ensures accurate insights",
+        "It slows data",
+        "It increases duplication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 203,
+      "text": "Interleaving execution is feature of:",
+      "options": [
+        "Concurrency",
+        "Parallelism only",
+        "Disk scheduling",
+        "GPU warps"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 204,
+      "text": "Distributed databases improve:",
+      "options": [
+        "Central dependency",
+        "Availability",
+        "Serialization",
+        "Single-node limits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 205,
+      "text": "DataNodes primarily:",
+      "options": [
+        "Store actual data",
+        "Manage metadata",
+        "Process OLTP",
+        "Run dashboards"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 206,
+      "text": "CUDA constant memory is:",
+      "options": [
+        "Read-only cache",
+        "Disk-based",
+        "CPU-only",
+        "Networked"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 207,
+      "text": "Which system supports complex business analysis?",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "HDFS",
+        "MapReduce"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 208,
+      "text": "Message Passing Interface is used in:",
+      "options": [
+        "Distributed systems",
+        "Word processing",
+        "File transfer only",
+        "Printing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 209,
+      "text": "Asynchronous programming supports:",
+      "options": [
+        "Concurrency",
+        "Serialization",
+        "Blocking",
+        "Compilation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 210,
+      "text": "Why does increased Volume require clusters?",
+      "options": [
+        "To slow systems",
+        "To process large data efficiently",
+        "To reduce redundancy",
+        "To centralize control"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 211,
+      "text": "Weak scaling measures performance when:",
+      "options": [
+        "Workload grows with nodes",
+        "Workload decreases",
+        "Nodes stay constant",
+        "Memory shrinks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 212,
+      "text": "Historical storage is typical in:",
+      "options": [
+        "OLTP",
+        "OLAP",
+        "ATM",
+        "POS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 213,
+      "text": "Livelock differs from deadlock because:",
+      "options": [
+        "Threads remain active",
+        "Disk is full",
+        "GPU overheats",
+        "Memory leaks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 214,
+      "text": "Pay-as-you-go pricing supports:",
+      "options": [
+        "Cloud scalability",
+        "Fixed cost",
+        "Hardware limits",
+        "Centralization"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 215,
+      "text": "Context switching introduces:",
+      "options": [
+        "Overhead",
+        "Speedup",
+        "GPU blocks",
+        "Register increase"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 216,
+      "text": "Atomic operations prevent:",
+      "options": [
+        "Race conditions",
+        "Disk errors",
+        "Network failure",
+        "GPU divergence"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 217,
+      "text": "Which is example of parallel hardware?",
+      "options": [
+        "GPU",
+        "Single-core CPU",
+        "Flash drive",
+        "Router"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 218,
+      "text": "Semi-structured data suits:",
+      "options": [
+        "Traditional only",
+        "Modern warehouses",
+        "OLTP only",
+        "ATM systems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 219,
+      "text": "Why is HDFS scalable?",
+      "options": [
+        "Single storage node",
+        "Distributed nodes",
+        "Centralized compute",
+        "Limited replication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 220,
+      "text": "HDFS ensures reliability through:",
+      "options": [
+        "Encryption only",
+        "Replication",
+        "Compression",
+        "Indexing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 221,
+      "text": "Host memory resides on:",
+      "options": [
+        "CPU",
+        "GPU",
+        "Disk",
+        "Block"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 222,
+      "text": "Replicated blocks ensure:",
+      "options": [
+        "Data recovery",
+        "Reduced reliability",
+        "Central storage",
+        "Manual backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 223,
+      "text": "Big Data analytics becomes harder with increasing:",
+      "options": [
+        "Veracity",
+        "Value",
+        "Variety",
+        "Validation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 224,
+      "text": "Which is costly in traditional warehouses?",
+      "options": [
+        "Cloud scaling",
+        "Manual hardware upgrades",
+        "Elastic storage",
+        "On-demand compute"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 225,
+      "text": "Network latency affects:",
+      "options": [
+        "Shared memory only",
+        "Distributed performance",
+        "CPU clock speed",
+        "Local cache"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 226,
+      "text": "Time slicing enables:",
+      "options": [
+        "Parallelism",
+        "Concurrency",
+        "GPU execution",
+        "Compilation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 227,
+      "text": "Modern warehouses improve concurrency through:",
+      "options": [
+        "Single CPU",
+        "Elastic compute clusters",
+        "Manual scaling",
+        "Tape storage"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 228,
+      "text": "Rapid growth of streaming data mainly increases:",
+      "options": [
+        "Veracity",
+        "Variety",
+        "Volume",
+        "Velocity"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 229,
+      "text": "Incorrect customer data primarily impacts:",
+      "options": [
+        "Variety",
+        "Veracity",
+        "Volume",
+        "Visualization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 230,
+      "text": "Reduce phase produces:",
+      "options": [
+        "Grouped results",
+        "Raw input",
+        "Blocks",
+        "File schema"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 231,
+      "text": "Device memory resides on:",
+      "options": [
+        "CPU",
+        "GPU",
+        "Disk",
+        "Network"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 232,
+      "text": "MapReduce is example of:",
+      "options": [
+        "Shared memory model",
+        "Distributed model",
+        "Sequential model",
+        "Single-core design"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 233,
+      "text": "Streaming multiprocessor executes:",
+      "options": [
+        "Warps",
+        "Disks",
+        "Routers",
+        "Files"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 234,
+      "text": "Data locality improves:",
+      "options": [
+        "Network traffic",
+        "Performance",
+        "Blocking",
+        "Latency always"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 235,
+      "text": "Distributed systems improve:",
+      "options": [
+        "Single-node limits",
+        "Scalability",
+        "Centralization",
+        "Dependency"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 236,
+      "text": "Concurrency can exist on:",
+      "options": [
+        "Single-core CPU",
+        "GPU only",
+        "Cluster only",
+        "Supercomputer only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 237,
+      "text": "OLAP improves insights by:",
+      "options": [
+        "Storing raw transactions",
+        "Providing aggregated views",
+        "Removing history",
+        "Limiting queries"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 238,
+      "text": "Load balancing reduces:",
+      "options": [
+        "Idle processors",
+        "Scalability",
+        "Memory",
+        "Speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 239,
+      "text": "The Map phase primarily:",
+      "options": [
+        "Aggregates results",
+        "Stores blocks",
+        "Processes input data",
+        "Replicates files"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 240,
+      "text": "GPU acceleration reduces:",
+      "options": [
+        "Computation time",
+        "Storage size",
+        "Disk errors",
+        "Network hops"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}

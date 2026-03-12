@@ -1,0 +1,1604 @@
+{
+  "subject": "Compiler Construction",
+  "slug": "compiler-construction",
+  "description": "Lexical analysis, parsing, semantic analysis, and code generation.",
+  "icon": "⚙️",
+  "color": "indigo",
+  "questions": [
+    {
+      "id": 1,
+      "text": "A compiler is a program that:",
+      "options": [
+        "Executes high-level programs directly",
+        "Translates a high-level language into machine language",
+        "Edits source code",
+        "Debugs runtime errors"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "The input to a compiler is called:",
+      "options": [
+        "Object code",
+        "Target program",
+        "Source program",
+        "Executable file"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 3,
+      "text": "The output of a compiler is:",
+      "options": [
+        "Source code",
+        "Parse tree",
+        "Target program",
+        "Tokens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "text": "Compilation is generally a:",
+      "options": [
+        "Single-phase process",
+        "Multi-phase process",
+        "Two-step process only",
+        "Random translation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "text": "The first phase of a compiler is:",
+      "options": [
+        "Syntax analysis",
+        "Semantic analysis",
+        "Lexical analysis",
+        "Code optimization"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 6,
+      "text": "Lexical analysis is also known as:",
+      "options": [
+        "Parsing",
+        "Scanning",
+        "Linking",
+        "Loading"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "text": "A lexical analyzer produces:",
+      "options": [
+        "Parse trees",
+        "Tokens",
+        "Machine code",
+        "Object files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "Syntax analysis is also called:",
+      "options": [
+        "Scanning",
+        "Parsing",
+        "Interpreting",
+        "Assembling"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "text": "The output of syntax analysis is typically:",
+      "options": [
+        "Token list",
+        "Parse tree",
+        "Machine code",
+        "Symbol table"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "Semantic analysis checks:",
+      "options": [
+        "Grammar rules only",
+        "Meaning and type consistency",
+        "Execution speed",
+        "Machine instructions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "Intermediate code generation produces:",
+      "options": [
+        "Machine code",
+        "Assembly code",
+        "Intermediate representation",
+        "Source program"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 12,
+      "text": "Code optimization aims to:",
+      "options": [
+        "Increase execution time",
+        "Improve efficiency",
+        "Remove syntax errors",
+        "Translate high-level code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "text": "Code generation converts intermediate code into:",
+      "options": [
+        "Tokens",
+        "Machine code",
+        "Parse tree",
+        "Source program"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "text": "A symbol table stores:",
+      "options": [
+        "Machine instructions",
+        "Identifiers and their attributes",
+        "Parse trees",
+        "Grammar rules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "The front-end of a compiler includes:",
+      "options": [
+        "Code generation",
+        "Optimization",
+        "Lexical and syntax analysis",
+        "Linking"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 16,
+      "text": "The back-end of a compiler includes:",
+      "options": [
+        "Parsing",
+        "Tokenization",
+        "Code generation and optimization",
+        "Scanning"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 17,
+      "text": "An interpreter differs from a compiler because it:",
+      "options": [
+        "Translates the whole program at once",
+        "Produces object code",
+        "Executes statements one by one",
+        "Generates assembly code"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "text": "An assembler translates:",
+      "options": [
+        "High-level language to machine code",
+        "Assembly language to machine code",
+        "Machine code to assembly",
+        "Tokens to parse tree"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "text": "A linker is responsible for:",
+      "options": [
+        "Tokenizing input",
+        "Combining object files",
+        "Parsing expressions",
+        "Optimizing code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "A loader:",
+      "options": [
+        "Translates source code",
+        "Loads executable into memory",
+        "Performs lexical analysis",
+        "Optimizes code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "text": "A cross-compiler generates code for:",
+      "options": [
+        "The same machine",
+        "A different machine",
+        "The same operating system only",
+        "The same programming language only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "text": "Static semantics refers to:",
+      "options": [
+        "Runtime behavior",
+        "Compile-time checks",
+        "Linking process",
+        "Execution phase"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "text": "Dynamic semantics refers to:",
+      "options": [
+        "Compile-time analysis",
+        "Runtime behavior",
+        "Token recognition",
+        "Grammar definition"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "text": "Regular expressions are mainly used in:",
+      "options": [
+        "Syntax analysis",
+        "Lexical analysis",
+        "Code generation",
+        "Linking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "text": "Context-free grammars are used in:",
+      "options": [
+        "Lexical analysis",
+        "Parsing",
+        "Optimization",
+        "Loading"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "text": "A parse tree represents:",
+      "options": [
+        "Machine instructions",
+        "Syntactic structure of a program",
+        "Memory allocation",
+        "Optimization strategy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "text": "Error handling may occur in:",
+      "options": [
+        "Only lexical analysis",
+        "Only syntax analysis",
+        "All compiler phases",
+        "Only code generation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "text": "The analysis part of a compiler is called:",
+      "options": [
+        "Back-end",
+        "Front-end",
+        "Loader",
+        "Linker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "text": "The synthesis part of a compiler is called:",
+      "options": [
+        "Front-end",
+        "Scanner",
+        "Back-end",
+        "Parser"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "text": "Machine language consists of:",
+      "options": [
+        "English statements",
+        "Binary instructions",
+        "Grammar rules",
+        "Tokens"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "text": "A token consists of:",
+      "options": [
+        "Lexeme and token type",
+        "Only characters",
+        "Parse tree",
+        "Grammar production"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "text": "Optimization may improve:",
+      "options": [
+        "Execution speed",
+        "Memory usage",
+        "Efficiency",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 33,
+      "text": "A bootstrap compiler is:",
+      "options": [
+        "A cross-compiler",
+        "A compiler written in the same language it compiles",
+        "An interpreter",
+        "A loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "text": "High-level languages are:",
+      "options": [
+        "Machine dependent",
+        "Binary codes",
+        "Human-readable programming languages",
+        "Assembly languages"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "text": "Object code is:",
+      "options": [
+        "Source code",
+        "Machine-dependent code",
+        "Grammar rules",
+        "Token list"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "text": "The main purpose of a compiler is to:",
+      "options": [
+        "Edit text files",
+        "Translate and optimize programs",
+        "Store variables",
+        "Execute programs directly"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "text": "The compilation process improves performance by:",
+      "options": [
+        "Removing grammar",
+        "Producing efficient machine code",
+        "Executing line by line",
+        "Ignoring optimization"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "text": "LEX is mainly used for:",
+      "options": [
+        "Parser generation",
+        "Lexical analyzer generation",
+        "Code optimization",
+        "Linking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "text": "YACC is mainly used for:",
+      "options": [
+        "Lexical analysis",
+        "Parser generation",
+        "Loading",
+        "Machine execution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "text": "The overall structure of a compiler is divided into:",
+      "options": [
+        "Two main parts: analysis and synthesis",
+        "Three independent programs",
+        "One single phase",
+        "Four unrelated modules"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 41,
+      "text": "Chapter 2 mainly introduces:",
+      "options": [
+        "Code optimization techniques",
+        "A simple syntax-directed translator",
+        "Advanced parsing algorithms",
+        "Register allocation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "text": "A syntax-directed translator combines:",
+      "options": [
+        "Linking and loading",
+        "Scanning and execution",
+        "Parsing and semantic actions",
+        "Optimization and code generation"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "text": "In Chapter 2, the example language is primarily:",
+      "options": [
+        "A full C compiler",
+        "An arithmetic expression language",
+        "Assembly language",
+        "Java bytecode"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "text": "The translator in Chapter 2 processes:",
+      "options": [
+        "Boolean expressions only",
+        "Arithmetic expressions",
+        "Machine instructions",
+        "Object files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "text": "Tokens are produced by:",
+      "options": [
+        "Parser",
+        "Code generator",
+        "Lexical analyzer",
+        "Loader"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 46,
+      "text": "The parser receives input from:",
+      "options": [
+        "Symbol table",
+        "Lexical analyzer",
+        "Code optimizer",
+        "Loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "text": "A grammar consists of:",
+      "options": [
+        "Tokens only",
+        "Productions, terminals, and nonterminals",
+        "Machine instructions",
+        "Registers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "text": "A production rule defines:",
+      "options": [
+        "Machine code",
+        "How nonterminals are expanded",
+        "Optimization steps",
+        "Memory layout"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "text": "Terminals in a grammar represent:",
+      "options": [
+        "Variables",
+        "Final symbols of the language",
+        "Parse trees",
+        "Nonterminals"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "text": "Nonterminals represent:",
+      "options": [
+        "Basic tokens",
+        "Grammar variables",
+        "Machine instructions",
+        "Constants only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "text": "The start symbol of a grammar:",
+      "options": [
+        "Appears only on right-hand side",
+        "Is the main nonterminal",
+        "Is always a terminal",
+        "Is machine code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "text": "A derivation shows:",
+      "options": [
+        "Optimization steps",
+        "How a string is generated from start symbol",
+        "Token recognition",
+        "Linking process"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "text": "Leftmost derivation expands:",
+      "options": [
+        "Rightmost nonterminal first",
+        "Leftmost nonterminal first",
+        "All symbols simultaneously",
+        "Terminals only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 54,
+      "text": "A parse tree represents:",
+      "options": [
+        "Execution order",
+        "Syntactic structure",
+        "Optimization",
+        "Memory allocation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "text": "Ambiguity in grammar means:",
+      "options": [
+        "No derivation exists",
+        "Multiple parse trees for same string",
+        "Syntax error",
+        "Missing start symbol"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "text": "Operator precedence helps to:",
+      "options": [
+        "Eliminate tokens",
+        "Remove ambiguity",
+        "Generate machine code",
+        "Allocate memory"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "text": "Left recursion in grammar:",
+      "options": [
+        "Helps parsing",
+        "Causes problems for top-down parsers",
+        "Improves optimization",
+        "Eliminates ambiguity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "text": "Left factoring is used to:",
+      "options": [
+        "Remove ambiguity",
+        "Remove left recursion",
+        "Make grammar suitable for predictive parsing",
+        "Generate code"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "text": "A recursive-descent parser is:",
+      "options": [
+        "Bottom-up parser",
+        "Top-down parser",
+        "Optimizer",
+        "Loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "text": "Predictive parsing requires grammar to be:",
+      "options": [
+        "Ambiguous",
+        "Left recursive",
+        "LL(1)",
+        "Context-sensitive"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 61,
+      "text": "FIRST sets are used in:",
+      "options": [
+        "Code generation",
+        "Predictive parsing",
+        "Optimization",
+        "Linking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "text": "FOLLOW sets are used in:",
+      "options": [
+        "Syntax-directed translation",
+        "Predictive parsing table construction",
+        "Token generation",
+        "Execution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "text": "An LL(1) grammar means:",
+      "options": [
+        "Left-to-right scan, leftmost derivation, 1 lookahead",
+        "Right-to-left scan",
+        "Two lookahead symbols",
+        "Bottom-up parsing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "text": "Bottom-up parsing starts from:",
+      "options": [
+        "Start symbol",
+        "Tokens",
+        "Leaves of parse tree",
+        "Root only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "text": "Shift-reduce parsing is a:",
+      "options": [
+        "Top-down method",
+        "Bottom-up method",
+        "Optimization technique",
+        "Linking method"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 66,
+      "text": "A handle in shift-reduce parsing is:",
+      "options": [
+        "A token",
+        "A substring matching RHS of production",
+        "Start symbol",
+        "Parse tree root"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 67,
+      "text": "Reducing means:",
+      "options": [
+        "Expanding nonterminal",
+        "Replacing RHS with LHS",
+        "Generating token",
+        "Executing code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "text": "Shifting means:",
+      "options": [
+        "Expanding grammar",
+        "Moving input symbol to stack",
+        "Optimizing code",
+        "Linking files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "text": "LR parsing stands for:",
+      "options": [
+        "Left recursion parsing",
+        "Left-to-right scan, rightmost derivation in reverse",
+        "Long recursion",
+        "Logical reduction"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 70,
+      "text": "SLR parsing uses:",
+      "options": [
+        "FIRST sets",
+        "FOLLOW sets",
+        "Only tokens",
+        "Machine code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "text": "Canonical LR parsing is:",
+      "options": [
+        "Simpler than SLR",
+        "More powerful than SLR",
+        "Same as LL(1)",
+        "Top-down"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "text": "LALR parsing is:",
+      "options": [
+        "Less powerful than SLR",
+        "Combination of LR states",
+        "Top-down",
+        "Context-sensitive"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 73,
+      "text": "Syntax-directed definition associates:",
+      "options": [
+        "Tokens with grammar",
+        "Attributes with grammar symbols",
+        "Machine code with tokens",
+        "Memory with variables"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 74,
+      "text": "Synthesized attributes are computed from:",
+      "options": [
+        "Parent nodes",
+        "Child nodes",
+        "Machine code",
+        "Loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "text": "Inherited attributes are passed from:",
+      "options": [
+        "Children to parent",
+        "Parent to children",
+        "Token to parser",
+        "Stack to input"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "text": "Annotated parse tree shows:",
+      "options": [
+        "Only grammar symbols",
+        "Attribute values",
+        "Machine code",
+        "Optimization steps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "text": "Postfix notation is generated by:",
+      "options": [
+        "Prefix traversal",
+        "Inorder traversal",
+        "Postorder traversal",
+        "Preorder traversal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 78,
+      "text": "Expression evaluation in syntax-directed translation is often done using:",
+      "options": [
+        "Inherited attributes",
+        "Synthesized attributes",
+        "Machine code",
+        "Loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 79,
+      "text": "Associativity defines:",
+      "options": [
+        "Token type",
+        "Evaluation order of operators",
+        "Memory allocation",
+        "Grammar start"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "text": "Precedence determines:",
+      "options": [
+        "Operator priority",
+        "Token value",
+        "Parse tree height",
+        "Stack size"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 81,
+      "text": "Ambiguous grammars:",
+      "options": [
+        "Have single parse tree",
+        "Have multiple parse trees",
+        "Have no productions",
+        "Are always LL(1)"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 82,
+      "text": "Recursive-descent parsing may require:",
+      "options": [
+        "Backtracking",
+        "Linking",
+        "Optimization",
+        "Loading"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 83,
+      "text": "Eliminating left recursion helps:",
+      "options": [
+        "Bottom-up parsing",
+        "Top-down parsing",
+        "Code generation",
+        "Linking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "text": "Predictive parser uses:",
+      "options": [
+        "Stack and parsing table",
+        "Loader",
+        "Optimizer",
+        "Register allocator"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 85,
+      "text": "Parsing table is constructed using:",
+      "options": [
+        "FIRST and FOLLOW sets",
+        "Machine code",
+        "Linker",
+        "Assembler"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 86,
+      "text": "Stack in parsing stores:",
+      "options": [
+        "Tokens",
+        "Grammar symbols",
+        "Machine code",
+        "Registers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 87,
+      "text": "Acceptance in parsing occurs when:",
+      "options": [
+        "Stack empty and input consumed",
+        "Error found",
+        "Optimization done",
+        "Loader finished"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 88,
+      "text": "Error in predictive parsing occurs when:",
+      "options": [
+        "Table entry is empty",
+        "Stack empty",
+        "Input consumed",
+        "Machine code generated"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 89,
+      "text": "Shift-reduce conflict occurs when:",
+      "options": [
+        "Two shifts possible",
+        "Shift and reduce both possible",
+        "No input",
+        "No grammar"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 90,
+      "text": "Reduce-reduce conflict occurs when:",
+      "options": [
+        "Two reductions possible",
+        "No reduction possible",
+        "Shift only",
+        "Grammar empty"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 91,
+      "text": "LR parsers are:",
+      "options": [
+        "Less powerful than LL",
+        "More powerful than LL",
+        "Same as recursive descent",
+        "Top-down only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "text": "Context-free grammars are used for:",
+      "options": [
+        "Lexical analysis",
+        "Syntax analysis",
+        "Code optimization",
+        "Linking"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "text": "A derivation tree is another name for:",
+      "options": [
+        "Symbol table",
+        "Parse tree",
+        "Machine code",
+        "Stack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 94,
+      "text": "The goal of parsing is to:",
+      "options": [
+        "Generate tokens",
+        "Check syntactic correctness",
+        "Optimize code",
+        "Load program"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "text": "Syntax-directed translation bridges:",
+      "options": [
+        "Syntax and semantics",
+        "Loader and linker",
+        "Machine and hardware",
+        "Optimization and memory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 96,
+      "text": "The primary role of a lexical analyzer is to:",
+      "options": [
+        "Generate machine code",
+        "Group characters into tokens",
+        "Optimize code",
+        "Parse syntax trees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 97,
+      "text": "Lexical analysis is also known as:",
+      "options": [
+        "Parsing",
+        "Scanning",
+        "Linking",
+        "Reducing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 98,
+      "text": "The lexical analyzer reads input as a stream of:",
+      "options": [
+        "Tokens",
+        "Characters",
+        "Parse trees",
+        "Productions"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "text": "A token consists of:",
+      "options": [
+        "A lexeme and a token type",
+        "Only characters",
+        "A parse tree",
+        "A grammar rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 100,
+      "text": "A lexeme is:",
+      "options": [
+        "The token name",
+        "A pattern",
+        "The actual character sequence matched",
+        "A nonterminal"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 101,
+      "text": "Regular expressions are used to describe:",
+      "options": [
+        "Syntax trees",
+        "Token patterns",
+        "Machine code",
+        "Parse tables"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 102,
+      "text": "The symbol \"|\" in regular expressions represents:",
+      "options": [
+        "Concatenation",
+        "Kleene closure",
+        "Alternation",
+        "Optional symbol"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 103,
+      "text": "The Kleene star (*) represents:",
+      "options": [
+        "One or more repetitions",
+        "Zero or more repetitions",
+        "Exactly one repetition",
+        "Optional occurrence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "text": "Concatenation in regular expressions means:",
+      "options": [
+        "Alternation",
+        "Sequence of symbols",
+        "Optional element",
+        "Closure"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 105,
+      "text": "A language described by a regular expression is called:",
+      "options": [
+        "Context-free language",
+        "Regular language",
+        "Context-sensitive language",
+        "Recursive language"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 106,
+      "text": "Finite automata are used to implement:",
+      "options": [
+        "Syntax analyzers",
+        "Code optimizers",
+        "Lexical analyzers",
+        "Linkers"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 107,
+      "text": "A deterministic finite automaton (DFA) has:",
+      "options": [
+        "Multiple transitions for same symbol",
+        "Exactly one transition per symbol per state",
+        "No accepting states",
+        "Stack memory"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 108,
+      "text": "A nondeterministic finite automaton (NFA):",
+      "options": [
+        "Has no transitions",
+        "May have multiple transitions for same input",
+        "Has stack memory",
+        "Is more powerful than DFA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 109,
+      "text": "DFAs and NFAs recognize:",
+      "options": [
+        "Context-free languages",
+        "Regular languages",
+        "Recursive languages",
+        "Ambiguous grammars"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "text": "An accepting state in finite automata indicates:",
+      "options": [
+        "Error",
+        "Rejection",
+        "Successful recognition",
+        "Optimization"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 111,
+      "text": "The transition function in DFA maps:",
+      "options": [
+        "State and input symbol to next state",
+        "Grammar to token",
+        "Token to parse tree",
+        "Machine code to memory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 112,
+      "text": "An NFA may include:",
+      "options": [
+        "Stack transitions",
+        "ε-transitions",
+        "Parse trees",
+        "Registers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 113,
+      "text": "ε-transition means:",
+      "options": [
+        "Transition without consuming input",
+        "Transition with two inputs",
+        "Error state",
+        "Final state"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 114,
+      "text": "Every NFA can be converted into:",
+      "options": [
+        "Context-free grammar",
+        "DFA",
+        "Pushdown automaton",
+        "Turing machine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 115,
+      "text": "The process of converting NFA to DFA is called:",
+      "options": [
+        "Minimization",
+        "Subset construction",
+        "Left factoring",
+        "Parsing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "text": "DFA minimization reduces:",
+      "options": [
+        "Tokens",
+        "Grammar rules",
+        "Number of states",
+        "Input symbols"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "text": "A regular definition is:",
+      "options": [
+        "Grammar rule",
+        "Sequence of regular expressions",
+        "Parse tree",
+        "Machine code"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 118,
+      "text": "Identifiers in programming languages are typically described using:",
+      "options": [
+        "Context-free grammars",
+        "Regular expressions",
+        "Turing machines",
+        "Pushdown automata"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "text": "Whitespace is usually handled by:",
+      "options": [
+        "Parser",
+        "Code generator",
+        "Lexical analyzer",
+        "Linker"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 120,
+      "text": "Comments in source code are typically removed by:",
+      "options": [
+        "Parser",
+        "Lexical analyzer",
+        "Optimizer",
+        "Loader"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 121,
+      "text": "Longest match rule means:",
+      "options": [
+        "Shortest lexeme chosen",
+        "Longest possible lexeme chosen",
+        "Random lexeme chosen",
+        "First lexeme chosen"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 122,
+      "text": "Priority rule in lexical analysis resolves:",
+      "options": [
+        "Ambiguity between tokens",
+        "Syntax errors",
+        "Runtime errors",
+        "Memory allocation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 123,
+      "text": "A finite automaton consists of:",
+      "options": [
+        "States, alphabet, transitions",
+        "Grammar, tokens, parse tree",
+        "Loader, linker, optimizer",
+        "Stack and memory"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 124,
+      "text": "The start state of automaton is:",
+      "options": [
+        "Accepting state",
+        "Initial state before input",
+        "Error state",
+        "Final state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "text": "If no transition exists for input symbol in DFA:",
+      "options": [
+        "Accept input",
+        "Reject input",
+        "Restart",
+        "Optimize"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 126,
+      "text": "The alphabet of automaton refers to:",
+      "options": [
+        "Grammar rules",
+        "Set of input symbols",
+        "Parse trees",
+        "Tokens only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 127,
+      "text": "Regular expressions cannot describe:",
+      "options": [
+        "Identifiers",
+        "Numbers",
+        "Nested parentheses",
+        "Keywords"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 128,
+      "text": "A regular language is closed under:",
+      "options": [
+        "Union",
+        "Concatenation",
+        "Kleene star",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 129,
+      "text": "Transition table in DFA:",
+      "options": [
+        "Shows grammar productions",
+        "Shows state transitions",
+        "Shows parse tree",
+        "Shows optimization steps"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "text": "A dead state in DFA:",
+      "options": [
+        "Is accepting",
+        "Has no outgoing transitions",
+        "Cannot reach accepting state",
+        "Is start state"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 131,
+      "text": "Tokens are passed from lexical analyzer to:",
+      "options": [
+        "Optimizer",
+        "Parser",
+        "Loader",
+        "Linker"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 132,
+      "text": "The implementation of lexical analyzer can be done using:",
+      "options": [
+        "Finite automata",
+        "Pushdown automata",
+        "Turing machine",
+        "Grammar only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 133,
+      "text": "A character class in regular expressions:",
+      "options": [
+        "Represents group of characters",
+        "Represents parse tree",
+        "Represents grammar",
+        "Represents machine code"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "text": "The plus operator (+) in regex usually means:",
+      "options": [
+        "Zero or more",
+        "One or more",
+        "Optional",
+        "Alternation"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "text": "Optional operator (?) in regex means:",
+      "options": [
+        "One occurrence",
+        "Zero or one occurrence",
+        "Zero or more",
+        "Two occurrences"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 136,
+      "text": "A DFA cannot have:",
+      "options": [
+        "Deterministic transitions",
+        "ε-transitions",
+        "Accepting states",
+        "Finite states"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 137,
+      "text": "Regular expressions are equivalent to:",
+      "options": [
+        "Context-free grammars",
+        "Finite automata",
+        "Turing machines",
+        "Pushdown automata"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 138,
+      "text": "In lexical analysis, errors are detected when:",
+      "options": [
+        "Token matches pattern",
+        "No pattern matches input",
+        "Parser accepts input",
+        "DFA reaches start state"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 139,
+      "text": "State diagram is graphical representation of:",
+      "options": [
+        "Grammar",
+        "Finite automaton",
+        "Parse tree",
+        "Symbol table"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 140,
+      "text": "Lexical analyzer typically ignores:",
+      "options": [
+        "Identifiers",
+        "Keywords",
+        "Whitespace and comments",
+        "Numbers"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 141,
+      "text": "Conversion from regular expression to NFA is commonly done using:",
+      "options": [
+        "Thompson’s construction",
+        "Left factoring",
+        "Minimization",
+        "LL parsing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 142,
+      "text": "A minimal DFA has:",
+      "options": [
+        "Maximum states",
+        "Minimum equivalent states",
+        "No accepting states",
+        "Infinite states"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 143,
+      "text": "Keywords are recognized as:",
+      "options": [
+        "Identifiers always",
+        "Reserved tokens",
+        "Grammar rules",
+        "Parse trees"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 144,
+      "text": "The main advantage of DFA over NFA in implementation is:",
+      "options": [
+        "Easier to design",
+        "Faster execution",
+        "More powerful",
+        "Fewer states always"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "text": "Finite automata do not have:",
+      "options": [
+        "Finite states",
+        "Memory stack",
+        "Accepting states",
+        "Transition function"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

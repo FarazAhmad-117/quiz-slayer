@@ -1,0 +1,726 @@
+{
+  "subject": "Freelancing",
+  "slug": "freelancing",
+  "description": "Freelancing basics, platforms, client communication, payments, and professional growth.",
+  "icon": "💼",
+  "color": "emerald",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is freelancing?",
+      "options": [
+        "Working permanently for one company",
+        "Working independently and providing services to multiple clients",
+        "Selling products in a retail store",
+        "Managing a physical office"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "Which of the following is a popular freelancing platform?",
+      "options": [
+        "Amazon",
+        "Upwork",
+        "Netflix",
+        "Shopify"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "What is the main advantage of freelancing?",
+      "options": [
+        "Fixed working hours",
+        "Guaranteed salary",
+        "Flexibility to work with different clients",
+        "Mandatory office work"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 4,
+      "text": "Which skill is most important for a freelancer?",
+      "options": [
+        "Communication",
+        "Technical or service skill",
+        "Time management",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 5,
+      "text": "On which platform do freelancers create \"Gigs\"?",
+      "options": [
+        "Upwork",
+        "Fiverr",
+        "LinkedIn",
+        "Freelancer.com"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "What is a \"Gig\" in freelancing?",
+      "options": [
+        "A job application",
+        "A service listing offered by a freelancer",
+        "A payment method",
+        "A client review"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 7,
+      "text": "What does \"bid\" mean on freelancing platforms?",
+      "options": [
+        "Posting a job",
+        "Applying for a project with a proposal",
+        "Paying the freelancer",
+        "Leaving feedback"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "What should a freelancer include in a project proposal?",
+      "options": [
+        "Understanding of client requirements",
+        "Relevant experience",
+        "Solution to the client's problem",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 9,
+      "text": "Why is client communication important in freelancing?",
+      "options": [
+        "To avoid misunderstandings",
+        "To build long-term relationships",
+        "To ensure project success",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 10,
+      "text": "What does \"milestone payment\" mean?",
+      "options": [
+        "Payment made after completing the whole project",
+        "Payment made in stages as project tasks are completed",
+        "Monthly salary",
+        "Advance payment only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "What is the purpose of a freelancer portfolio?",
+      "options": [
+        "To show personal photos",
+        "To display previous work and skills",
+        "To store client payments",
+        "To manage emails"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "text": "What should a freelancer do if a client is unclear about project requirements?",
+      "options": [
+        "Start the work immediately",
+        "Ignore the project",
+        "Ask questions and clarify requirements",
+        "Cancel the project"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 13,
+      "text": "What helps freelancers get more clients?",
+      "options": [
+        "Positive reviews",
+        "Strong portfolio",
+        "Good communication",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 14,
+      "text": "What is \"niche specialization\" in freelancing?",
+      "options": [
+        "Offering many unrelated services",
+        "Focusing on a specific skill or industry",
+        "Working only part-time",
+        "Charging low prices"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "Which factor improves a freelancer's reputation on platforms?",
+      "options": [
+        "Late project delivery",
+        "High client satisfaction and good ratings",
+        "Ignoring client messages",
+        "Frequent project cancellations"
+      ],
+      "correctIndex": 1
+    }
+  ],
+  "guess_questions": [
+    {
+      "id": 1,
+      "text": "What is the first step to start freelancing?",
+      "options": [
+        "Buy an office",
+        "Identify your skills and create a profile",
+        "Apply for a full-time job",
+        "Register a company"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 2,
+      "text": "Which of the following is NOT a freelancing platform?",
+      "options": [
+        "Fiverr",
+        "Upwork",
+        "Freelancer.com",
+        "Instagram"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 3,
+      "text": "What is a freelancer's most valuable asset?",
+      "options": [
+        "Office space",
+        "Reputation and skills",
+        "Number of social media followers",
+        "Expensive equipment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 4,
+      "text": "What does 'revision' mean in freelancing?",
+      "options": [
+        "Cancelling a project",
+        "Changes requested by the client on delivered work",
+        "Refunding payment",
+        "Deleting the account"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 5,
+      "text": "What is an escrow payment system?",
+      "options": [
+        "Direct bank transfer",
+        "A system where payment is held securely until work is completed",
+        "Cash on delivery",
+        "A subscription model"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "What is a freelancer's cover letter used for?",
+      "options": [
+        "Introducing yourself and pitching for a project",
+        "Filing taxes",
+        "Creating invoices",
+        "Designing a website"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "text": "Which of the following helps build trust with clients?",
+      "options": [
+        "Delivering late",
+        "Clear communication and meeting deadlines",
+        "Ignoring feedback",
+        "Overcharging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 8,
+      "text": "What is 'upselling' in freelancing?",
+      "options": [
+        "Reducing your prices",
+        "Offering additional services to existing clients",
+        "Cancelling ongoing projects",
+        "Working for free"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "text": "What should a freelancer do before starting a project?",
+      "options": [
+        "Start working without details",
+        "Agree on scope, timeline, and payment terms",
+        "Wait for the client to decide everything",
+        "Ignore the deadline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "What is a 'deadline' in freelancing?",
+      "options": [
+        "A suggestion for delivery",
+        "The agreed-upon date to complete and deliver work",
+        "A penalty charge",
+        "A type of contract"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 11,
+      "text": "Which type of freelancing involves writing articles and blogs?",
+      "options": [
+        "Graphic Design",
+        "Content Writing",
+        "Web Development",
+        "Video Editing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 12,
+      "text": "What is a 'contract' in freelancing?",
+      "options": [
+        "A verbal promise",
+        "A formal agreement defining project terms and conditions",
+        "A payment receipt",
+        "A client review"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "text": "Why should freelancers set clear boundaries with clients?",
+      "options": [
+        "To avoid scope creep and burnout",
+        "To lose clients",
+        "To reduce earnings",
+        "To stop working"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 14,
+      "text": "What is 'scope creep' in freelancing?",
+      "options": [
+        "Reducing project requirements",
+        "Gradual expansion of project beyond original agreement",
+        "Completing work early",
+        "Client cancelling the project"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "What is the benefit of having multiple clients?",
+      "options": [
+        "Increased workload stress only",
+        "Diversified income and reduced financial risk",
+        "Less work experience",
+        "More confusion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "What does 'hourly rate' mean in freelancing?",
+      "options": [
+        "Fixed project cost",
+        "Amount charged per hour of work",
+        "Monthly salary",
+        "Annual income"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "text": "What is a 'fixed-price project'?",
+      "options": [
+        "A project with no defined cost",
+        "A project where the total cost is agreed upon before work begins",
+        "A project paid hourly",
+        "A free project"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 18,
+      "text": "Which of the following is a soft skill needed in freelancing?",
+      "options": [
+        "Programming",
+        "Negotiation",
+        "Graphic Design",
+        "Data Analysis"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 19,
+      "text": "What is 'passive income' in freelancing?",
+      "options": [
+        "Income earned only from active work",
+        "Income earned from products or services that require little ongoing effort",
+        "Government salary",
+        "Loan repayment"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "Why is time management important for freelancers?",
+      "options": [
+        "It is not important",
+        "To handle multiple projects and meet deadlines efficiently",
+        "To work fewer hours",
+        "To avoid clients"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "text": "What is a 'client brief'?",
+      "options": [
+        "A short meeting",
+        "A document outlining project requirements and expectations",
+        "A payment invoice",
+        "A freelancer profile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 22,
+      "text": "What does NDA stand for in freelancing?",
+      "options": [
+        "New Data Agreement",
+        "Non-Disclosure Agreement",
+        "Network Design Application",
+        "National Digital Authority"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "text": "What is the purpose of an NDA?",
+      "options": [
+        "To share client information publicly",
+        "To protect confidential information",
+        "To cancel a project",
+        "To increase pricing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 24,
+      "text": "Which platform uses a 'Connects' system to apply for jobs?",
+      "options": [
+        "Fiverr",
+        "Upwork",
+        "Freelancer.com",
+        "Toptal"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "text": "What is the typical commission charged by freelancing platforms?",
+      "options": [
+        "0%",
+        "5-20%",
+        "50%",
+        "100%"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 26,
+      "text": "What is a 'testimonial' in freelancing?",
+      "options": [
+        "A project proposal",
+        "A positive review or recommendation from a client",
+        "A payment method",
+        "A contract clause"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 27,
+      "text": "What should a freelancer do to improve their skills?",
+      "options": [
+        "Stop learning after getting clients",
+        "Continuously learn and take online courses",
+        "Only rely on old skills",
+        "Avoid new technologies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 28,
+      "text": "What is 'freelance tax'?",
+      "options": [
+        "Tax paid by employers",
+        "Self-employment tax that freelancers must pay on their income",
+        "No tax for freelancers",
+        "Tax on online shopping"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "text": "What is the benefit of specializing in a niche?",
+      "options": [
+        "Lower income",
+        "Higher expertise and ability to charge premium rates",
+        "Fewer opportunities",
+        "Less client trust"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 30,
+      "text": "What does 'onboarding' mean for a freelancer?",
+      "options": [
+        "Leaving a project",
+        "The process of starting work with a new client",
+        "Filing a complaint",
+        "Deleting your profile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 31,
+      "text": "Which of the following is a common freelancing category?",
+      "options": [
+        "Web Development",
+        "Graphic Design",
+        "Digital Marketing",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 32,
+      "text": "What is a 'retainer agreement' in freelancing?",
+      "options": [
+        "A one-time project deal",
+        "An ongoing agreement where a client pays regularly for reserved availability",
+        "A free trial period",
+        "A cancellation policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "text": "What is the role of a portfolio website?",
+      "options": [
+        "To store personal files",
+        "To showcase work samples and attract potential clients",
+        "To process payments",
+        "To chat with friends"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "text": "What should a freelancer do when facing a difficult client?",
+      "options": [
+        "Argue and fight",
+        "Communicate professionally and try to resolve issues",
+        "Immediately quit",
+        "Complain on social media"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 35,
+      "text": "What is 'outsourcing' in freelancing?",
+      "options": [
+        "Doing all work yourself",
+        "Hiring other freelancers to help complete parts of a project",
+        "Cancelling a project",
+        "Working in an office"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "text": "What is a 'proposal' in freelancing?",
+      "options": [
+        "A marriage request",
+        "A written offer to a client explaining how you will complete their project",
+        "A payment receipt",
+        "A contract termination"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 37,
+      "text": "Why is pricing strategy important for freelancers?",
+      "options": [
+        "It doesn't matter",
+        "To attract clients while ensuring fair compensation for work",
+        "To always charge the lowest price",
+        "To avoid getting projects"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "text": "What is 'remote work' in the context of freelancing?",
+      "options": [
+        "Working from a physical office",
+        "Working from any location using the internet",
+        "Working only from home",
+        "Working without a computer"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "text": "What tool is commonly used for project management in freelancing?",
+      "options": [
+        "Microsoft Paint",
+        "Trello or Asana",
+        "Calculator",
+        "Notepad"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "text": "What is 'invoicing' in freelancing?",
+      "options": [
+        "Sending a thank you note",
+        "Sending a bill to the client for completed work",
+        "Requesting project cancellation",
+        "Filing a complaint"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "text": "What does 'turnaround time' mean in freelancing?",
+      "options": [
+        "Time to find a client",
+        "The time taken to complete and deliver a project",
+        "Time to create an account",
+        "Time to leave a review"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "text": "What is the importance of a professional profile picture on freelancing platforms?",
+      "options": [
+        "It has no importance",
+        "It creates a good first impression and builds trust",
+        "It is only for decoration",
+        "It reduces client interest"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 43,
+      "text": "Which payment method is commonly used on freelancing platforms?",
+      "options": [
+        "Cash only",
+        "PayPal, bank transfer, or platform wallet",
+        "Cryptocurrency only",
+        "Gift cards"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "text": "What is 'client retention' in freelancing?",
+      "options": [
+        "Losing clients frequently",
+        "Keeping existing clients and getting repeat business",
+        "Refusing new projects",
+        "Working for free"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "text": "What does 'feedback' mean on freelancing platforms?",
+      "options": [
+        "Project cancellation",
+        "Reviews and ratings given by clients after project completion",
+        "Payment processing",
+        "Account deletion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "text": "What is a 'service-level agreement' (SLA) in freelancing?",
+      "options": [
+        "A social media post",
+        "A formal agreement defining the level of service expected",
+        "A payment method",
+        "A type of freelancing platform"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "text": "Why should freelancers diversify their income sources?",
+      "options": [
+        "To depend on one client only",
+        "To reduce financial risk if one client leaves",
+        "To work less",
+        "To avoid learning new skills"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 48,
+      "text": "What is 'personal branding' for a freelancer?",
+      "options": [
+        "Having a company logo only",
+        "Building a recognizable professional identity and reputation",
+        "Working anonymously",
+        "Copying another freelancer's profile"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "text": "What should a freelancer do after completing a project?",
+      "options": [
+        "Disappear without communication",
+        "Request feedback and maintain the client relationship",
+        "Delete the project files",
+        "Block the client"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "text": "What is the biggest challenge freelancers face?",
+      "options": [
+        "Too much free time",
+        "Inconsistent income and finding new clients",
+        "Working in an office",
+        "Having a fixed schedule"
+      ],
+      "correctIndex": 1
+    }
+  ]
+}

@@ -1,0 +1,3958 @@
+{
+  "subject": "Information Security & Cryptography",
+  "slug": "information-security-cryptography",
+  "description": "CIA triad, security attacks, Nmap scanning, cryptographic principles, and AES encryption.",
+  "icon": "🔒",
+  "color": "red",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Confidentiality ensures that information is:",
+      "options": [
+        "Always available",
+        "Accurate",
+        "Accessible only to authorized users",
+        "Publicly shared"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 2,
+      "text": "Which technique is commonly used to maintain confidentiality?",
+      "options": [
+        "Backup",
+        "Encryption",
+        "Logging",
+        "Hashing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 3,
+      "text": "Which algorithm is widely used for data encryption?",
+      "options": [
+        "AES",
+        "SHA-256",
+        "Checksum",
+        "MD5 Collision"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 4,
+      "text": "Unauthorized disclosure of information is a violation of:",
+      "options": [
+        "Integrity",
+        "Availability",
+        "Confidentiality",
+        "Authentication"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 5,
+      "text": "Strong passwords primarily protect:",
+      "options": [
+        "Integrity",
+        "Confidentiality",
+        "Availability",
+        "Anonymity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 6,
+      "text": "Data classification is used to support:",
+      "options": [
+        "Confidentiality",
+        "Redundancy",
+        "Logging",
+        "Availability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 7,
+      "text": "Which of the following threatens confidentiality?",
+      "options": [
+        "Phishing attack",
+        "Backup failure",
+        "Hardware crash",
+        "Power outage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 8,
+      "text": "Encryption converts plaintext into:",
+      "options": [
+        "Hash",
+        "Ciphertext",
+        "Code",
+        "Key"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 9,
+      "text": "Integrity ensures data is:",
+      "options": [
+        "Secret",
+        "Accurate and unaltered",
+        "Always available",
+        "Anonymous"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 10,
+      "text": "Which mechanism verifies data integrity?",
+      "options": [
+        "Encryption",
+        "Firewall",
+        "Hash function",
+        "Backup"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 11,
+      "text": "Which algorithm is used for hashing?",
+      "options": [
+        "SHA-256",
+        "AES",
+        "RSA",
+        "DES"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 12,
+      "text": "Unauthorized data modification violates:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Anonymity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 13,
+      "text": "Digital signatures help ensure:",
+      "options": [
+        "Availability",
+        "Integrity",
+        "Power supply",
+        "Redundancy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 14,
+      "text": "A checksum is used to detect:",
+      "options": [
+        "Intruders",
+        "Data changes",
+        "Hackers",
+        "Firewalls"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 15,
+      "text": "If marks are changed illegally in a database, which principle is affected?",
+      "options": [
+        "Availability",
+        "Integrity",
+        "Confidentiality",
+        "Anonymity"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 16,
+      "text": "What type of attack is traffic analysis?",
+      "options": [
+        "Active attack",
+        "Passive attack",
+        "Insider attack",
+        "Physical attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 17,
+      "text": "An attacker altering a message during transmission performs which type of attack?",
+      "options": [
+        "Interruption",
+        "Interception",
+        "Modification",
+        "Fabrication"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 18,
+      "text": "A Denial-of-Service (DoS) attack primarily affects which security property?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Authentication"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 19,
+      "text": "Eavesdropping is classified as:",
+      "options": [
+        "Active attack",
+        "Passive attack",
+        "Insider attack",
+        "Physical attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 20,
+      "text": "SQL injection exploits vulnerabilities in:",
+      "options": [
+        "Network protocols",
+        "Database queries",
+        "Encryption algorithms",
+        "Operating systems"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 21,
+      "text": "Phishing attacks mainly target:",
+      "options": [
+        "Hardware failure",
+        "Cryptographic keys",
+        "Human users",
+        "Firewalls"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 22,
+      "text": "In a replay attack, the attacker:",
+      "options": [
+        "Modifies packets",
+        "Captures and retransmits valid data",
+        "Blocks transmission",
+        "Crashes the server"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 23,
+      "text": "A man-in-the-middle attack compromises:",
+      "options": [
+        "Authentication only",
+        "Non-repudiation only",
+        "Integrity and confidentiality",
+        "Physical security"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 24,
+      "text": "A brute force attack is used to:",
+      "options": [
+        "Modify databases",
+        "Guess passwords or keys",
+        "Intercept traffic",
+        "Block servers"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 25,
+      "text": "Malware that encrypts user files for ransom is called:",
+      "options": [
+        "Spyware",
+        "Worm",
+        "Trojan",
+        "Ransomware"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 26,
+      "text": "Traffic analysis can reveal:",
+      "options": [
+        "Encrypted content",
+        "Message structure",
+        "Communication patterns",
+        "Password hashes"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 27,
+      "text": "A zero-day attack exploits:",
+      "options": [
+        "Known vulnerabilities",
+        "Patched vulnerabilities",
+        "Unknown vulnerabilities",
+        "Physical damage"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 28,
+      "text": "Cross-site scripting (XSS) affects:",
+      "options": [
+        "Network routers",
+        "Web applications",
+        "Encryption standards",
+        "Database indexing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 29,
+      "text": "Dictionary attacks are effective against:",
+      "options": [
+        "Strong random passwords",
+        "Hashed passwords with salt",
+        "Weak passwords",
+        "Hardware tokens"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 30,
+      "text": "A Trojan horse:",
+      "options": [
+        "Self-replicates",
+        "Spreads automatically",
+        "Disguises as legitimate software",
+        "Encrypts networks"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 31,
+      "text": "Which attack targets availability?",
+      "options": [
+        "DoS",
+        "Sniffing",
+        "Phishing",
+        "Spoofing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 32,
+      "text": "IP spoofing involves:",
+      "options": [
+        "Stealing passwords",
+        "Forging IP addresses",
+        "Encrypting IP packets",
+        "Dropping packets"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 33,
+      "text": "Shoulder surfing is an example of:",
+      "options": [
+        "Network attack",
+        "Social engineering attack",
+        "Malware attack",
+        "Cryptographic attack"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 34,
+      "text": "A worm differs from a virus because it:",
+      "options": [
+        "Requires user action",
+        "Infects boot sectors",
+        "Self-replicates automatically",
+        "Encrypts data"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 35,
+      "text": "An insider attack refers to:",
+      "options": [
+        "Hacker from outside",
+        "Employee leaking data",
+        "Botnet",
+        "Phishing website"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 36,
+      "text": "Session hijacking targets:",
+      "options": [
+        "Password strength",
+        "Network bandwidth",
+        "Active user sessions",
+        "Encryption keys"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 37,
+      "text": "ARP poisoning is commonly used in:",
+      "options": [
+        "DoS attacks",
+        "Man-in-the-middle attacks",
+        "Phishing attacks",
+        "Ransomware attacks"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 38,
+      "text": "A fabrication attack includes:",
+      "options": [
+        "Data deletion",
+        "Message injection",
+        "Traffic monitoring",
+        "File encryption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 39,
+      "text": "A ciphertext-only attack means the attacker has access to:",
+      "options": [
+        "Plaintext only",
+        "Ciphertext only",
+        "Key only",
+        "Algorithm only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 40,
+      "text": "A known-plaintext attack requires:",
+      "options": [
+        "Only ciphertext",
+        "Known plaintext and ciphertext pairs",
+        "Key exposure",
+        "Password list"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 41,
+      "text": "In a chosen-plaintext attack, the attacker can:",
+      "options": [
+        "Choose ciphertext",
+        "Choose plaintext",
+        "Choose key",
+        "Modify key"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 42,
+      "text": "Rainbow tables are used to:",
+      "options": [
+        "Encrypt data",
+        "Decrypt SSL",
+        "Crack password hashes",
+        "Prevent phishing"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 43,
+      "text": "Side-channel attacks exploit:",
+      "options": [
+        "Mathematical flaws",
+        "Power consumption information",
+        "Firewall rules",
+        "Password reuse"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 44,
+      "text": "A backdoor provides:",
+      "options": [
+        "Authorized encryption",
+        "Unauthorized access",
+        "Secure channel",
+        "Key exchange"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 45,
+      "text": "A rootkit is used to:",
+      "options": [
+        "Store encryption keys",
+        "Hide malicious processes",
+        "Protect passwords",
+        "Monitor traffic"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 46,
+      "text": "Botnets are primarily used for:",
+      "options": [
+        "Secure routing",
+        "Distributed attacks",
+        "Encryption",
+        "Data backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 47,
+      "text": "DNS spoofing redirects users to:",
+      "options": [
+        "Secure sites",
+        "Legitimate IP",
+        "Fake websites",
+        "Firewall"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 48,
+      "text": "Password spraying involves:",
+      "options": [
+        "Many passwords for one user",
+        "One password for many users",
+        "Encryption attempts",
+        "Dictionary attacks only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 49,
+      "text": "Data exfiltration refers to:",
+      "options": [
+        "Data encryption",
+        "Unauthorized data transfer",
+        "Backup",
+        "Hashing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 50,
+      "text": "Clickjacking tricks users into:",
+      "options": [
+        "Encrypting data",
+        "Clicking hidden elements",
+        "Deleting cookies",
+        "Installing antivirus"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 51,
+      "text": "An evil twin attack targets:",
+      "options": [
+        "Email servers",
+        "Wireless networks",
+        "Databases",
+        "VPN"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 52,
+      "text": "Smishing uses:",
+      "options": [
+        "Email",
+        "SMS",
+        "Voice calls",
+        "Websites"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 53,
+      "text": "Vishing uses:",
+      "options": [
+        "SMS",
+        "Email",
+        "Voice calls",
+        "Cookies"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 54,
+      "text": "The principle of least privilege means:",
+      "options": [
+        "All users get admin access",
+        "Users get minimum necessary rights",
+        "No access control",
+        "Shared accounts"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 55,
+      "text": "Defense in depth refers to:",
+      "options": [
+        "Single firewall",
+        "Multiple layers of security",
+        "Password reuse",
+        "No encryption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 56,
+      "text": "Fail-safe defaults imply:",
+      "options": [
+        "Allow by default",
+        "Deny by default",
+        "Grant admin rights",
+        "Disable logs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 57,
+      "text": "Economy of mechanism means:",
+      "options": [
+        "Complex design",
+        "Simple design",
+        "Expensive tools",
+        "Multiple policies"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 58,
+      "text": "Open design principle states that security should rely on:",
+      "options": [
+        "Secret algorithms",
+        "Security through obscurity",
+        "Public algorithms and secret keys",
+        "Hidden systems"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 59,
+      "text": "Separation of duties helps to prevent:",
+      "options": [
+        "Encryption",
+        "Fraud",
+        "Logging",
+        "Authentication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 60,
+      "text": "Complete mediation requires:",
+      "options": [
+        "Checking access once",
+        "Checking access every time",
+        "No checking",
+        "Firewall only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 61,
+      "text": "Psychological acceptability ensures:",
+      "options": [
+        "Complex passwords",
+        "User-friendly security mechanisms",
+        "No authentication",
+        "Long logs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 62,
+      "text": "Work factor relates to:",
+      "options": [
+        "Usability",
+        "Attack cost",
+        "Key size only",
+        "Firewall rules"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 63,
+      "text": "Compromise recording focuses on:",
+      "options": [
+        "Detecting attacks after occurrence",
+        "Preventing attacks",
+        "Encrypting traffic",
+        "Blocking users"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 64,
+      "text": "Confidentiality is primarily ensured by:",
+      "options": [
+        "Hashing",
+        "Encryption",
+        "Backup",
+        "Logging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 65,
+      "text": "Integrity is ensured by:",
+      "options": [
+        "Digital signatures",
+        "Firewalls",
+        "IDS",
+        "Antivirus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 66,
+      "text": "Availability is improved by:",
+      "options": [
+        "Redundancy",
+        "Encryption",
+        "Hashing",
+        "Passwords"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 67,
+      "text": "Non-repudiation requires:",
+      "options": [
+        "Symmetric key",
+        "Digital signature",
+        "Firewall",
+        "IDS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 68,
+      "text": "Kerckhoffs’s principle states that security should depend on:",
+      "options": [
+        "System secrecy",
+        "Key secrecy",
+        "Algorithm secrecy",
+        "Password secrecy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 69,
+      "text": "The zero trust model assumes:",
+      "options": [
+        "Internal trust",
+        "External trust",
+        "No implicit trust",
+        "Firewall trust"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 70,
+      "text": "The principle of least common mechanism suggests:",
+      "options": [
+        "Sharing resources",
+        "Minimizing shared mechanisms",
+        "Open access",
+        "Admin rights"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 71,
+      "text": "Security by obscurity is generally considered:",
+      "options": [
+        "Strong method",
+        "Discouraged practice",
+        "Required",
+        "Mandatory"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 72,
+      "text": "Risk management includes:",
+      "options": [
+        "Risk assessment",
+        "Encryption only",
+        "Firewall setup",
+        "Password creation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 73,
+      "text": "Threat modeling identifies:",
+      "options": [
+        "Assets and threats",
+        "Keys",
+        "Passwords",
+        "Logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 74,
+      "text": "Multi-factor authentication improves:",
+      "options": [
+        "Availability",
+        "Authentication strength",
+        "Logging",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 75,
+      "text": "Role-Based Access Control assigns permissions based on:",
+      "options": [
+        "User identity",
+        "Roles",
+        "Random assignment",
+        "No control"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 76,
+      "text": "Mandatory Access Control is:",
+      "options": [
+        "User-controlled",
+        "Policy-controlled",
+        "Optional",
+        "Temporary"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 77,
+      "text": "Discretionary Access Control allows:",
+      "options": [
+        "Owner-controlled access",
+        "Government-only access",
+        "No control",
+        "Firewall control"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 78,
+      "text": "Secure SDLC integrates security into:",
+      "options": [
+        "Deployment only",
+        "Testing only",
+        "All phases",
+        "Design only"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 79,
+      "text": "Input validation prevents:",
+      "options": [
+        "DoS",
+        "SQL injection",
+        "Encryption failure",
+        "Backup loss"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 80,
+      "text": "Patch management reduces:",
+      "options": [
+        "Zero-day vulnerabilities",
+        "Known vulnerabilities",
+        "Encryption",
+        "Logging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 81,
+      "text": "Logging supports:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Accountability",
+        "Encryption"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 82,
+      "text": "An incident response plan ensures:",
+      "options": [
+        "Encryption",
+        "Quick reaction to attacks",
+        "Password reset",
+        "Firewall update"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 83,
+      "text": "Data minimization reduces:",
+      "options": [
+        "Storage",
+        "Risk exposure",
+        "Encryption",
+        "Hashing"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 84,
+      "text": "Secure key management includes:",
+      "options": [
+        "Key reuse",
+        "Secure storage",
+        "Public sharing",
+        "Weak passwords"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 85,
+      "text": "Adding salt to hashes prevents:",
+      "options": [
+        "Encryption",
+        "Rainbow table attacks",
+        "DoS",
+        "MITM"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 86,
+      "text": "Forward secrecy ensures:",
+      "options": [
+        "Old keys decrypt new data",
+        "Compromised keys reveal all data",
+        "Past sessions remain secure",
+        "No encryption"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 87,
+      "text": "The principle of compartmentalization limits:",
+      "options": [
+        "Encryption",
+        "Damage spread",
+        "Logging",
+        "Password length"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 88,
+      "text": "Secure defaults mean systems are configured with:",
+      "options": [
+        "Open ports",
+        "Strong initial settings",
+        "No firewall",
+        "Shared passwords"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 89,
+      "text": "System hardening involves:",
+      "options": [
+        "Removing unnecessary services",
+        "Adding users",
+        "Sharing passwords",
+        "Disabling logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 90,
+      "text": "Red team exercises simulate:",
+      "options": [
+        "Internal audits",
+        "Real attacks",
+        "Encryption",
+        "Patching"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 91,
+      "text": "Blue team focuses on:",
+      "options": [
+        "Attacking",
+        "Defending",
+        "Marketing",
+        "Coding"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 92,
+      "text": "The principle of proportionality ensures:",
+      "options": [
+        "Maximum security at any cost",
+        "Balanced security and cost",
+        "No cost",
+        "Unlimited encryption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 93,
+      "text": "Security governance ensures:",
+      "options": [
+        "Technical patches only",
+        "Strategic oversight of security",
+        "Firewall only",
+        "Password reset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 94,
+      "text": "What does Nmap primarily stand for?",
+      "options": [
+        "Network Monitoring Application",
+        "Network Mapper",
+        "Network Mapping Protocol",
+        "Network Management Program"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 95,
+      "text": "Which Nmap option performs a TCP SYN scan?",
+      "options": [
+        "-sT",
+        "-sS",
+        "-sU",
+        "-sA"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 96,
+      "text": "Which scan completes the full TCP three-way handshake?",
+      "options": [
+        "SYN scan",
+        "NULL scan",
+        "Connect scan",
+        "FIN scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 97,
+      "text": "Which Nmap option enables OS detection?",
+      "options": [
+        "-O",
+        "-A",
+        "-sV",
+        "-Pn"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 98,
+      "text": "What does the -sU option perform?",
+      "options": [
+        "TCP scan",
+        "UDP scan",
+        "Ping scan",
+        "Idle scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 99,
+      "text": "Which option skips host discovery?",
+      "options": [
+        "-sn",
+        "-Pn",
+        "-sP",
+        "-p-"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 100,
+      "text": "What does -sV detect?",
+      "options": [
+        "Vulnerabilities",
+        "Service versions",
+        "Virtual machines",
+        "Virus presence"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 101,
+      "text": "By default, Nmap scans how many common ports?",
+      "options": [
+        "500",
+        "100",
+        "1000",
+        "All 65535"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 102,
+      "text": "Which option scans all ports?",
+      "options": [
+        "-all",
+        "-p-",
+        "-65535",
+        "-full"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 103,
+      "text": "What does -A enable?",
+      "options": [
+        "Anonymous mode",
+        "Aggressive scan",
+        "Auto exploit",
+        "Active firewall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 104,
+      "text": "Which output format saves results in XML?",
+      "options": [
+        "-oN",
+        "-oX",
+        "-oG",
+        "-oS"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 105,
+      "text": "A port marked as “filtered” means:",
+      "options": [
+        "It is open",
+        "It is closed",
+        "No response due to firewall",
+        "It is active"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 106,
+      "text": "Idle scan requires:",
+      "options": [
+        "Firewall",
+        "Zombie host",
+        "VPN",
+        "Proxy server"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 107,
+      "text": "What does -T4 control?",
+      "options": [
+        "Timing template",
+        "Target IP",
+        "TCP mode",
+        "Trace route"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 108,
+      "text": "Which scan is stealthier?",
+      "options": [
+        "Connect scan",
+        "SYN scan",
+        "Ping scan",
+        "UDP scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 109,
+      "text": "NSE stands for:",
+      "options": [
+        "Network Security Engine",
+        "Nmap Scripting Engine",
+        "Network Scanning Editor",
+        "Node Service Engine"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 110,
+      "text": "Which command scans a subnet?",
+      "options": [
+        "nmap 192.168.1.0/24",
+        "nmap subnet",
+        "nmap -sub",
+        "nmap range"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 111,
+      "text": "-sn option performs:",
+      "options": [
+        "Port scanning",
+        "OS detection",
+        "Host discovery only",
+        "Service detection"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 112,
+      "text": "What does fragmentation (-f) help with?",
+      "options": [
+        "Speed increase",
+        "Firewall evasion",
+        "OS detection",
+        "DNS resolution"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 113,
+      "text": "Closed port means:",
+      "options": [
+        "Application listening",
+        "No service listening",
+        "Firewall blocking",
+        "System offline"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 114,
+      "text": "Which scan type is most detectable?",
+      "options": [
+        "Connect scan",
+        "SYN scan",
+        "Idle scan",
+        "FIN scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 115,
+      "text": "Which command detects services and OS together?",
+      "options": [
+        "-sS",
+        "-A",
+        "-Pn",
+        "-sn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 116,
+      "text": "Unauthorized disclosure threatens:",
+      "options": [
+        "Integrity",
+        "Availability",
+        "Confidentiality",
+        "Performance"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 117,
+      "text": "Exposure means:",
+      "options": [
+        "Destroying data",
+        "Releasing data",
+        "Blocking network",
+        "Encrypting files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 118,
+      "text": "Interception involves:",
+      "options": [
+        "Destroying hardware",
+        "Unauthorized access to data",
+        "Password change",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 119,
+      "text": "Inference attack obtains data by:",
+      "options": [
+        "Destroying logs",
+        "Analyzing related data",
+        "Deleting files",
+        "Blocking system"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 120,
+      "text": "Deception threatens:",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Usability"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 121,
+      "text": "Masquerade means:",
+      "options": [
+        "Fake identity",
+        "System failure",
+        "Encryption",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 122,
+      "text": "Falsification is:",
+      "options": [
+        "Altering data",
+        "Destroying network",
+        "Encrypting files",
+        "Blocking access"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 123,
+      "text": "Repudiation refers to:",
+      "options": [
+        "Denying an action",
+        "Data theft",
+        "Firewall attack",
+        "Malware infection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 124,
+      "text": "Disruption affects:",
+      "options": [
+        "Confidentiality only",
+        "Integrity & Availability",
+        "Policy",
+        "Authentication"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 125,
+      "text": "Obstruction means:",
+      "options": [
+        "Overloading communication",
+        "Encrypting",
+        "Backing up",
+        "Monitoring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 126,
+      "text": "Incapacitation refers to:",
+      "options": [
+        "Destruction of system",
+        "Backup",
+        "Logging",
+        "Authentication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 127,
+      "text": "Usurpation threatens:",
+      "options": [
+        "Integrity",
+        "Confidentiality",
+        "Speed",
+        "Policy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 128,
+      "text": "Misappropriation means:",
+      "options": [
+        "Theft of service",
+        "Encryption",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 129,
+      "text": "Misuse refers to:",
+      "options": [
+        "Authorized use",
+        "Unauthorized access",
+        "Backup",
+        "Patch update"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 130,
+      "text": "A vulnerability is:",
+      "options": [
+        "Threat",
+        "Weakness",
+        "Policy",
+        "Asset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 131,
+      "text": "A threat is:",
+      "options": [
+        "Weakness",
+        "Potential danger",
+        "Policy",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 132,
+      "text": "Risk is:",
+      "options": [
+        "Probability of loss",
+        "Encryption",
+        "Backup",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 133,
+      "text": "Security policy defines:",
+      "options": [
+        "Rules",
+        "Threats",
+        "Attacks",
+        "Logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 134,
+      "text": "Countermeasure reduces:",
+      "options": [
+        "Asset",
+        "Threat impact",
+        "Data",
+        "Logs"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 135,
+      "text": "Asset includes:",
+      "options": [
+        "Data",
+        "Hardware",
+        "Software",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 136,
+      "text": "High breach impact includes:",
+      "options": [
+        "Minor delay",
+        "Financial loss",
+        "No issue",
+        "Small bug"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 137,
+      "text": "Medium impact breach may cause:",
+      "options": [
+        "Temporary disruption",
+        "National crisis",
+        "No effect",
+        "Permanent shutdown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 138,
+      "text": "Low impact breach causes:",
+      "options": [
+        "Minor inconvenience",
+        "Major legal issue",
+        "System collapse",
+        "Bankruptcy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 139,
+      "text": "SYN scan is also called:",
+      "options": [
+        "Half-open scan",
+        "Full scan",
+        "UDP scan",
+        "NULL scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 140,
+      "text": "Which Nmap scan checks firewall rules?",
+      "options": [
+        "ACK scan",
+        "SYN scan",
+        "UDP scan",
+        "Connect scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 141,
+      "text": "ACK scan option is:",
+      "options": [
+        "-sA",
+        "-sS",
+        "-sU",
+        "-sT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 142,
+      "text": "NULL scan flag is:",
+      "options": [
+        "-sN",
+        "-sS",
+        "-sA",
+        "-sU"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 143,
+      "text": "FIN scan option is:",
+      "options": [
+        "-sF",
+        "-sN",
+        "-sA",
+        "-sP"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 144,
+      "text": "Xmas scan sets:",
+      "options": [
+        "SYN flag",
+        "FIN, PSH, URG flags",
+        "ACK flag",
+        "RST flag"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 145,
+      "text": "Which attack alters data?",
+      "options": [
+        "Exposure",
+        "Falsification",
+        "Interception",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 146,
+      "text": "Which threat affects availability?",
+      "options": [
+        "Obstruction",
+        "Encryption",
+        "Logging",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 147,
+      "text": "Repudiation threatens:",
+      "options": [
+        "Non-repudiation service",
+        "Confidentiality",
+        "Speed",
+        "Hardware"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 148,
+      "text": "Risk = Threat × ?",
+      "options": [
+        "Firewall",
+        "Vulnerability",
+        "Backup",
+        "Policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 149,
+      "text": "A firewall acts as:",
+      "options": [
+        "Threat",
+        "Countermeasure",
+        "Vulnerability",
+        "Asset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 150,
+      "text": "IDS stands for:",
+      "options": [
+        "Intrusion Detection System",
+        "Internet Data Service",
+        "Internal Defense System",
+        "Integrated Data Security"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 151,
+      "text": "Availability ensures:",
+      "options": [
+        "Data secrecy",
+        "Data accuracy",
+        "Access when needed",
+        "Logging"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 152,
+      "text": "Integrity ensures:",
+      "options": [
+        "Data secrecy",
+        "Data accuracy",
+        "Speed",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 153,
+      "text": "Confidentiality ensures:",
+      "options": [
+        "Data accuracy",
+        "Data secrecy",
+        "Data backup",
+        "Data deletion"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 154,
+      "text": "Which Nmap option enables verbose output?",
+      "options": [
+        "-v",
+        "-q",
+        "-silent",
+        "-debug"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 155,
+      "text": "Which option increases verbosity level further?",
+      "options": [
+        "-vv",
+        "-v1",
+        "-v2",
+        "-v+"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 156,
+      "text": "Which option performs a fast scan of fewer ports?",
+      "options": [
+        "-F",
+        "-fast",
+        "-quick",
+        "-f"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 157,
+      "text": "Which Nmap option disables DNS resolution?",
+      "options": [
+        "-n",
+        "-dns-off",
+        "-no-dns",
+        "-D"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 158,
+      "text": "What does -r option do?",
+      "options": [
+        "Randomizes ports",
+        "Scans ports sequentially",
+        "Removes logs",
+        "Resets connection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 159,
+      "text": "Which option allows specifying a port range?",
+      "options": [
+        "-p 20-80",
+        "-range",
+        "-ports",
+        "-pr"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 160,
+      "text": "Which Nmap scan is used to detect firewall filtering rules?",
+      "options": [
+        "ACK scan",
+        "SYN scan",
+        "UDP scan",
+        "Ping scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 161,
+      "text": "What does -D option enable?",
+      "options": [
+        "Debug mode",
+        "Decoy scan",
+        "DNS scan",
+        "Delay scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 162,
+      "text": "Decoy scan helps in:",
+      "options": [
+        "Faster scanning",
+        "Hiding real IP",
+        "Service detection",
+        "OS detection"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 163,
+      "text": "Which option shows only open ports?",
+      "options": [
+        "--open",
+        "-open",
+        "-o",
+        "-show"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 164,
+      "text": "What is the purpose of -iL option?",
+      "options": [
+        "Input from list file",
+        "Interactive login",
+        "Internal log",
+        "Ignore list"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 165,
+      "text": "Which option saves output in normal format?",
+      "options": [
+        "-oN",
+        "-oX",
+        "-oG",
+        "-oS"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 166,
+      "text": "Which option enables debugging mode?",
+      "options": [
+        "-d",
+        "-debug",
+        "-dbg",
+        "-x"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 167,
+      "text": "Which scan sends no TCP flags?",
+      "options": [
+        "SYN",
+        "NULL",
+        "ACK",
+        "UDP"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 168,
+      "text": "Xmas scan is useful against:",
+      "options": [
+        "Windows systems only",
+        "Unix-based systems",
+        "Routers only",
+        "Databases only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 169,
+      "text": "What does -PE perform?",
+      "options": [
+        "TCP ping",
+        "ICMP echo ping",
+        "UDP ping",
+        "ARP ping"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 170,
+      "text": "Which scan type is connectionless?",
+      "options": [
+        "TCP connect",
+        "UDP scan",
+        "SYN scan",
+        "ACK scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 171,
+      "text": "Which option sets source port?",
+      "options": [
+        "-g",
+        "-src",
+        "-sp",
+        "-sport"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 172,
+      "text": "What does -6 enable?",
+      "options": [
+        "IPv6 scanning",
+        "6 ports scan",
+        "Level 6 timing",
+        "OS level 6"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 173,
+      "text": "Which option performs traceroute?",
+      "options": [
+        "--traceroute",
+        "-trace",
+        "-tr",
+        "-T"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 174,
+      "text": "What is a zombie host in idle scan?",
+      "options": [
+        "Compromised host used to scan",
+        "Offline machine",
+        "Secure server",
+        "Firewall device"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 175,
+      "text": "Which scan type is most reliable but least stealthy?",
+      "options": [
+        "SYN scan",
+        "Connect scan",
+        "Idle scan",
+        "FIN scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 176,
+      "text": "Unauthorized disclosure includes:",
+      "options": [
+        "Exposure",
+        "Interception",
+        "Inference",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 177,
+      "text": "Exposure results in:",
+      "options": [
+        "Data secrecy",
+        "Data release",
+        "Data integrity",
+        "Data encryption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 178,
+      "text": "Inference is dangerous because it:",
+      "options": [
+        "Deletes data",
+        "Derives hidden information",
+        "Blocks access",
+        "Encrypts files"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 179,
+      "text": "Intrusion refers to:",
+      "options": [
+        "Authorized access",
+        "Unauthorized access",
+        "Backup",
+        "Logging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 180,
+      "text": "Deception primarily affects:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Performance"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 181,
+      "text": "Masquerade attack involves:",
+      "options": [
+        "System destruction",
+        "Identity theft",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 182,
+      "text": "Falsification changes:",
+      "options": [
+        "Hardware",
+        "Data content",
+        "Password only",
+        "Logs only"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 183,
+      "text": "Repudiation affects:",
+      "options": [
+        "Accountability",
+        "Encryption",
+        "Firewall",
+        "Storage"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 184,
+      "text": "Disruption may cause:",
+      "options": [
+        "System shutdown",
+        "Faster system",
+        "Secure logs",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 185,
+      "text": "Corruption refers to:",
+      "options": [
+        "Backdoor logic insertion",
+        "Encryption",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 186,
+      "text": "Obstruction leads to:",
+      "options": [
+        "Network overload",
+        "Encryption",
+        "Backup",
+        "Monitoring"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 187,
+      "text": "Incapacitation results in:",
+      "options": [
+        "Destruction of resources",
+        "Data release",
+        "Encryption",
+        "Logging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 188,
+      "text": "Usurpation includes:",
+      "options": [
+        "Misuse",
+        "Misappropriation",
+        "Both A and B",
+        "Backup"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 189,
+      "text": "Misappropriation is:",
+      "options": [
+        "Theft of service",
+        "Data corruption",
+        "Encryption",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 190,
+      "text": "Misuse means:",
+      "options": [
+        "Proper use",
+        "Unauthorized usage",
+        "Backup",
+        "Logging"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 191,
+      "text": "Confidentiality is protected by:",
+      "options": [
+        "Encryption",
+        "Destruction",
+        "Logging only",
+        "Speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 192,
+      "text": "Integrity is protected by:",
+      "options": [
+        "Hash functions",
+        "Deletion",
+        "Exposure",
+        "Delay"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 193,
+      "text": "Availability is ensured by:",
+      "options": [
+        "Redundancy",
+        "Deletion",
+        "Falsification",
+        "Repudiation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 194,
+      "text": "A threat exploits a:",
+      "options": [
+        "Asset",
+        "Vulnerability",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 195,
+      "text": "Risk increases when:",
+      "options": [
+        "Vulnerability increases",
+        "Firewall increases",
+        "Backup increases",
+        "Encryption increases"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 196,
+      "text": "High impact breach affects:",
+      "options": [
+        "National security",
+        "Minor bug",
+        "Small delay",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 197,
+      "text": "Medium impact breach causes:",
+      "options": [
+        "Moderate financial loss",
+        "No issue",
+        "Total destruction",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 198,
+      "text": "Low impact breach leads to:",
+      "options": [
+        "Minor inconvenience",
+        "Bankruptcy",
+        "National crisis",
+        "Shutdown"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 199,
+      "text": "Countermeasure example:",
+      "options": [
+        "Firewall",
+        "Malware",
+        "Virus",
+        "Threat"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 200,
+      "text": "An adversary is also called:",
+      "options": [
+        "Attacker",
+        "Asset",
+        "Policy",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 201,
+      "text": "Attack is:",
+      "options": [
+        "Deliberate attempt",
+        "Backup",
+        "Firewall",
+        "Patch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 202,
+      "text": "Security policy defines:",
+      "options": [
+        "Rules and practices",
+        "Threat",
+        "Vulnerability",
+        "Virus"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 203,
+      "text": "Asset includes:",
+      "options": [
+        "Hardware",
+        "Software",
+        "Data",
+        "All of the above"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 204,
+      "text": "Vulnerability exists due to:",
+      "options": [
+        "Weakness",
+        "Encryption",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 205,
+      "text": "Threat consequence affecting confidentiality:",
+      "options": [
+        "Exposure",
+        "Corruption",
+        "Obstruction",
+        "Misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 206,
+      "text": "Threat consequence affecting integrity:",
+      "options": [
+        "Falsification",
+        "Exposure",
+        "Interception",
+        "Inference"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 207,
+      "text": "Threat consequence affecting availability:",
+      "options": [
+        "Obstruction",
+        "Exposure",
+        "Inference",
+        "Masquerade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 208,
+      "text": "Example of deception:",
+      "options": [
+        "Masquerade",
+        "Backup",
+        "Encryption",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 209,
+      "text": "Example of disruption:",
+      "options": [
+        "Incapacitation",
+        "Encryption",
+        "Backup",
+        "Logging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 210,
+      "text": "Example of usurpation:",
+      "options": [
+        "Misuse",
+        "Encryption",
+        "Backup",
+        "Logging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 211,
+      "text": "Which protects against repudiation?",
+      "options": [
+        "Digital signatures",
+        "Firewall",
+        "Backup",
+        "VPN"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 212,
+      "text": "Which protects availability?",
+      "options": [
+        "Load balancing",
+        "Exposure",
+        "Falsification",
+        "Masquerade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 213,
+      "text": "Which protects integrity?",
+      "options": [
+        "Checksum",
+        "Exposure",
+        "Obstruction",
+        "Misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 214,
+      "text": "Which protects confidentiality?",
+      "options": [
+        "Encryption",
+        "Corruption",
+        "Obstruction",
+        "Repudiation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 215,
+      "text": "Comprehensive security includes:",
+      "options": [
+        "CIA triad",
+        "Backup only",
+        "Firewall only",
+        "Antivirus only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 216,
+      "text": "Which Nmap option enables script scanning?",
+      "options": [
+        "--script",
+        "-sC",
+        "-script",
+        "Both A and B"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 217,
+      "text": "Which default script scan option runs safe scripts?",
+      "options": [
+        "-sV",
+        "-sC",
+        "-O",
+        "-Pn"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 218,
+      "text": "Which Nmap option detects firewall filtering with ACK packets?",
+      "options": [
+        "-sA",
+        "-sS",
+        "-sU",
+        "-sT"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 219,
+      "text": "What does -PA perform?",
+      "options": [
+        "TCP ACK ping",
+        "UDP ping",
+        "ICMP ping",
+        "ARP ping"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 220,
+      "text": "What does -PU perform?",
+      "options": [
+        "TCP ping",
+        "UDP ping",
+        "ICMP ping",
+        "SYN scan"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 221,
+      "text": "Which scan sends SYN and waits for SYN-ACK?",
+      "options": [
+        "SYN scan",
+        "Connect scan",
+        "ACK scan",
+        "NULL scan"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 222,
+      "text": "What indicates an open port in SYN scan?",
+      "options": [
+        "RST",
+        "SYN-ACK",
+        "FIN",
+        "No response"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 223,
+      "text": "What indicates a closed port in SYN scan?",
+      "options": [
+        "SYN-ACK",
+        "ACK",
+        "RST",
+        "URG"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 224,
+      "text": "Which option allows timing template T0?",
+      "options": [
+        "-T0",
+        "-T6",
+        "-T10",
+        "-Tfast"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 225,
+      "text": "Which timing template is fastest?",
+      "options": [
+        "-T0",
+        "-T2",
+        "-T4",
+        "-T5"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 226,
+      "text": "Which option specifies interface?",
+      "options": [
+        "-e",
+        "-i",
+        "-I",
+        "-if"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 227,
+      "text": "Which option enables IPv4 explicitly?",
+      "options": [
+        "-4",
+        "-ipv4",
+        "-v4",
+        "-ip4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 228,
+      "text": "What does host discovery determine?",
+      "options": [
+        "Open ports",
+        "Live hosts",
+        "OS type",
+        "Services"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 229,
+      "text": "Which scan is good for bypassing stateless firewalls?",
+      "options": [
+        "ACK scan",
+        "SYN scan",
+        "NULL scan",
+        "Connect scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 230,
+      "text": "What is the purpose of -oA option?",
+      "options": [
+        "Save in all formats",
+        "Aggressive scan",
+        "OS detect",
+        "All ports"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 231,
+      "text": "Which port state means host unreachable?",
+      "options": [
+        "Open",
+        "Closed",
+        "Filtered",
+        "Down"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 232,
+      "text": "Which feature helps vulnerability detection?",
+      "options": [
+        "NSE scripts",
+        "Ping",
+        "Timing",
+        "Verbose"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 233,
+      "text": "Which scan is least noisy?",
+      "options": [
+        "SYN scan",
+        "Connect scan",
+        "Idle scan",
+        "UDP scan"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 234,
+      "text": "Exposure is a threat to:",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Performance"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 235,
+      "text": "Interception is classified under:",
+      "options": [
+        "Deception",
+        "Unauthorized disclosure",
+        "Usurpation",
+        "Disruption"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 236,
+      "text": "Intrusion is an example of:",
+      "options": [
+        "Unauthorized disclosure",
+        "Backup",
+        "Encryption",
+        "Logging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 237,
+      "text": "Falsification affects:",
+      "options": [
+        "Integrity",
+        "Confidentiality",
+        "Availability",
+        "Speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 238,
+      "text": "Repudiation undermines:",
+      "options": [
+        "Accountability",
+        "Confidentiality",
+        "Availability",
+        "Redundancy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 239,
+      "text": "Obstruction affects:",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Integrity",
+        "Policy"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 240,
+      "text": "Corruption inserts:",
+      "options": [
+        "Backdoor logic",
+        "Encryption",
+        "Firewall",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 241,
+      "text": "Incapacitation results in:",
+      "options": [
+        "Destruction",
+        "Exposure",
+        "Logging",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 242,
+      "text": "Misuse involves:",
+      "options": [
+        "Authorized activity",
+        "Unauthorized activity",
+        "Backup",
+        "Firewall"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 243,
+      "text": "Misappropriation refers to:",
+      "options": [
+        "Theft of service",
+        "Encryption",
+        "Logging",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 244,
+      "text": "CIA triad stands for:",
+      "options": [
+        "Confidentiality, Integrity, Availability",
+        "Control, Inspection, Access",
+        "Confidentiality, Inspection, Authentication",
+        "Control, Integrity, Availability"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 245,
+      "text": "A vulnerability can be reduced by:",
+      "options": [
+        "Patch management",
+        "Exposure",
+        "Interception",
+        "Falsification"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 246,
+      "text": "Risk is minimized by:",
+      "options": [
+        "Countermeasures",
+        "Threats",
+        "Vulnerabilities",
+        "Exposure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 247,
+      "text": "Digital signatures provide:",
+      "options": [
+        "Non-repudiation",
+        "Exposure",
+        "Corruption",
+        "Obstruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 248,
+      "text": "Firewalls protect against:",
+      "options": [
+        "Unauthorized access",
+        "Backup",
+        "Logging",
+        "Exposure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 249,
+      "text": "Antivirus software is a:",
+      "options": [
+        "Threat",
+        "Countermeasure",
+        "Vulnerability",
+        "Asset"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 250,
+      "text": "High breach impact may cause:",
+      "options": [
+        "Legal penalties",
+        "Minor delay",
+        "No issue",
+        "Small inconvenience"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 251,
+      "text": "Medium breach impact may result in:",
+      "options": [
+        "Operational disruption",
+        "National crisis",
+        "None",
+        "Destruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 252,
+      "text": "Low breach impact affects:",
+      "options": [
+        "Minor performance",
+        "Bankruptcy",
+        "Shutdown",
+        "None"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 253,
+      "text": "Integrity ensures data is:",
+      "options": [
+        "Accurate",
+        "Secret",
+        "Deleted",
+        "Encrypted only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 254,
+      "text": "Availability ensures system is:",
+      "options": [
+        "Accessible",
+        "Hidden",
+        "Corrupted",
+        "Deleted"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 255,
+      "text": "Confidentiality ensures data is:",
+      "options": [
+        "Secret",
+        "Available",
+        "Destroyed",
+        "Public"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 256,
+      "text": "An attacker exploiting a flaw uses a:",
+      "options": [
+        "Vulnerability",
+        "Asset",
+        "Policy",
+        "Backup"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 257,
+      "text": "A threat becomes harmful when it exploits a:",
+      "options": [
+        "Vulnerability",
+        "Backup",
+        "Firewall",
+        "Patch"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 258,
+      "text": "Logging helps prevent:",
+      "options": [
+        "Repudiation",
+        "Exposure",
+        "Corruption",
+        "Obstruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 259,
+      "text": "Load balancing improves:",
+      "options": [
+        "Availability",
+        "Confidentiality",
+        "Exposure",
+        "Falsification"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 260,
+      "text": "Encryption mainly protects:",
+      "options": [
+        "Confidentiality",
+        "Availability",
+        "Speed",
+        "Hardware"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 261,
+      "text": "Hashing protects:",
+      "options": [
+        "Integrity",
+        "Exposure",
+        "Obstruction",
+        "Misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 262,
+      "text": "Multi-factor authentication reduces:",
+      "options": [
+        "Masquerade",
+        "Backup",
+        "Logging",
+        "Exposure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 263,
+      "text": "Backup primarily supports:",
+      "options": [
+        "Availability",
+        "Exposure",
+        "Falsification",
+        "Masquerade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 264,
+      "text": "Social engineering is a type of:",
+      "options": [
+        "Attack",
+        "Backup",
+        "Patch",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 265,
+      "text": "Phishing aims at:",
+      "options": [
+        "Stealing credentials",
+        "Backup",
+        "Logging",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 266,
+      "text": "Denial-of-Service affects:",
+      "options": [
+        "Availability",
+        "Confidentiality",
+        "Integrity",
+        "Policy"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 267,
+      "text": "Brute force attack targets:",
+      "options": [
+        "Authentication",
+        "Backup",
+        "Logging",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 268,
+      "text": "Security audit evaluates:",
+      "options": [
+        "Compliance",
+        "Exposure",
+        "Corruption",
+        "Misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 269,
+      "text": "Penetration testing simulates:",
+      "options": [
+        "Real attack",
+        "Backup",
+        "Logging",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 270,
+      "text": "A zero-day exploits:",
+      "options": [
+        "Unknown vulnerability",
+        "Backup",
+        "Logging",
+        "Firewall"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 271,
+      "text": "Patch management addresses:",
+      "options": [
+        "Vulnerabilities",
+        "Exposure",
+        "Obstruction",
+        "Misuse"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 272,
+      "text": "A botnet is used for:",
+      "options": [
+        "Distributed attacks",
+        "Backup",
+        "Logging",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 273,
+      "text": "Ransomware primarily threatens:",
+      "options": [
+        "Availability",
+        "Exposure",
+        "Integrity",
+        "Logging"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 274,
+      "text": "Insider threat comes from:",
+      "options": [
+        "Authorized users",
+        "Hackers only",
+        "Firewalls",
+        "Backups"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 275,
+      "text": "Security awareness training reduces:",
+      "options": [
+        "Human error",
+        "Exposure",
+        "Corruption",
+        "Obstruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 276,
+      "text": "Strong password policy reduces:",
+      "options": [
+        "Masquerade",
+        "Backup",
+        "Logging",
+        "Exposure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 277,
+      "text": "IDS primarily detects:",
+      "options": [
+        "Intrusions",
+        "Backup",
+        "Logging",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 278,
+      "text": "IPS primarily:",
+      "options": [
+        "Prevents attacks",
+        "Logs only",
+        "Backs up data",
+        "Encrypts files"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 279,
+      "text": "Encryption in transit protects against:",
+      "options": [
+        "Interception",
+        "Backup",
+        "Logging",
+        "Corruption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 280,
+      "text": "Data classification supports:",
+      "options": [
+        "Confidentiality",
+        "Exposure",
+        "Corruption",
+        "Obstruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 281,
+      "text": "Redundancy helps mitigate:",
+      "options": [
+        "Disruption",
+        "Exposure",
+        "Falsification",
+        "Masquerade"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 282,
+      "text": "Threat modeling helps identify:",
+      "options": [
+        "Risks",
+        "Backups",
+        "Logs",
+        "Encryption"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 283,
+      "text": "Principle of least privilege limits:",
+      "options": [
+        "Misuse",
+        "Backup",
+        "Logging",
+        "Exposure"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 284,
+      "text": "Two-factor authentication protects against:",
+      "options": [
+        "Masquerade",
+        "Backup",
+        "Corruption",
+        "Obstruction"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 285,
+      "text": "Comprehensive cybersecurity strategy addresses:",
+      "options": [
+        "Threats, vulnerabilities, and risks",
+        "Backup only",
+        "Logging only",
+        "Encryption only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 286,
+      "text": "Modular arithmetic is used in:",
+      "options": [
+        "Cryptography",
+        "Databases",
+        "Networking",
+        "Graphics"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 287,
+      "text": "Modular inverse is used in:",
+      "options": [
+        "Cryptography",
+        "Cooking",
+        "Drawing",
+        "Printing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 288,
+      "text": "5² mod 3 equals:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 289,
+      "text": "Finite fields are also called:",
+      "options": [
+        "Galois fields",
+        "Infinite fields",
+        "Vector fields",
+        "Number sets"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 290,
+      "text": "Finite fields are used in:",
+      "options": [
+        "Cryptography",
+        "Medicine",
+        "Music",
+        "Hardware design"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 291,
+      "text": "GF(2) contains:",
+      "options": [
+        "0 and 1",
+        "1 and 2",
+        "2 and 3",
+        "0 and 2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 292,
+      "text": "Finite field operations use:",
+      "options": [
+        "Modulo arithmetic",
+        "Matrix multiplication",
+        "Sorting",
+        "Searching"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 293,
+      "text": "Modular arithmetic is based on:",
+      "options": [
+        "Remainder rule",
+        "Power rule",
+        "Log rule",
+        "Matrix rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 294,
+      "text": "9 mod 2 equals:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 295,
+      "text": "12 mod 7 equals:",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 296,
+      "text": "18 mod 10 equals:",
+      "options": [
+        "8",
+        "6",
+        "4",
+        "2"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 297,
+      "text": "25 mod 4 equals:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 298,
+      "text": "Even numbers are divisible by:",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "7"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 299,
+      "text": "2³ mod 5 equals:",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 300,
+      "text": "3² mod 5 equals:",
+      "options": [
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 301,
+      "text": "Number theory is mainly concerned with:",
+      "options": [
+        "Integers",
+        "Fractions",
+        "Decimals",
+        "Images"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 302,
+      "text": "Coprime numbers have:",
+      "options": [
+        "GCD = 1",
+        "GCD = 2",
+        "GCD = 5",
+        "GCD = 10"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 303,
+      "text": "1 is:",
+      "options": [
+        "Prime",
+        "Composite",
+        "Neither prime nor composite",
+        "Even"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 304,
+      "text": "Composite numbers have:",
+      "options": [
+        "More than two factors",
+        "One factor",
+        "No factors",
+        "Only one divisor"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 305,
+      "text": "LCM is used to find:",
+      "options": [
+        "Common multiples",
+        "Common divisors",
+        "Powers",
+        "Logs"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 306,
+      "text": "Modular multiplication is based on:",
+      "options": [
+        "Remainder rule",
+        "Addition rule",
+        "Sorting rule",
+        "Matrix rule"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 307,
+      "text": "Number theory is used in:",
+      "options": [
+        "Cryptography",
+        "Biology",
+        "Cooking",
+        "Music"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 308,
+      "text": "Modular arithmetic is important for:",
+      "options": [
+        "Encryption algorithms",
+        "Cooking",
+        "Driving",
+        "Sports"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 309,
+      "text": "Finite fields help in:",
+      "options": [
+        "Secure communication",
+        "Cooking",
+        "Painting",
+        "Driving"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 310,
+      "text": "AES stands for:",
+      "options": [
+        "Advanced Encryption Standard",
+        "Advanced Encoding System",
+        "Advanced Encryption Security",
+        "Algorithm Encryption Standard"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 311,
+      "text": "AES was introduced by:",
+      "options": [
+        "NIST",
+        "IEEE",
+        "ISO",
+        "Microsoft"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 312,
+      "text": "AES replaced which algorithm?",
+      "options": [
+        "DES",
+        "RSA",
+        "MD5",
+        "SHA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 313,
+      "text": "AES was officially adopted in:",
+      "options": [
+        "1997",
+        "2001",
+        "2005",
+        "2010"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 314,
+      "text": "AES is a:",
+      "options": [
+        "Symmetric block cipher",
+        "Asymmetric cipher",
+        "Hash function",
+        "Compression algorithm"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 315,
+      "text": "AES was developed by:",
+      "options": [
+        "Joan Daemen and Vincent Rijmen",
+        "Rivest and Shamir",
+        "Diffie and Hellman",
+        "Shannon and Turing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 316,
+      "text": "AES is based on:",
+      "options": [
+        "Substitution permutation network",
+        "Feistel network",
+        "Hash network",
+        "Tree network"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 317,
+      "text": "AES block size is:",
+      "options": [
+        "32 bits",
+        "64 bits",
+        "128 bits",
+        "256 bits"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 318,
+      "text": "AES supports key sizes of:",
+      "options": [
+        "64, 128, 256 bits",
+        "128, 192, 256 bits",
+        "32, 64, 128 bits",
+        "56, 112, 168 bits"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 319,
+      "text": "AES uses how many rounds (key dependent)?",
+      "options": [
+        "Variable based on key size",
+        "Fixed 16 rounds",
+        "Fixed 32 rounds",
+        "Fixed 8 rounds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 320,
+      "text": "AES with 128-bit key uses:",
+      "options": [
+        "10 rounds",
+        "12 rounds",
+        "14 rounds",
+        "16 rounds"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 321,
+      "text": "AES with 192-bit key uses:",
+      "options": [
+        "10 rounds",
+        "12 rounds",
+        "14 rounds",
+        "16 rounds"
+      ],
+      "correctIndex": 1
+    },
+    {
+      "id": 322,
+      "text": "AES with 256-bit key uses:",
+      "options": [
+        "10 rounds",
+        "12 rounds",
+        "14 rounds",
+        "18 rounds"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 323,
+      "text": "AES operates on data arranged in:",
+      "options": [
+        "Matrix form",
+        "Graph form",
+        "Tree form",
+        "List form"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 324,
+      "text": "AES state matrix size is:",
+      "options": [
+        "2×2",
+        "3×3",
+        "4×4",
+        "8×8"
+      ],
+      "correctIndex": 2
+    },
+    {
+      "id": 325,
+      "text": "AES is more secure than DES because:",
+      "options": [
+        "Larger key size",
+        "More rounds",
+        "Better structure",
+        "All of these"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 326,
+      "text": "AES round functions include:",
+      "options": [
+        "SubBytes, ShiftRows, MixColumns",
+        "Only SubBytes",
+        "Only ShiftRows",
+        "Only MixColumns"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 327,
+      "text": "SubBytes provides:",
+      "options": [
+        "Substitution",
+        "Transposition",
+        "Compression",
+        "Expansion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 328,
+      "text": "SubBytes uses:",
+      "options": [
+        "S-box table",
+        "P-box table",
+        "Hash table",
+        "XOR table"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 329,
+      "text": "ShiftRows performs:",
+      "options": [
+        "Row shifting",
+        "Column shifting",
+        "Bit shifting",
+        "Data deletion"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 330,
+      "text": "MixColumns provides:",
+      "options": [
+        "Diffusion",
+        "Confusion",
+        "Compression",
+        "Authentication"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 331,
+      "text": "AddRoundKey uses:",
+      "options": [
+        "XOR operation",
+        "AND operation",
+        "OR operation",
+        "NOT operation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 332,
+      "text": "AES round key is generated using:",
+      "options": [
+        "Key expansion",
+        "Hashing",
+        "Compression",
+        "Sorting"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 333,
+      "text": "AES key expansion is also called:",
+      "options": [
+        "Key schedule",
+        "Key mixing",
+        "Key sorting",
+        "Key hashing"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 334,
+      "text": "AES processes data in:",
+      "options": [
+        "Bytes",
+        "Bits",
+        "Characters",
+        "Words"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 335,
+      "text": "AES provides:",
+      "options": [
+        "Confusion and diffusion",
+        "Only confusion",
+        "Only diffusion",
+        "No security"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 336,
+      "text": "Confusion in AES is achieved by:",
+      "options": [
+        "SubBytes",
+        "ShiftRows",
+        "MixColumns",
+        "All of these"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 337,
+      "text": "Diffusion in AES is achieved by:",
+      "options": [
+        "ShiftRows and MixColumns",
+        "Only SubBytes",
+        "Only AddRoundKey",
+        "Key schedule only"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 338,
+      "text": "AddRoundKey is applied:",
+      "options": [
+        "At start and each round",
+        "Only at end",
+        "Never",
+        "Only during key generation"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 339,
+      "text": "AES encryption starts with:",
+      "options": [
+        "AddRoundKey",
+        "SubBytes",
+        "ShiftRows",
+        "MixColumns"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 340,
+      "text": "AES is a:",
+      "options": [
+        "Block cipher",
+        "Stream cipher",
+        "Public key cipher",
+        "Hybrid cipher"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 341,
+      "text": "AES is used in:",
+      "options": [
+        "Secure communication",
+        "File encryption",
+        "VPN security",
+        "All of these"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 342,
+      "text": "AES is considered:",
+      "options": [
+        "Very secure",
+        "Weak",
+        "Obsolete",
+        "Experimental"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 343,
+      "text": "AES operates on:",
+      "options": [
+        "128-bit blocks",
+        "64-bit blocks",
+        "256-bit blocks",
+        "32-bit blocks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 344,
+      "text": "AES decryption is:",
+      "options": [
+        "Reverse process of encryption",
+        "Different algorithm",
+        "Hashing",
+        "Compression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 345,
+      "text": "AES was designed to replace:",
+      "options": [
+        "DES",
+        "MD5",
+        "RSA",
+        "SHA"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 346,
+      "text": "AES round transformations provide:",
+      "options": [
+        "Security strength",
+        "Speed only",
+        "Memory reduction",
+        "Hardware design"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 347,
+      "text": "AES uses how many transformation layers?",
+      "options": [
+        "3",
+        "4",
+        "2",
+        "5"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 348,
+      "text": "AES encryption is based on:",
+      "options": [
+        "Iterative rounds",
+        "One pass encryption",
+        "Random encryption",
+        "Compression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 349,
+      "text": "AES key size affects:",
+      "options": [
+        "Security level",
+        "Number of rounds",
+        "Processing time",
+        "All of these"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 350,
+      "text": "AES S-box is used for:",
+      "options": [
+        "Non-linear substitution",
+        "Linear substitution",
+        "Sorting",
+        "Compression"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 351,
+      "text": "AES ShiftRows works on:",
+      "options": [
+        "Rows",
+        "Columns",
+        "Bits",
+        "Keys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 352,
+      "text": "AES MixColumns works on:",
+      "options": [
+        "Columns",
+        "Rows",
+        "Keys",
+        "Blocks"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 353,
+      "text": "AES key schedule generates:",
+      "options": [
+        "Multiple round keys",
+        "Single key",
+        "No keys",
+        "Random keys"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 354,
+      "text": "AES security depends on:",
+      "options": [
+        "Key size",
+        "Number of rounds",
+        "Algorithm design",
+        "All of these"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 355,
+      "text": "AES is widely used in:",
+      "options": [
+        "Banking security",
+        "Government security",
+        "Internet communication",
+        "All of these"
+      ],
+      "correctIndex": 3
+    },
+    {
+      "id": 356,
+      "text": "AES is:",
+      "options": [
+        "Faster than RSA",
+        "Slower than RSA",
+        "Same speed as RSA",
+        "Random speed"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 357,
+      "text": "AES is a:",
+      "options": [
+        "Modern cryptographic standard",
+        "Classical cipher",
+        "Hash function",
+        "Compression method"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 358,
+      "text": "AES was selected through:",
+      "options": [
+        "Open competition",
+        "Private selection",
+        "Random selection",
+        "Military selection"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "id": 359,
+      "text": "AES is currently considered:",
+      "options": [
+        "Industry standard encryption",
+        "Outdated encryption",
+        "Weak encryption",
+        "Experimental encryption"
+      ],
+      "correctIndex": 0
+    }
+  ]
+}
