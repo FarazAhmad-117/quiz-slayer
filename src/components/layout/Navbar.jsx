@@ -155,7 +155,7 @@ export function Navbar() {
             <TargetIcon className="w-5 h-5 text-white" />
           </motion.div>
           <span
-            className="font-black text-lg tracking-tight hidden sm:block"
+            className="font-black text-lg tracking-tight"
             style={{ color: 'rgb(var(--text-primary))' }}
           >
             Quiz{' '}
