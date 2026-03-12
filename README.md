@@ -1,4 +1,20 @@
-# Quiz Slayer
+<h1 align="center">Quiz Slayer</h1>
+
+## Tech stack
+
+<p align="left">
+	<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React" />
+	<img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white" alt="Vite" />
+	<img src="https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+	<img src="https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white" alt="React Router" />
+	<img src="https://img.shields.io/badge/Framer_Motion-12-0055FF?logo=framer&logoColor=white" alt="Framer Motion" />
+	<img src="https://img.shields.io/badge/IndexedDB-idb-2563EB?logo=databricks&logoColor=white" alt="idb" />
+</p>
+
+
+<p align="center">
+	<img src="./public/og-image.png" alt="Quiz Slayer preview" width="3080" height="2206" />
+</p>
 
 A React + Vite quiz app for university exam practice.
 
@@ -15,15 +31,6 @@ This README documents **exactly how the current code works** (routes, state flow
 - Shows analytics (score summary, breakdown, question-by-question review).
 - Supports dark/light theme toggle.
 - Supports uploading new subjects via JSON.
-
-## Tech stack
-
-- React 19
-- React Router DOM 7
-- Vite 7
-- Tailwind CSS 3
-- Framer Motion
-- IndexedDB via `idb`
 
 ## Built-in subjects (from `src/data/*.json`)
 
