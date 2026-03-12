@@ -2,6 +2,7 @@ import { useMemo, useState, useEffect, useCallback } from 'react'
 import { getAllCustomSubjects } from '../lib/db'
 
 const modules = import.meta.glob('../data/*.json', { eager: true })
+const quizModules = import.meta.glob('../data/quiz/*.json', { eager: true })
 
 function processRaw(data, isCustom = false) {
   return {
@@ -33,6 +34,12 @@ export function useSubjectData() {
       .sort((a, b) => a.subject.localeCompare(b.subject))
   }, [])
 
+  const quizzes = useMemo(() => {
+    return Object.entries(quizModules)
+      .map(([, module]) => processRaw(module.default ?? module, false))
+      .sort((a, b) => a.subject.localeCompare(b.subject))
+  }, [])
+
   // Slugs present in built-in files (custom subjects with same slug are skipped)
   const builtInSlugs = useMemo(() => new Set(fileSubjects.map((s) => s.slug)), [fileSubjects])
 
@@ -44,8 +51,8 @@ export function useSubjectData() {
   }, [fileSubjects, customSubjects, builtInSlugs])
 
   function getSubjectBySlug(slug) {
-    return subjects.find((s) => s.slug === slug) ?? null
+    return subjects.find((s) => s.slug === slug) ?? quizzes.find((q) => q.slug === slug) ?? null
   }
 
-  return { subjects, getSubjectBySlug, builtInSlugs, reloadCustom: loadCustom }
+  return { subjects, quizzes, getSubjectBySlug, builtInSlugs, reloadCustom: loadCustom }
 }

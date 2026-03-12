@@ -5,6 +5,7 @@ import Squares from '../components/reactbits/Squares'
 import { HeroSection } from '../components/landing/HeroSection'
 import { SubjectCard } from '../components/landing/SubjectCard'
 import { AddSubjectCard } from '../components/landing/AddSubjectCard'
+import { QuizCard } from '../components/landing/QuizCard'
 import { QuizSetupModal } from '../components/quiz/QuizSetupModal'
 import { useSubjectData } from '../hooks/useSubjectData'
 import { useQuiz } from '../hooks/useQuiz'
@@ -12,7 +13,7 @@ import { shuffleArray } from '../lib/utils'
 import { ROUTES } from '../lib/constants'
 
 export function LandingPage() {
-  const { subjects, getSubjectBySlug } = useSubjectData()
+  const { subjects, quizzes, getSubjectBySlug } = useSubjectData()
   const { startQuiz } = useQuiz()
   const navigate = useNavigate()
 
@@ -36,6 +37,12 @@ export function LandingPage() {
     navigate(ROUTES.QUIZ_PATH(selectedSubject.slug))
   }
 
+  function handleQuizCardClick(quiz) {
+    const questions = shuffleArray(quiz.questions)
+    startQuiz(quiz, questions)
+    navigate(ROUTES.QUIZ_PATH(quiz.slug))
+  }
+
   return (
     <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pb-4">
       {/* Animated grid background */}
@@ -55,6 +62,28 @@ export function LandingPage() {
         ))}
         <AddSubjectCard />
       </div>
+
+      {/* Quiz section */}
+      {quizzes.length > 0 && (
+        <div className="mt-10">
+          <div className="flex items-center gap-2.5 mb-4">
+            <span className="text-xl">📝</span>
+            <h2 className="text-lg sm:text-xl font-extrabold text-content-primary">Quick Quizzes</h2>
+            <span className="text-xs font-bold text-content-secondary bg-surface-secondary px-2 py-0.5 rounded-full">
+              {quizzes.length}
+            </span>
+          </div>
+          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">
+            {quizzes.map((quiz) => (
+              <QuizCard
+                key={quiz.slug}
+                {...quiz}
+                onStart={() => handleQuizCardClick(quiz)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
 
       <QuizSetupModal
         subject={selectedSubject}

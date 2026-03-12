@@ -1,0 +1,77 @@
+{
+  "subject": "PDC Quiz 1 (12 March)",
+  "slug": "pdc-quiz-1",
+  "description": "Quiz on parallel efficiency, data growth, storage, OLTP, memory models, and network effects.",
+  "questions": [
+    {
+      "id": 1,
+      "text": "Parallel efficiency measures?",
+      "options": ["Cache hits", "Resource utilization", "Disk size", "Network cables"],
+      "correctIndex": 1,
+      "explanation": "Parallel efficiency is the ratio of speedup to the number of processors. It measures how well computational resources are utilized when tasks run in parallel — ideal efficiency means no processor sits idle."
+    },
+    {
+      "id": 2,
+      "text": "Rapid growth of streaming data mainly increases?",
+      "options": ["Velocity", "Variety", "Veracity", "Volume"],
+      "correctIndex": 0,
+      "explanation": "Velocity refers to the speed at which data is generated and processed. Streaming data (e.g., social media feeds, sensor data) arrives continuously and rapidly, so it primarily affects the Velocity dimension of Big Data."
+    },
+    {
+      "id": 3,
+      "text": "Storage-compute separation increases?",
+      "options": ["Dependency", "Flexibility", "Hardware cost", "Coupling"],
+      "correctIndex": 1,
+      "explanation": "Separating storage from compute allows each to be scaled independently. You can add more processing power without buying more storage and vice versa, providing greater flexibility in resource management."
+    },
+    {
+      "id": 4,
+      "text": "Traditional warehouses require?",
+      "options": ["Fixed hardware capacity", "Infinite storage", "No schema", "No maintenance"],
+      "correctIndex": 0,
+      "explanation": "Traditional data warehouses are built on dedicated on-premises servers with a fixed hardware capacity. Scaling requires purchasing and provisioning additional physical hardware, unlike modern cloud-based solutions."
+    },
+    {
+      "id": 5,
+      "text": "Which design reduces redundancy in OLTP?",
+      "options": ["Denormalization", "Star schema", "Normalization", "Clustering"],
+      "correctIndex": 2,
+      "explanation": "Normalization organizes tables to eliminate redundant data by splitting information into related tables linked by foreign keys. This is the standard design for OLTP systems to ensure data integrity and reduce storage waste."
+    },
+    {
+      "id": 6,
+      "text": "Which model shares memory among processors?",
+      "options": ["Distributed memory", "Cloud-only", "Sequential", "Shared memory"],
+      "correctIndex": 3,
+      "explanation": "In a shared memory model, multiple processors access a common address space. This simplifies communication between processors since they can read/write the same memory locations, though it requires synchronization mechanisms."
+    },
+    {
+      "id": 7,
+      "text": "Which V addresses inconsistent data sources?",
+      "options": ["Volume", "Visualization", "Veracity", "Velocity"],
+      "correctIndex": 2,
+      "explanation": "Veracity refers to the trustworthiness and accuracy of data. When data comes from inconsistent or unreliable sources, it raises veracity concerns — the data may contain noise, bias, or errors that must be addressed."
+    },
+    {
+      "id": 8,
+      "text": "Why is OLTP optimized for speed?",
+      "options": ["It processes many short transactions", "It runs batch jobs", "It stores historical data", "It handles large reports"],
+      "correctIndex": 0,
+      "explanation": "OLTP (Online Transaction Processing) systems handle high volumes of short, atomic transactions such as bank transfers, order placements, and logins. Speed is critical because each transaction must complete quickly to serve many concurrent users."
+    },
+    {
+      "id": 9,
+      "text": "Network partition mainly affects?",
+      "options": ["Disk speed", "GPU threads", "Distributed coordination", "Registers"],
+      "correctIndex": 2,
+      "explanation": "A network partition occurs when communication between nodes in a distributed system is disrupted. This directly affects distributed coordination — nodes can no longer agree on state, leading to consistency and availability trade-offs (as described by the CAP theorem)."
+    },
+    {
+      "id": 10,
+      "text": "Parallel efficiency improves when?",
+      "options": ["More tasks are sequential", "Resources are well-utilized", "Disk size is increased", "Network cables are longer"],
+      "correctIndex": 1,
+      "explanation": "Parallel efficiency improves when processors spend most of their time doing useful work rather than waiting or communicating. Well-utilized resources mean the workload is evenly distributed and overhead is minimized."
+    }
+  ]
+}
