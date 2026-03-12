@@ -4,6 +4,7 @@ import { HistoryCard } from '../components/history/HistoryCard'
 import { Button } from '../components/ui/Button'
 import { Spinner } from '../components/ui/Spinner'
 import { useQuizHistory } from '../hooks/useQuizHistory'
+import CountUp from '../components/reactbits/CountUp'
 
 export function HistoryPage() {
   const { history, loading, removeEntry, clearHistory } = useQuizHistory()
@@ -65,11 +66,16 @@ export function HistoryPage() {
           {/* Stats summary */}
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div className="card p-5 text-center">
-              <p className="text-3xl font-black text-content-primary mb-1">{totalAttempts}</p>
+              <p className="text-3xl font-black text-content-primary mb-1">
+                <CountUp to={totalAttempts} from={0} duration={1} className="text-3xl font-black" />
+              </p>
               <p className="text-xs text-content-secondary font-bold uppercase tracking-wide">Total Attempts</p>
             </div>
             <div className="card p-5 text-center">
-              <p className="text-3xl font-black text-themed-accent mb-1">{avgScore}%</p>
+              <p className="text-3xl font-black text-themed-accent mb-1">
+                <CountUp to={avgScore} from={0} duration={1.2} className="text-3xl font-black" separator="" />
+                <span className="text-3xl font-black">%</span>
+              </p>
               <p className="text-xs text-content-secondary font-bold uppercase tracking-wide">Avg Score</p>
             </div>
           </div>

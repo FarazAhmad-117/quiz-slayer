@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import BlurText from '../reactbits/BlurText'
 
 const container = {
   hidden: {},
@@ -143,42 +144,16 @@ export function HeroSection({ subjectCount }) {
       </motion.div>
 
       {/* Heading */}
-      <motion.h1
-        variants={item}
-        className="relative text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.1] tracking-tight mb-6"
-        style={{ color: 'rgb(var(--text-primary))' }}
-      >
-        Study{' '}
-        <span className="relative inline-block">
-          <span style={{ color: 'rgb(var(--accent))' }}>
-            Smarter
-          </span>
-          {/* Underline decoration */}
-          <motion.svg
-            initial={{ pathLength: 0, opacity: 0 }}
-            animate={{ pathLength: 1, opacity: 1 }}
-            transition={{ delay: 0.8, duration: 0.6, ease: 'easeOut' }}
-            className="absolute -bottom-1 sm:-bottom-2 left-0 w-full h-3"
-            viewBox="0 0 200 12"
-            fill="none"
-            preserveAspectRatio="none"
-          >
-            <motion.path
-              d="M2 8 C50 2, 100 2, 198 8"
-              stroke="rgb(var(--accent))"
-              strokeWidth="3"
-              strokeLinecap="round"
-              strokeOpacity="0.3"
-              initial={{ pathLength: 0 }}
-              animate={{ pathLength: 1 }}
-              transition={{ delay: 0.8, duration: 0.6, ease: 'easeOut' }}
-            />
-          </motion.svg>
-        </span>
-        ,
-        <br className="hidden sm:block" />
-        Not Harder
-      </motion.h1>
+      <motion.div variants={item} className="relative mb-6">
+        <BlurText
+          text="Study Smarter, Not Harder"
+          delay={80}
+          animateBy="words"
+          direction="top"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black leading-[1.1] tracking-tight justify-center"
+          stepDuration={0.4}
+        />
+      </motion.div>
 
       {/* Description */}
       <motion.p

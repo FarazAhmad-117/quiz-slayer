@@ -1,5 +1,5 @@
 import { createContext, useCallback, useState } from 'react'
-import { SESSION_KEY } from '../lib/constants'
+import { SESSION_KEY, PROGRESS_KEY_PREFIX } from '../lib/constants'
 import { saveQuizResult } from '../lib/db'
 
 export const QuizContext = createContext(null)
@@ -15,6 +15,34 @@ const INITIAL_STATE = {
   startTime: null,
   status: 'idle', // 'idle' | 'active' | 'completed'
   result: null,
+}
+
+/* ─── Progress helpers (localStorage) ─────────────────────────── */
+function saveProgress(state) {
+  if (state.status !== 'active' || !state.slug) return
+  try {
+    localStorage.setItem(PROGRESS_KEY_PREFIX + state.slug, JSON.stringify({
+      slug: state.slug,
+      subject: state.subject,
+      questions: state.questions,
+      answers: state.answers,
+      currentIndex: state.currentIndex,
+      startTime: state.startTime instanceof Date ? state.startTime.toISOString() : state.startTime,
+    }))
+  } catch { /* localStorage full — silently fail */ }
+}
+
+export function clearProgress(slug) {
+  localStorage.removeItem(PROGRESS_KEY_PREFIX + slug)
+}
+
+export function getSavedProgress(slug) {
+  try {
+    const raw = localStorage.getItem(PROGRESS_KEY_PREFIX + slug)
+    return raw ? JSON.parse(raw) : null
+  } catch {
+    return null
+  }
 }
 
 export function QuizProvider({ children }) {
@@ -47,12 +75,18 @@ export function QuizProvider({ children }) {
     setState((prev) => {
       const answers = [...prev.answers]
       answers[questionIndex] = optionIndex
-      return { ...prev, answers }
+      const next = { ...prev, answers }
+      saveProgress(next)
+      return next
     })
   }, [])
 
   const goToQuestion = useCallback((index) => {
-    setState((prev) => ({ ...prev, currentIndex: index }))
+    setState((prev) => {
+      const next = { ...prev, currentIndex: index }
+      saveProgress(next)
+      return next
+    })
   }, [])
 
   const nextQuestion = useCallback(() => {
@@ -111,6 +145,7 @@ export function QuizProvider({ children }) {
       }
 
       sessionStorage.removeItem(SESSION_KEY)
+      clearProgress(prev.slug)
       return { ...prev, status: 'completed', result }
     })
 
@@ -121,7 +156,10 @@ export function QuizProvider({ children }) {
   }, [])
 
   const resetQuiz = useCallback(() => {
-    setState(INITIAL_STATE)
+    setState((prev) => {
+      if (prev.slug) clearProgress(prev.slug)
+      return INITIAL_STATE
+    })
     sessionStorage.removeItem(SESSION_KEY)
     sessionStorage.removeItem(ANALYTICS_KEY)
   }, [])
@@ -144,6 +182,24 @@ export function QuizProvider({ children }) {
     })
   }, [])
 
+  /** Re-hydrate from saved localStorage progress */
+  const rehydrateFromProgress = useCallback((saved) => {
+    setState({
+      subject: saved.subject,
+      slug: saved.slug,
+      questions: saved.questions,
+      answers: saved.answers,
+      currentIndex: saved.currentIndex,
+      startTime: new Date(saved.startTime),
+      status: 'active',
+      result: null,
+    })
+    sessionStorage.setItem(
+      SESSION_KEY,
+      JSON.stringify({ slug: saved.slug, startTime: saved.startTime })
+    )
+  }, [])
+
   return (
     <QuizContext.Provider
       value={{
@@ -156,6 +212,7 @@ export function QuizProvider({ children }) {
         submitQuiz,
         resetQuiz,
         rehydrate,
+        rehydrateFromProgress,
       }}
     >
       {children}

@@ -13,6 +13,7 @@ export const CUSTOM_SUBJECTS_STORE = 'custom_subjects'
 
 export const THEME_KEY = 'quiz-theme'
 export const SESSION_KEY = 'quiz-session'
+export const PROGRESS_KEY_PREFIX = 'quiz-progress-'
 
 /**
  * Maps subject color tokens (from JSON) to full Tailwind class strings.

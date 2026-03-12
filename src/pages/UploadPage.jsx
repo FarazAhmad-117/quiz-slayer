@@ -21,7 +21,8 @@ const EXAMPLE_JSON = `{
         "Reinforcement from an environment",
         "Clustering similar data points"
       ],
-      "correctIndex": 1
+      "correctIndex": 1,
+      "explanation": "Supervised learning uses labeled training data where each input has a known output, allowing the model to learn the mapping function."
     }
   ],
   "guess_questions": [
@@ -29,7 +30,8 @@ const EXAMPLE_JSON = `{
       "id": 1,
       "text": "Which algorithm is commonly used for classification?",
       "options": ["K-Means", "Decision Tree", "PCA", "DBSCAN"],
-      "correctIndex": 1
+      "correctIndex": 1,
+      "explanation": "Decision Trees split data based on feature thresholds to classify inputs, making them one of the most widely used classification algorithms."
     }
   ]
 }`
@@ -45,7 +47,8 @@ const AI_PROMPT = `Convert the following content into a quiz JSON file. Follow t
       "id": 1,
       "text": "Question text ending with ?",
       "options": ["Option A", "Option B", "Option C", "Option D"],
-      "correctIndex": 0
+      "correctIndex": 0,
+      "explanation": "1-2 sentences explaining why the correct answer is right"
     }
   ]
 }
@@ -54,6 +57,7 @@ RULES:
 - slug: lowercase letters, numbers, hyphens ONLY (e.g. "machine-learning", "data-structures")
 - Each question needs EXACTLY 4 options
 - correctIndex is 0-indexed: 0 = first option, 1 = second, 2 = third, 3 = fourth
+- Each question should have an "explanation" field (1-2 sentences explaining why the correct answer is right)
 - Generate at least 15 questions that test deep understanding, not just memorization
 - Questions should be clear, unambiguous, and exam-style
 - You may add a "guess_questions" array with 20+ additional practice questions in the same format
@@ -258,6 +262,7 @@ export function UploadPage() {
               { label: 'guess_questions', desc: 'Optional AI practice questions' },
               { label: 'correctIndex', desc: '0-indexed position of correct option' },
               { label: 'options', desc: 'Array of at least 2 answer choices' },
+              { label: 'explanation', desc: 'Optional reason for the correct answer' },
             ].map(({ label, desc }) => (
               <div key={label} className="flex items-start gap-2">
                 <code className="text-xs font-mono bg-themed-accent/10 text-themed-accent px-1.5 py-0.5 rounded flex-shrink-0">{label}</code>

@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Link, useLocation } from 'react-router-dom'
 import { useTheme } from '../../hooks/useTheme'
 import { cn } from '../../lib/utils'
+import ShinyText from '../reactbits/ShinyText'
 
 /* ─── SVG Icons ──────────────────────────────────────────────────── */
 function TargetIcon({ className }) {
@@ -159,7 +160,7 @@ export function Navbar() {
             style={{ color: 'rgb(var(--text-primary))' }}
           >
             Quiz{' '}
-            <span style={{ color: 'rgb(var(--accent))' }}>Slayer</span>
+            <ShinyText text="Slayer" speed={3} className="font-black" color="rgb(var(--accent))" shineColor="rgb(var(--accent-hover))" />
           </span>
         </Link>
 
