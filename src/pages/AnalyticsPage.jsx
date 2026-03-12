@@ -6,6 +6,7 @@ import { BreakdownChart } from '../components/analytics/BreakdownChart'
 import { QuestionReview } from '../components/analytics/QuestionReview'
 import { Button } from '../components/ui/Button'
 import { useQuiz } from '../hooks/useQuiz'
+import StarBorder from '../components/reactbits/StarBorder'
 
 const ANALYTICS_KEY = 'quiz-analytics'
 
@@ -80,11 +81,13 @@ export function AnalyticsPage() {
         {/* Actions */}
         <div className="flex gap-3">
           <Button variant="secondary" className="flex-1" onClick={() => navigate('/')}>
-            🏠 Back to Home
+            Back to Home
           </Button>
-          <Button className="flex-1" onClick={handleRetake}>
-            🔄 Try Another
-          </Button>
+          <StarBorder className="flex-1" color="rgb(var(--accent))" speed="5s">
+            <Button className="w-full" onClick={handleRetake}>
+              Try Another
+            </Button>
+          </StarBorder>
         </div>
       </div>
     </div>

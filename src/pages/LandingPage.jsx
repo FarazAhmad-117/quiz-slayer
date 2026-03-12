@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
+import Squares from '../components/reactbits/Squares'
 import { HeroSection } from '../components/landing/HeroSection'
 import { SubjectCard } from '../components/landing/SubjectCard'
 import { AddSubjectCard } from '../components/landing/AddSubjectCard'
@@ -36,7 +37,11 @@ export function LandingPage() {
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 pb-4">
+    <div className="relative max-w-6xl mx-auto px-4 sm:px-6 pb-4">
+      {/* Animated grid background */}
+      <div className="fixed inset-0 -z-10 opacity-[0.04] dark:opacity-[0.08] pointer-events-none">
+        <Squares speed={0.3} squareSize={48} direction="diagonal" borderColor="#888" hoverFillColor="#666" />
+      </div>
       <HeroSection subjectCount={subjects.length} />
 
       {/* Subject grid */}

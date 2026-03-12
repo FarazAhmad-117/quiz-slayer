@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import { getGrade } from '../../lib/constants'
 import { formatTime } from '../../lib/utils'
 import { cn } from '../../lib/utils'
+import CountUp from '../reactbits/CountUp'
 
 function AnimatedCircle({ score }) {
   const R = 54
@@ -85,12 +86,16 @@ export function ScoreSummary({ score, correct, total, subject, timeTaken }) {
         transition={{ delay: 1 }}
       >
         <div>
-          <p className="text-xl font-black text-content-primary">{correct}</p>
+          <p className="text-xl font-black text-content-primary">
+            <CountUp to={correct} from={0} duration={1.2} className="text-xl font-black" />
+          </p>
           <p className="text-xs text-emerald-500 font-semibold">Correct</p>
         </div>
         <div className="w-px bg-themed-border" />
         <div>
-          <p className="text-xl font-black text-content-primary">{total - correct}</p>
+          <p className="text-xl font-black text-content-primary">
+            <CountUp to={total - correct} from={0} duration={1.2} className="text-xl font-black" />
+          </p>
           <p className="text-xs text-rose-500 font-semibold">Wrong</p>
         </div>
         <div className="w-px bg-themed-border" />

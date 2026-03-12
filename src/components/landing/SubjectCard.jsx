@@ -1,8 +1,11 @@
-import { motion } from 'framer-motion'
+import { useRef, useCallback } from 'react'
+import { motion, useMotionValue, useSpring } from 'framer-motion'
 import { getColorClasses } from '../../lib/constants'
 import { getSubjectColor, getSubjectIconKey } from '../../lib/subjectUtils'
 import { SubjectIcon } from '../ui/SubjectIcons'
 import { cn } from '../../lib/utils'
+
+const tiltSpring = { damping: 20, stiffness: 200, mass: 0.8 }
 
 export function SubjectCard({ subject, slug, questionCount, guessQuestions, onStart }) {
   const color = getSubjectColor(slug)
@@ -10,14 +13,34 @@ export function SubjectCard({ subject, slug, questionCount, guessQuestions, onSt
   const c = getColorClasses(color)
   const totalCount = questionCount + (guessQuestions?.length ?? 0)
 
+  const cardRef = useRef(null)
+  const rotateX = useSpring(0, tiltSpring)
+  const rotateY = useSpring(0, tiltSpring)
+
+  const handleMouseMove = useCallback((e) => {
+    if (!cardRef.current) return
+    const rect = cardRef.current.getBoundingClientRect()
+    const x = (e.clientX - rect.left) / rect.width - 0.5
+    const y = (e.clientY - rect.top) / rect.height - 0.5
+    rotateX.set(y * -10)
+    rotateY.set(x * 10)
+  }, [rotateX, rotateY])
+
+  const handleMouseLeave = useCallback(() => {
+    rotateX.set(0)
+    rotateY.set(0)
+  }, [rotateX, rotateY])
+
   return (
     <motion.div
+      ref={cardRef}
       layout
       initial={{ opacity: 0, y: 28 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-40px' }}
       whileHover={{ y: -5, transition: { type: 'spring', stiffness: 380, damping: 22 } }}
       transition={{ duration: 0.4, ease: 'easeOut' }}
+      style={{ rotateX, rotateY, transformPerspective: 800 }}
       className={cn(
         'group relative flex flex-col rounded-2xl border cursor-pointer overflow-hidden',
         'bg-gradient-to-br transition-shadow duration-300',
@@ -27,6 +50,8 @@ export function SubjectCard({ subject, slug, questionCount, guessQuestions, onSt
         c.border, c.borderDark
       )}
       onClick={onStart}
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
       role="button"
       tabIndex={0}
       onKeyDown={(e) => e.key === 'Enter' && onStart()}

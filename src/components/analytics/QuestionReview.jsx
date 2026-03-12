@@ -82,6 +82,22 @@ function ReviewItem({ question, userAnswer, index }) {
                 )
               })}
 
+              {/* Explanation */}
+              {question.explanation && (
+                <div className="mt-3 pt-3 border-t border-themed-border">
+                  <div className="flex items-start gap-2">
+                    <span className="text-xs">💡</span>
+                    <div>
+                      <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 mb-0.5">Explanation</p>
+                      <div className="text-xs text-content-secondary leading-relaxed space-y-1.5">
+                        {question.explanation.split('\n\n').map((para, i) => (
+                          <p key={i}>{para}</p>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
 
             </div>
           </motion.div>
