@@ -14,7 +14,7 @@
       ],
       "correctIndex": 1,
       "explanation": "OLAP (Online Analytical Processing) is designed for complex queries on large datasets to support decision-making. Analyzing yearly sales trends is a classic analytical workload — aggregating historical data across dimensions like time, product, and region.",
-      "shortExplanation": "OLAP (Online Analytical Processing) is designed for complex queries on large datasets to support decision-making."
+      "shortExplanation": "OLAP is built for analyzing historical data trends, making it the right fit for yearly sales analysis."
     },
     {
       "id": 2,
@@ -27,7 +27,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Dashboards display aggregated metrics, trends, and KPIs — all of which require analytical queries over large datasets. OLAP systems are optimized for these read-heavy, multi-dimensional queries, making them the backbone of analytical dashboards.",
-      "shortExplanation": "Dashboards display aggregated metrics, trends, and KPIs — all of which require analytical queries over large datasets. OLAP systems are optimized for these read-heavy, multi-dimensional queries, making them the backbone of analytical dashboards."
+      "shortExplanation": "Analytical dashboards need to run complex aggregation queries on large datasets, which is exactly what OLAP systems are optimized for."
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Variety refers to the different forms of data — structured (tables), semi-structured (JSON/XML), and unstructured (images, text, logs). When you combine these different types, you're dealing with the Variety dimension of Big Data.",
-      "shortExplanation": "Variety refers to the different forms of data — structured (tables), semi-structured (JSON/XML), and unstructured (images, text, logs). When you combine these different types, you're dealing with the Variety dimension of Big Data."
+      "shortExplanation": "Mixing structured and unstructured data means dealing with different data forms, which defines the Variety dimension of Big Data."
     },
     {
       "id": 4,
@@ -53,7 +53,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Context switching is the process of saving and restoring the state of a thread or process so another can run. This overhead (saving registers, flushing caches, etc.) directly reduces concurrency performance, since CPU time is spent switching rather than doing useful work.",
-      "shortExplanation": "Context switching is the process of saving and restoring the state of a thread or process so another can run."
+      "shortExplanation": "Context switching wastes CPU time on saving/restoring thread states instead of doing useful work, directly hurting concurrency performance."
     },
     {
       "id": 5,
@@ -66,7 +66,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Distributed computing spreads tasks across multiple networked machines, allowing them to work simultaneously on different parts of a problem. This inherently increases parallelism — more nodes means more tasks can execute concurrently.",
-      "shortExplanation": "Distributed computing spreads tasks across multiple networked machines, allowing them to work simultaneously on different parts of a problem. This inherently increases parallelism — more nodes means more tasks can execute concurrently."
+      "shortExplanation": "By spreading work across multiple machines, distributed computing allows more tasks to run simultaneously, increasing parallelism."
     },
     {
       "id": 6,
@@ -79,7 +79,7 @@
       ],
       "correctIndex": 2,
       "explanation": "A distributed system is composed of independent nodes (computers) connected via a network. Each node has its own processor, memory, and storage, and they coordinate through message passing to achieve a common goal.",
-      "shortExplanation": "A distributed system is composed of independent nodes (computers) connected via a network. Each node has its own processor, memory, and storage, and they coordinate through message passing to achieve a common goal."
+      "shortExplanation": "Distributed systems are built from independent nodes that each have their own resources and coordinate over a network."
     },
     {
       "id": 7,
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 1,
       "explanation": "IoT devices (sensors, wearables, smart appliances) generate continuous streams of data at high speed. This rapid rate of data generation and the need for real-time processing is the defining characteristic of the Velocity dimension.",
-      "shortExplanation": "IoT devices (sensors, wearables, smart appliances) generate continuous streams of data at high speed. This rapid rate of data generation and the need for real-time processing is the defining characteristic of the Velocity dimension."
+      "shortExplanation": "IoT devices produce rapid, continuous data streams, and this high speed of data generation defines the Velocity dimension."
     },
     {
       "id": 8,
@@ -105,7 +105,7 @@
       ],
       "correctIndex": 3,
       "explanation": "Images (binary), videos (multimedia), and logs (semi-structured text) are all different data formats. Having multiple data types and formats in a dataset is the hallmark of the Variety dimension of Big Data.",
-      "shortExplanation": "Images (binary), videos (multimedia), and logs (semi-structured text) are all different data formats. Having multiple data types and formats in a dataset is the hallmark of the Variety dimension of Big Data."
+      "shortExplanation": "Images, videos, and logs are all different data formats, and having multiple formats together is what Variety means in Big Data."
     },
     {
       "id": 9,
@@ -118,7 +118,7 @@
       ],
       "correctIndex": 1,
       "explanation": "MapReduce divides a large task into smaller sub-tasks (Map phase) that run in parallel across a cluster of machines, then combines results (Reduce phase). Adding more nodes to the cluster directly enhances parallelism and processing throughput.",
-      "shortExplanation": "MapReduce divides a large task into smaller sub-tasks (Map phase) that run in parallel across a cluster of machines, then combines results (Reduce phase). Adding more nodes to the cluster directly enhances parallelism and processing throughput."
+      "shortExplanation": "MapReduce clusters split work across many nodes that process data simultaneously, directly enhancing parallelism."
     },
     {
       "id": 10,
@@ -131,7 +131,7 @@
       ],
       "correctIndex": 2,
       "explanation": "The core idea of MapReduce is parallel processing. The Map function processes input data splits in parallel across many nodes, and the Reduce function aggregates the intermediate results — enabling efficient processing of massive datasets.",
-      "shortExplanation": "The core idea of MapReduce is parallel processing. The Map function processes input data splits in parallel across many nodes, and the Reduce function aggregates the intermediate results — enabling efficient processing of massive datasets."
+      "shortExplanation": "MapReduce's entire design is based on splitting data across nodes and processing the pieces in parallel."
     }
   ]
 }

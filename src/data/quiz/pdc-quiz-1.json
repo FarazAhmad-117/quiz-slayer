@@ -14,7 +14,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Parallel efficiency is the ratio of speedup to the number of processors. It measures how well computational resources are utilized when tasks run in parallel — ideal efficiency means no processor sits idle.",
-      "shortExplanation": "Parallel efficiency is the ratio of speedup to the number of processors. It measures how well computational resources are utilized when tasks run in parallel — ideal efficiency means no processor sits idle."
+      "shortExplanation": "It measures how well processors are utilized, calculated as Speedup divided by the number of processors."
     },
     {
       "id": 2,
@@ -27,7 +27,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Velocity refers to the speed at which data is generated and processed. Streaming data (e.g., social media feeds, sensor data) arrives continuously and rapidly, so it primarily affects the Velocity dimension of Big Data.",
-      "shortExplanation": "Velocity refers to the speed at which data is generated and processed. Streaming data (e.g., social media feeds, sensor data) arrives continuously and rapidly, so it primarily affects the Velocity dimension of Big Data."
+      "shortExplanation": "Streaming data arrives continuously at high speed, which directly relates to the Velocity dimension of Big Data."
     },
     {
       "id": 3,
@@ -40,7 +40,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Separating storage from compute allows each to be scaled independently. You can add more processing power without buying more storage and vice versa, providing greater flexibility in resource management.",
-      "shortExplanation": "Separating storage from compute allows each to be scaled independently. You can add more processing power without buying more storage and vice versa, providing greater flexibility in resource management."
+      "shortExplanation": "It lets you scale storage and compute independently, giving greater flexibility in resource management."
     },
     {
       "id": 4,
@@ -53,7 +53,7 @@
       ],
       "correctIndex": 0,
       "explanation": "Traditional data warehouses are built on dedicated on-premises servers with a fixed hardware capacity. Scaling requires purchasing and provisioning additional physical hardware, unlike modern cloud-based solutions.",
-      "shortExplanation": "Traditional data warehouses are built on dedicated on-premises servers with a fixed hardware capacity. Scaling requires purchasing and provisioning additional physical hardware, unlike modern cloud-based solutions."
+      "shortExplanation": "They run on dedicated on-premises servers with fixed hardware that must be physically upgraded to scale."
     },
     {
       "id": 5,
@@ -66,7 +66,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Normalization organizes tables to eliminate redundant data by splitting information into related tables linked by foreign keys. This is the standard design for OLTP systems to ensure data integrity and reduce storage waste.",
-      "shortExplanation": "Normalization organizes tables to eliminate redundant data by splitting information into related tables linked by foreign keys. This is the standard design for OLTP systems to ensure data integrity and reduce storage waste."
+      "shortExplanation": "Normalization splits data into related tables linked by foreign keys, eliminating redundancy."
     },
     {
       "id": 6,
@@ -79,7 +79,7 @@
       ],
       "correctIndex": 3,
       "explanation": "In a shared memory model, multiple processors access a common address space. This simplifies communication between processors since they can read/write the same memory locations, though it requires synchronization mechanisms.",
-      "shortExplanation": "In a shared memory model, multiple processors access a common address space. This simplifies communication between processors since they can read/write the same memory locations, though it requires synchronization mechanisms."
+      "shortExplanation": "In the shared memory model, all processors access a common address space to communicate."
     },
     {
       "id": 7,
@@ -92,7 +92,7 @@
       ],
       "correctIndex": 2,
       "explanation": "Veracity refers to the trustworthiness and accuracy of data. When data comes from inconsistent or unreliable sources, it raises veracity concerns — the data may contain noise, bias, or errors that must be addressed.",
-      "shortExplanation": "Veracity refers to the trustworthiness and accuracy of data. When data comes from inconsistent or unreliable sources, it raises veracity concerns — the data may contain noise, bias, or errors that must be addressed."
+      "shortExplanation": "Veracity deals with data trustworthiness and accuracy, which is the concern when sources are inconsistent."
     },
     {
       "id": 8,
@@ -105,7 +105,7 @@
       ],
       "correctIndex": 0,
       "explanation": "OLTP (Online Transaction Processing) systems handle high volumes of short, atomic transactions such as bank transfers, order placements, and logins. Speed is critical because each transaction must complete quickly to serve many concurrent users.",
-      "shortExplanation": "OLTP (Online Transaction Processing) systems handle high volumes of short, atomic transactions such as bank transfers, order placements, and logins. Speed is critical because each transaction must complete quickly to serve many concurrent users."
+      "shortExplanation": "OLTP handles many short, atomic transactions concurrently, so each must complete quickly."
     },
     {
       "id": 9,
@@ -118,7 +118,7 @@
       ],
       "correctIndex": 2,
       "explanation": "A network partition occurs when communication between nodes in a distributed system is disrupted. This directly affects distributed coordination — nodes can no longer agree on state, leading to consistency and availability trade-offs (as described by the CAP theorem).",
-      "shortExplanation": "A network partition occurs when communication between nodes in a distributed system is disrupted."
+      "shortExplanation": "A network partition breaks communication between nodes, directly disrupting distributed coordination and consensus."
     },
     {
       "id": 10,
@@ -131,7 +131,7 @@
       ],
       "correctIndex": 1,
       "explanation": "Parallel efficiency improves when processors spend most of their time doing useful work rather than waiting or communicating. Well-utilized resources mean the workload is evenly distributed and overhead is minimized.",
-      "shortExplanation": "Parallel efficiency improves when processors spend most of their time doing useful work rather than waiting or communicating. Well-utilized resources mean the workload is evenly distributed and overhead is minimized."
+      "shortExplanation": "Efficiency improves when the workload is evenly distributed and processors spend their time doing useful work, not waiting."
     }
   ]
 }
