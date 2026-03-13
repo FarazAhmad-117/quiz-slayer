@@ -29,6 +29,7 @@ export function QuizPage() {
 
   const [showResumeModal, setShowResumeModal] = useState(false)
   const [savedProgress, setSavedProgress] = useState(null)
+  const [showFullExplanation, setShowFullExplanation] = useState({})
 
   // Scroll to top when quiz starts
   useEffect(() => {
@@ -186,7 +187,7 @@ export function QuizPage() {
           />
 
           {/* Explanation — shown after nav buttons so mobile users don't have to scroll past it */}
-          {currentAnswer !== null && currentQuestion.explanation && (
+          {currentAnswer !== null && (currentQuestion.shortExplanation || currentQuestion.explanation) && (
             <motion.div
               key={`explanation-${currentIndex}`}
               initial={{ opacity: 0, y: 8, height: 0 }}
@@ -199,15 +200,47 @@ export function QuizPage() {
                   <span className="flex-shrink-0 w-6 h-6 rounded-full bg-indigo-500 text-white flex items-center justify-center text-xs font-bold mt-0.5">
                     💡
                   </span>
-                  <div>
+                  <div className="flex-1">
                     <p className="text-xs font-bold text-indigo-700 dark:text-indigo-300 uppercase tracking-wide mb-1">
-                      Explanation
+                      Quick Answer
                     </p>
-                    <div className="text-sm text-indigo-900 dark:text-indigo-200 leading-relaxed space-y-2">
-                      {currentQuestion.explanation.split('\n\n').map((para, i) => (
-                        <p key={i}>{para}</p>
-                      ))}
-                    </div>
+                    <p className="text-sm text-indigo-900 dark:text-indigo-200 leading-relaxed">
+                      {currentQuestion.shortExplanation || currentQuestion.explanation.split('.').slice(0, 2).join('.') + '.'}
+                    </p>
+
+                    {currentQuestion.explanation && (
+                      <>
+                        <button
+                          onClick={() => setShowFullExplanation((prev) => ({
+                            ...prev,
+                            [currentIndex]: !prev[currentIndex]
+                          }))}
+                          className="mt-2 inline-flex items-center gap-1 text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-200 transition-colors"
+                        >
+                          {showFullExplanation[currentIndex] ? '▲ Show Less' : '▼ Know More'}
+                        </button>
+
+                        {showFullExplanation[currentIndex] && (
+                          <motion.div
+                            initial={{ opacity: 0, height: 0 }}
+                            animate={{ opacity: 1, height: 'auto' }}
+                            transition={{ duration: 0.25 }}
+                            className="overflow-hidden"
+                          >
+                            <div className="mt-2 pt-2 border-t border-indigo-200 dark:border-indigo-800">
+                              <p className="text-xs font-bold text-indigo-700 dark:text-indigo-300 uppercase tracking-wide mb-1">
+                                Detailed Explanation
+                              </p>
+                              <div className="text-sm text-indigo-900 dark:text-indigo-200 leading-relaxed space-y-2">
+                                {currentQuestion.explanation.split('\n\n').map((para, i) => (
+                                  <p key={i}>{para}</p>
+                                ))}
+                              </div>
+                            </div>
+                          </motion.div>
+                        )}
+                      </>
+                    )}
                   </div>
                 </div>
               </div>

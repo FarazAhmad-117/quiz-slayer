@@ -6,6 +6,7 @@ const LABELS = ['A', 'B', 'C', 'D', 'E', 'F']
 
 function ReviewItem({ question, userAnswer, index }) {
   const [open, setOpen] = useState(false)
+  const [showFull, setShowFull] = useState(false)
   const isCorrect = userAnswer === question.correctIndex
   const isSkipped = userAnswer === null
 
@@ -83,17 +84,47 @@ function ReviewItem({ question, userAnswer, index }) {
               })}
 
               {/* Explanation */}
-              {question.explanation && (
+              {(question.shortExplanation || question.explanation) && (
                 <div className="mt-3 pt-3 border-t border-themed-border">
                   <div className="flex items-start gap-2">
                     <span className="text-xs">💡</span>
-                    <div>
-                      <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 mb-0.5">Explanation</p>
-                      <div className="text-xs text-content-secondary leading-relaxed space-y-1.5">
-                        {question.explanation.split('\n\n').map((para, i) => (
-                          <p key={i}>{para}</p>
-                        ))}
-                      </div>
+                    <div className="flex-1">
+                      <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 mb-0.5">Quick Answer</p>
+                      <p className="text-xs text-content-secondary leading-relaxed">
+                        {question.shortExplanation || question.explanation.split('.').slice(0, 2).join('.') + '.'}
+                      </p>
+
+                      {question.explanation && (
+                        <>
+                          <button
+                            onClick={() => setShowFull((v) => !v)}
+                            className="mt-1.5 text-[10px] font-bold text-indigo-600 dark:text-indigo-400 hover:text-indigo-800 dark:hover:text-indigo-200 transition-colors"
+                          >
+                            {showFull ? '▲ Show Less' : '▼ Know More'}
+                          </button>
+
+                          <AnimatePresence>
+                            {showFull && (
+                              <motion.div
+                                initial={{ opacity: 0, height: 0 }}
+                                animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}
+                                transition={{ duration: 0.2 }}
+                                className="overflow-hidden"
+                              >
+                                <div className="mt-1.5 pt-1.5 border-t border-themed-border">
+                                  <p className="text-[10px] font-bold text-indigo-600 dark:text-indigo-400 mb-0.5">Detailed Explanation</p>
+                                  <div className="text-xs text-content-secondary leading-relaxed space-y-1.5">
+                                    {question.explanation.split('\n\n').map((para, i) => (
+                                      <p key={i}>{para}</p>
+                                    ))}
+                                  </div>
+                                </div>
+                              </motion.div>
+                            )}
+                          </AnimatePresence>
+                        </>
+                      )}
                     </div>
                   </div>
                 </div>
