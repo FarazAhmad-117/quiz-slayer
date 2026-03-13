@@ -9,6 +9,7 @@ import { useQuiz } from '../hooks/useQuiz'
 import { useSubjectData } from '../hooks/useSubjectData'
 import { shuffleArray } from '../lib/utils'
 import { getColorClasses } from '../lib/constants'
+import { EXAM_MODE_SESSION_KEY } from '../lib/examState'
 import { getSubjectColor } from '../lib/subjectUtils'
 import { cn } from '../lib/utils'
 import { getSavedProgress, clearProgress } from '../context/QuizContext'
@@ -54,7 +55,19 @@ export function QuizPage() {
       rehydrate(subjectData, shuffleArray(subjectData.questions))
     }
     if (status === 'completed') {
-      navigate('/analytics', { replace: true })
+      const examModeRaw = sessionStorage.getItem(EXAM_MODE_SESSION_KEY)
+      if (examModeRaw) {
+        try {
+          const examMode = JSON.parse(examModeRaw)
+          sessionStorage.removeItem(EXAM_MODE_SESSION_KEY)
+          navigate('/exam/result', { replace: true, state: { subjectSlug: examMode.subjectSlug } })
+        } catch {
+          sessionStorage.removeItem(EXAM_MODE_SESSION_KEY)
+          navigate('/analytics', { replace: true })
+        }
+      } else {
+        navigate('/analytics', { replace: true })
+      }
     }
   }, [status, slug, navigate, getSubjectBySlug, rehydrate])
 

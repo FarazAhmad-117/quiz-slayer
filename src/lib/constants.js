@@ -4,6 +4,8 @@ export const ROUTES = {
   QUIZ_PATH: (slug) => `/quiz/${slug}`,
   ANALYTICS: '/analytics',
   HISTORY: '/history',
+  EXAM: '/exam',
+  EXAM_RESULT: '/exam/result',
 }
 
 export const DB_NAME = 'quiz-practice-db'
@@ -105,3 +107,8 @@ export const GRADE_MAP = [
 export function getGrade(score) {
   return GRADE_MAP.find((g) => score >= g.min) ?? GRADE_MAP[GRADE_MAP.length - 1]
 }
+
+// ─── Exam constants ───────────────────────────────────────────────────────────
+export const EXAM_STATE_KEY_PREFIX = 'exam-state-'
+export const EXAM_MODE_SESSION_KEY = 'exam-mode'
+export const EXAM_PASS_THRESHOLD = 50
