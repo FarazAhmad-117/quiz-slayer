@@ -1,0 +1,1957 @@
+{
+  "subject": "Pre-Algebra Practice (150)",
+  "slug": "pre-algebra-practice-150",
+  "description": "150 easy practice MCQs with definitions: number system, intervals, exponents, radicals, factoring, fractions, functions, graphs, transformations and polynomials",
+  "questions": [
+    {
+      "id": 1,
+      "text": "What is a rational number?",
+      "options": [
+        "A number whose decimal never ends and never repeats",
+        "Any number that contains a square-root symbol",
+        "A number that can be written as p/q, where p and q are integers and q ≠ 0",
+        "Only the positive counting numbers 1, 2, 3, …"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "A rational number is any number that can be written as a fraction of two integers with a nonzero bottom.",
+      "explanation": "The word 'rational' comes from 'ratio', meaning a fraction. A rational number can be written as p/q, where p and q are integers (whole numbers, positive or negative) and q is not zero. Examples are 1/2, −3/4, 0.75 and even 5, because 5 = 5/1."
+    },
+    {
+      "id": 2,
+      "text": "Which set shows the natural numbers, as used in this course?",
+      "options": [
+        "{1, 2, 3, 4, …}",
+        "{0, 1, 2, 3, …}",
+        "{…, −2, −1, 0, 1, 2, …}",
+        "{1/2, 1, 3/2, 2, …}"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Natural numbers are the counting numbers, starting at 1.",
+      "explanation": "Natural numbers are the numbers we use for counting: 1, 2, 3, 4 and so on. Adding 0 gives the whole numbers, and adding the negatives as well gives the integers. Some textbooks include 0 in the natural numbers, so always follow your course's rule."
+    },
+    {
+      "id": 3,
+      "text": "What is the difference between whole numbers and natural numbers?",
+      "options": [
+        "Whole numbers include negative numbers, while natural numbers do not",
+        "Natural numbers include fractions, while whole numbers do not",
+        "Whole numbers include 0, while natural numbers start at 1",
+        "Whole numbers stop at 100, while natural numbers go on forever"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "W = {0, 1, 2, 3, …} is just the natural numbers with 0 added.",
+      "explanation": "Whole numbers are 0, 1, 2, 3, … and natural numbers are 1, 2, 3, … The only difference is the number 0. For example, the number of students in an empty classroom is 0, which is a whole number but not a natural number. Neither set contains negatives or fractions."
+    },
+    {
+      "id": 4,
+      "text": "Which chain correctly shows how the number sets sit inside each other?",
+      "options": [
+        "Whole ⊂ Natural ⊂ Integers ⊂ Rational ⊂ Real",
+        "Natural ⊂ Whole ⊂ Integers ⊂ Rational ⊂ Real",
+        "Natural ⊂ Integers ⊂ Whole ⊂ Rational ⊂ Real",
+        "Natural ⊂ Whole ⊂ Rational ⊂ Integers ⊂ Real"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Each set is contained in the next, bigger set, ending with the real numbers.",
+      "explanation": "The symbol ⊂ means 'is contained in'. Every natural number is a whole number, every whole number is an integer, every integer is rational (n = n/1), and every rational number is real. So the chain grows from the smallest set (natural) to the largest (real)."
+    },
+    {
+      "id": 5,
+      "text": "A weather station records a temperature of −6°C. Which number sets contain −6?",
+      "options": [
+        "Natural numbers only",
+        "Integers, rational numbers and real numbers",
+        "Whole numbers only",
+        "Irrational numbers only"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "−6 is a negative whole value, so it is an integer, and therefore also rational and real.",
+      "explanation": "Natural and whole numbers do not include negatives, so −6 is not in those sets. It is an integer, and every integer is rational because −6 = −6/1. All rational numbers are also real numbers."
+    },
+    {
+      "id": 6,
+      "text": "A student claims √25 is irrational because it has a square-root symbol. What is the correct conclusion?",
+      "options": [
+        "It is irrational, because all square roots are irrational",
+        "It is a natural number but not a real number",
+        "It is rational, because √25 = 5",
+        "It is neither rational nor irrational"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "√25 simplifies to 5, which can be written as 5/1, so it is rational.",
+      "explanation": "A root symbol does not automatically make a number irrational. √25 = 5 because 5 × 5 = 25, and 5 is a natural number, which is also rational. Only roots that do not simplify to a fraction, like √2 or √3, are irrational."
+    },
+    {
+      "id": 7,
+      "text": "A researcher uses the value π = 3.14159265… How should π be classified?",
+      "options": [
+        "Integer",
+        "Rational number",
+        "Whole number",
+        "Irrational number"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "π's decimal goes on forever without repeating, so it is irrational.",
+      "explanation": "An irrational number cannot be written as a fraction of two integers, and its decimal never ends and never repeats. π = 3.14159265… behaves exactly like that. Values such as 3.14 or 22/7 are only approximations of π."
+    },
+    {
+      "id": 8,
+      "text": "What does R = Q ∪ I mean?",
+      "options": [
+        "The real numbers are only the rational numbers",
+        "The real numbers are the numbers that are both rational and irrational",
+        "The real numbers are only the integers and the whole numbers",
+        "The real numbers are made up of all rational and all irrational numbers together"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "∪ means 'union' (put together), so R is Q and I combined.",
+      "explanation": "R stands for real numbers, Q for rational numbers and I for irrational numbers. The symbol ∪ means union, which is the set you get by joining two sets together. Every real number is either rational or irrational, never both."
+    },
+    {
+      "id": 9,
+      "text": "What does an interval describe?",
+      "options": [
+        "All the real numbers between two endpoints",
+        "Only the whole numbers between two endpoints",
+        "Only the two endpoints themselves",
+        "The distance between two numbers"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "An interval is every real number from one endpoint to the other.",
+      "explanation": "An interval is a continuous stretch of the number line. For example, 2 ≤ x ≤ 5 means x can be any real number from 2 to 5, including decimals like 2.5 or 4.99. The brackets in the notation tell you whether the endpoints are included."
+    },
+    {
+      "id": 10,
+      "text": "In a closed interval [a, b], which values are included?",
+      "options": [
+        "Neither endpoint, only the numbers between them",
+        "Only the left endpoint a and the numbers after it",
+        "Only the right endpoint b and the numbers before it",
+        "Both endpoints a and b, and every number between them"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Square brackets on both sides mean both endpoints are included: a ≤ x ≤ b.",
+      "explanation": "A closed interval uses square brackets [ ] and means a ≤ x ≤ b. Both endpoints are part of the set. On a number line this is drawn with filled (closed) circles at both ends."
+    },
+    {
+      "id": 11,
+      "text": "A university requires attendance of at least 75% but not more than 100%. Which interval represents the acceptable range?",
+      "options": [
+        "(75, 100)",
+        "[75, 100]",
+        "[75, 100)",
+        "(75, 100]"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "'At least 75' includes 75 and 'not more than 100' includes 100, so both brackets are square.",
+      "explanation": "'At least' means ≥ and 'not more than' means ≤, so the condition is 75 ≤ x ≤ 100. Both endpoints are allowed, which makes this a closed interval. Closed intervals use square brackets on both sides."
+    },
+    {
+      "id": 12,
+      "text": "What does the interval [2, 7) mean?",
+      "options": [
+        "2 < x ≤ 7",
+        "2 < x < 7",
+        "2 ≤ x < 7",
+        "2 ≤ x ≤ 7"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "The square bracket includes 2 and the round bracket excludes 7.",
+      "explanation": "This is a half-open interval: one end is included and the other is not. A square bracket [ means the endpoint is included (≤), and a round bracket ) means it is excluded (<). So 2 is allowed, but 7 is not."
+    },
+    {
+      "id": 13,
+      "text": "How is x > 3 written in interval notation?",
+      "options": [
+        "(3, ∞)",
+        "[3, ∞)",
+        "(3, ∞]",
+        "(−∞, 3)"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "3 is not included, so it gets a round bracket, and the values go up toward infinity.",
+      "explanation": "'Greater than' (>) does not include the endpoint, so we use a round bracket next to 3. The values continue forever to the right, toward positive infinity. Infinity always takes a round bracket."
+    },
+    {
+      "id": 14,
+      "text": "On a number line, what does an open (empty) circle at an endpoint mean?",
+      "options": [
+        "The endpoint is not included",
+        "The endpoint is included",
+        "The interval goes on to infinity",
+        "The endpoint is a negative number"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "An open circle means the endpoint is excluded, like < or >.",
+      "explanation": "Number lines use circles to show endpoints. A filled (closed) circle means the endpoint is included (≤ or ≥). An open circle means it is excluded (< or >), as in x < 3."
+    },
+    {
+      "id": 15,
+      "text": "Why does ∞ always get a round bracket in interval notation?",
+      "options": [
+        "Infinity is always a negative number",
+        "Square brackets can only be used with whole numbers",
+        "Round brackets make every interval closed",
+        "Infinity is not a number that can be reached, so it is never included as an endpoint"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Infinity is never included as an endpoint, so it always gets a round bracket.",
+      "explanation": "Infinity (∞) is not an actual number. It means the values keep going without end. Since you can never reach it, it can never be an included endpoint, so we always write it with a round bracket, as in (3, ∞) or (−∞, 3]."
+    },
+    {
+      "id": 16,
+      "text": "What does it mean for a set to be closed under an operation?",
+      "options": [
+        "The operation always gives the answer zero",
+        "The order of the numbers can be changed without changing the answer",
+        "Doing the operation on members of the set always gives a member of the same set",
+        "The set has a smallest number and a largest number"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Closure means the answer always stays inside the same set.",
+      "explanation": "A set is closed under an operation if, whenever you use that operation on two members, the answer is also a member. Integers are closed under addition because 3 + (−7) = −4 is still an integer. The property is about staying inside the set, not about order or grouping."
+    },
+    {
+      "id": 17,
+      "text": "The commutative property is about:",
+      "options": [
+        "Changing the grouping of numbers without changing the result",
+        "Multiplying a number across a sum in brackets",
+        "Keeping every answer inside the same set",
+        "Changing the order of numbers without changing the result"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Commutative means order does not matter: a + b = b + a and ab = ba.",
+      "explanation": "The commutative property says you can swap the order of numbers in addition or multiplication and get the same answer, for example 4 + 7 = 7 + 4. Changing the grouping is the associative property. Subtraction and division are not commutative."
+    },
+    {
+      "id": 18,
+      "text": "A student changes (5 + 10) + 15 into 5 + (10 + 15) without changing the order of the numbers. Which property is being used?",
+      "options": [
+        "Commutative property",
+        "Associative property",
+        "Distributive property",
+        "Closure property"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Only the brackets (grouping) moved, which is the associative property.",
+      "explanation": "The associative property says (a + b) + c = a + (b + c), and the same works for multiplication. The numbers stay in the same order; only the brackets change. Both sides here equal 30."
+    },
+    {
+      "id": 19,
+      "text": "Which statement shows that subtraction is NOT commutative?",
+      "options": [
+        "9 − 4 ≠ 4 − 9",
+        "5 + 7 = 7 + 5",
+        "3(4) = 4(3)",
+        "2 + 8 = 8 + 2"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "9 − 4 = 5 but 4 − 9 = −5, so swapping the order changes the answer.",
+      "explanation": "To show an operation is not commutative, we need one example where swapping the order changes the answer. 9 − 4 = 5, while 4 − 9 = −5. The other options use addition or multiplication, which are commutative."
+    },
+    {
+      "id": 20,
+      "text": "A student simplifies 4(x + 6) as 4x + 24. Which property is mainly being used?",
+      "options": [
+        "Commutative property",
+        "Associative property",
+        "Distributive property",
+        "Closure property"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "The 4 is multiplied by each term inside the brackets: a(b + c) = ab + ac.",
+      "explanation": "The distributive property lets you multiply a number across a sum or difference in brackets. Here 4 × x = 4x and 4 × 6 = 24. It works with subtraction too: 5(10 − 2) = 50 − 10 = 40."
+    },
+    {
+      "id": 21,
+      "text": "A university buys 8 packages, each with a notebook costing Rs. 100 and a pen costing Rs. 25. Which expression gives the total cost most efficiently?",
+      "options": [
+        "8 + 100 + 25",
+        "100(8 + 25)",
+        "8(100 + 25)",
+        "8(100 − 25)"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Each package costs 100 + 25, and there are 8 packages.",
+      "explanation": "One package costs Rs. 100 + Rs. 25 = Rs. 125. Eight packages cost 8(100 + 25) = 8 × 125 = Rs. 1,000. By the distributive property this is the same as 8(100) + 8(25), but the bracket form is quicker."
+    },
+    {
+      "id": 22,
+      "text": "A student claims (a − b) − c = a − (b − c) for all real numbers. Which statement is correct?",
+      "options": [
+        "The claim is true by the associative property",
+        "The claim is false, because subtraction is not associative",
+        "The claim is true by the commutative property",
+        "The claim is true by the distributive property"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Regrouping a subtraction changes the answer, for example (10 − 5) − 2 = 3 but 10 − (5 − 2) = 7.",
+      "explanation": "The associative property (regrouping with brackets) works for addition and multiplication only. With subtraction, (10 − 5) − 2 = 3 but 10 − (5 − 2) = 7. One counterexample like this is enough to prove the claim is false."
+    },
+    {
+      "id": 23,
+      "text": "Under which operation are the integers NOT closed?",
+      "options": [
+        "Division",
+        "Addition",
+        "Subtraction",
+        "Multiplication"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Dividing two integers can give a non-integer, like 5 ÷ 2 = 2.5.",
+      "explanation": "Adding, subtracting or multiplying two integers always gives another integer, for example (−3)(4) = −12. Division can leave the set: 5 ÷ 2 = 2.5, which is not an integer. So integers are closed under +, − and ×, but not under ÷."
+    },
+    {
+      "id": 24,
+      "text": "What is the absolute value of a number?",
+      "options": [
+        "Its distance from zero on the number line",
+        "The same number with its sign reversed",
+        "The number multiplied by itself",
+        "The number rounded to the nearest whole number"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Absolute value |x| is how far x is from zero, ignoring direction.",
+      "explanation": "The absolute value of a number tells you how far it is from 0 on the number line. Because distance is never negative, |5| = 5 and |−5| = 5. It is not the same as reversing the sign, since |5| is 5, not −5."
+    },
+    {
+      "id": 25,
+      "text": "What is |−18|?",
+      "options": [
+        "−18",
+        "18",
+        "0",
+        "36"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "−18 is 18 units from zero, so |−18| = 18.",
+      "explanation": "Absolute value measures distance from zero. The number −18 is 18 steps away from 0 on the number line. Distance is never negative, so the answer is 18."
+    },
+    {
+      "id": 26,
+      "text": "One student walks 7 km east and another walks 7 km west from the same point, giving positions +7 and −7. Which concept shows that both are 7 km away?",
+      "options": [
+        "Rational numbers",
+        "Interval notation",
+        "The distributive property",
+        "Absolute value"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "|+7| = |−7| = 7, because absolute value keeps the distance and removes the direction.",
+      "explanation": "The signs + and − show direction (east or west). Absolute value removes the direction and keeps only the distance. Both |+7| and |−7| equal 7, so both students are 7 km from the starting point."
+    },
+    {
+      "id": 27,
+      "text": "A product has a target weight of 500 g and an allowed error of 10 g. Which statement shows this requirement?",
+      "options": [
+        "|x + 500| ≤ 10",
+        "|x − 500| ≤ 10",
+        "|x − 10| ≤ 500",
+        "x − 500 ≥ 10"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "|x − 500| is the distance from the target, and it must be at most 10.",
+      "explanation": "|x − 500| measures how far the actual weight x is from the target of 500 g, whether above or below. 'Allowed error of 10 g' means this distance must be 10 or less. This gives 490 ≤ x ≤ 510."
+    },
+    {
+      "id": 28,
+      "text": "Which values of x satisfy |x − 10| ≤ 0.2?",
+      "options": [
+        "x ≤ 10.2 only",
+        "9.8 < x < 10.2",
+        "9.8 ≤ x ≤ 10.2",
+        "x ≤ 9.8 or x ≥ 10.2"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "x is within 0.2 of 10, so it lies from 10 − 0.2 to 10 + 0.2.",
+      "explanation": "|x − 10| ≤ 0.2 means the distance between x and 10 is at most 0.2. Going 0.2 below and above 10 gives 9.8 and 10.2. Because of the ≤ sign, both ends are included, which is the interval [9.8, 10.2]."
+    },
+    {
+      "id": 29,
+      "text": "What is |0|?",
+      "options": [
+        "1",
+        "−1",
+        "0",
+        "Undefined"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "0 is zero units from zero, so |0| = 0.",
+      "explanation": "Absolute value is distance from zero, and 0 is already at zero. So its distance is 0. This is why we say |x| ≥ 0 (never negative), not 'always positive'."
+    },
+    {
+      "id": 30,
+      "text": "When we take the absolute value of a number, what is removed?",
+      "options": [
+        "Its distance, keeping only its sign",
+        "Its decimal part, keeping only the whole number",
+        "Its square root, keeping only the radicand",
+        "Its direction (sign), keeping only its distance from zero"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Absolute value drops the sign and keeps only the size.",
+      "explanation": "A signed number like −5 carries two pieces of information: direction (the minus sign) and size (5). Absolute value removes the direction and keeps the size. That is why it is useful for measuring errors and distances, which cannot be negative."
+    },
+    {
+      "id": 31,
+      "text": "What does an inequality do?",
+      "options": [
+        "It compares two quantities using symbols such as <, >, ≤ or ≥",
+        "It shows that two quantities are always equal",
+        "It gives the distance of a number from zero",
+        "It lists only whole-number answers"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "An inequality compares two quantities that may not be equal.",
+      "explanation": "An equation uses = to say two things are equal. An inequality uses <, >, ≤ or ≥ to say one quantity is smaller or bigger than another. For example, x > 5 means x can be any number greater than 5."
+    },
+    {
+      "id": 32,
+      "text": "What does the symbol ≥ mean?",
+      "options": [
+        "Greater than",
+        "Greater than or equal to",
+        "Less than or equal to",
+        "Not equal to"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "≥ allows the value to be bigger than or exactly equal to the number.",
+      "explanation": "The extra line under the > sign adds 'or equal to'. So x ≥ 5 allows 5, 6, 7 and so on. In contrast, x > 5 does not allow 5 itself."
+    },
+    {
+      "id": 33,
+      "text": "A student has a maximum budget of Rs. 5,000 for books. If x is the amount spent, which inequality fits?",
+      "options": [
+        "x < 5000",
+        "x ≥ 5000",
+        "x > 5000",
+        "x ≤ 5000"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "'Maximum' means the student can spend up to and including 5,000.",
+      "explanation": "A maximum is the highest amount allowed. The student can spend less than 5,000 or exactly 5,000, but not more. 'Less than or equal to' is written ≤, so x ≤ 5000."
+    },
+    {
+      "id": 34,
+      "text": "Solve x + 7 > 15.",
+      "options": [
+        "x < 8",
+        "x > 22",
+        "x > 8",
+        "x < 22"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Subtract 7 from both sides: x > 8.",
+      "explanation": "Treat it like an equation and undo the + 7 by subtracting 7 from both sides. This gives x > 15 − 7, which is x > 8. Adding or subtracting never flips the inequality sign."
+    },
+    {
+      "id": 35,
+      "text": "Solve −2x > 8.",
+      "options": [
+        "x > −4",
+        "x < −4",
+        "x < 4",
+        "x > 4"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Divide by −2 and flip the sign: x < −4.",
+      "explanation": "To get x alone, divide both sides by −2: 8 ÷ (−2) = −4. Whenever you multiply or divide an inequality by a negative number, you must reverse the sign. So > becomes <, giving x < −4."
+    },
+    {
+      "id": 36,
+      "text": "Why does the inequality sign reverse when both sides are multiplied or divided by a negative number?",
+      "options": [
+        "Multiplying by a negative reverses the order of numbers on the number line",
+        "Because negative numbers are irrational",
+        "Because inequalities cannot contain negative numbers",
+        "Because multiplication is not associative"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Multiplying by a negative flips the number line, so 'bigger' and 'smaller' swap.",
+      "explanation": "We know 2 < 5. Multiply both sides by −1 and you get −2 and −5, but −2 is bigger than −5. Multiplying by a negative mirrors the numbers around zero, so their order swaps, and the sign must flip to stay true."
+    },
+    {
+      "id": 37,
+      "text": "Which statement is equivalent to |x| > 4?",
+      "options": [
+        "−4 < x < 4",
+        "x > 4 only",
+        "x < −4 or x > 4",
+        "x < −4 only"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "|x| > 4 means x is more than 4 units from zero, on either side.",
+      "explanation": "|x| is the distance of x from zero. A distance greater than 4 can happen to the right (x > 4) or to the left (x < −4). In interval notation this is (−∞, −4) ∪ (4, ∞)."
+    },
+    {
+      "id": 38,
+      "text": "Which number is NOT a solution of x > 5?",
+      "options": [
+        "6",
+        "10",
+        "100",
+        "5"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "x > 5 means strictly greater than 5, so 5 itself is not allowed.",
+      "explanation": "The symbol > means 'greater than', without 'or equal to'. So 6, 10 and 100 all work, but 5 does not, because 5 is not greater than 5. If the inequality were x ≥ 5, then 5 would be a solution."
+    },
+    {
+      "id": 39,
+      "text": "In 2⁴ = 16, what is the base?",
+      "options": [
+        "4",
+        "16",
+        "2",
+        "8"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "The base is the number being multiplied, which is 2.",
+      "explanation": "In a power, the base is the number that gets multiplied, and the exponent is the small raised number that says how many times. In 2⁴, the base is 2 and the exponent is 4. The value is 2 × 2 × 2 × 2 = 16."
+    },
+    {
+      "id": 40,
+      "text": "What does an exponent tell us?",
+      "options": [
+        "How many times the base is added to itself",
+        "What number to divide the base by",
+        "The square root of the base",
+        "How many times the base is multiplied by itself"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "An exponent counts repeated multiplication of the base.",
+      "explanation": "An exponent is a shorthand for repeated multiplication. For example, 2⁴ means 2 × 2 × 2 × 2 = 16. It does not mean repeated addition: 2 × 4 = 8 is different from 2⁴ = 16."
+    },
+    {
+      "id": 41,
+      "text": "Simplify x⁴ · x³.",
+      "options": [
+        "x¹²",
+        "x⁷",
+        "2x⁷",
+        "x"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Product rule: same base, so add the exponents, 4 + 3 = 7.",
+      "explanation": "When you multiply powers with the same base, you add the exponents: aᵐ · aⁿ = aᵐ⁺ⁿ. Here x⁴ · x³ = x⁴⁺³ = x⁷. Multiplying the exponents to get x¹² is a common mistake."
+    },
+    {
+      "id": 42,
+      "text": "Simplify x⁸ / x³ for x ≠ 0.",
+      "options": [
+        "x⁵",
+        "x²⁴",
+        "x¹¹",
+        "x³"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Quotient rule: same base, so subtract the exponents, 8 − 3 = 5.",
+      "explanation": "When you divide powers with the same base, you subtract the bottom exponent from the top one: aᵐ / aⁿ = aᵐ⁻ⁿ. Here x⁸ / x³ = x⁸⁻³ = x⁵. We need x ≠ 0 because we cannot divide by zero."
+    },
+    {
+      "id": 43,
+      "text": "A student simplifies (2x)³ as 2x³. What is the correct simplification?",
+      "options": [
+        "2x³",
+        "6x³",
+        "8x³",
+        "8x"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Power of a product: cube both the 2 and the x, so 2³x³ = 8x³.",
+      "explanation": "The power of a product rule says (ab)ⁿ = aⁿbⁿ, so the exponent applies to every factor inside the brackets. (2x)³ = 2³ · x³ = 8x³. The student's mistake was forgetting to cube the 2."
+    },
+    {
+      "id": 44,
+      "text": "What is the value of 15⁰?",
+      "options": [
+        "0",
+        "15",
+        "Undefined",
+        "1"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Any nonzero number raised to the power 0 equals 1.",
+      "explanation": "The zero exponent rule says a⁰ = 1 for any a ≠ 0. One way to see it: 15³ / 15³ = 1, and by the quotient rule it also equals 15³⁻³ = 15⁰. So 15⁰ must be 1."
+    },
+    {
+      "id": 45,
+      "text": "Simplify (3x)².",
+      "options": [
+        "9x²",
+        "3x²",
+        "6x²",
+        "9x"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Square both factors: 3² · x² = 9x².",
+      "explanation": "The exponent outside the brackets applies to every factor inside: (3x)² = 3² · x². Since 3² = 9, the answer is 9x². Writing 6x² comes from doubling 3 instead of squaring it."
+    },
+    {
+      "id": 46,
+      "text": "Simplify x⁻³ / y⁻² (with x, y ≠ 0).",
+      "options": [
+        "x³ / y²",
+        "y² / x³",
+        "x³y²",
+        "1 / (x³y²)"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "A negative exponent moves a factor to the other side of the fraction bar.",
+      "explanation": "A negative exponent means take the reciprocal (flip it): x⁻³ = 1/x³ and y⁻² = 1/y². So x⁻³ on top moves to the bottom as x³, and y⁻² on the bottom moves to the top as y². The result is y²/x³."
+    },
+    {
+      "id": 47,
+      "text": "What does a rational exponent such as a^(m/n) mean?",
+      "options": [
+        "Take the n-th root of a, then raise the result to the power m",
+        "Multiply a by m, then divide by n",
+        "Raise a to the power n, then take the m-th root",
+        "Divide a by the fraction m/n"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The bottom of the fraction is the root and the top is the power.",
+      "explanation": "A rational exponent is a fraction used as an exponent. In a^(m/n), the denominator n tells you which root to take, and the numerator m tells you the power: a^(m/n) = (ⁿ√a)ᵐ. For example, 8^(2/3) = (∛8)² = 2² = 4."
+    },
+    {
+      "id": 48,
+      "text": "Evaluate 16^(1/2).",
+      "options": [
+        "2",
+        "8",
+        "4",
+        "32"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "An exponent of 1/2 means square root, and √16 = 4.",
+      "explanation": "The rule a^(1/n) = ⁿ√a means 16^(1/2) is the square root of 16. Since 4 × 4 = 16, the answer is 4. A common mistake is to calculate 16 ÷ 2 = 8 instead."
+    },
+    {
+      "id": 49,
+      "text": "Evaluate 27^(1/3).",
+      "options": [
+        "9",
+        "81",
+        "1/27",
+        "3"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "An exponent of 1/3 means cube root, and 3 × 3 × 3 = 27.",
+      "explanation": "An exponent of 1/3 means the cube root, which is the number that multiplied by itself three times gives 27. Since 3 × 3 × 3 = 27, the answer is 3. It is not 27 ÷ 3 = 9."
+    },
+    {
+      "id": 50,
+      "text": "Standard deviation can be written as SD = (Variance)^(1/2). If the variance is 81, what is the SD?",
+      "options": [
+        "18",
+        "40.5",
+        "81",
+        "9"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "An exponent of 1/2 is a square root, and √81 = 9.",
+      "explanation": "Standard deviation is a statistics measure of spread, and it is the square root of the variance. Raising to the power 1/2 means taking the square root. Since 9 × 9 = 81, the SD is 9."
+    },
+    {
+      "id": 51,
+      "text": "Evaluate 4^(3/2).",
+      "options": [
+        "8",
+        "6",
+        "16",
+        "2"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Square root first (√4 = 2), then cube it (2³ = 8).",
+      "explanation": "In a^(m/n), take the n-th root first and then raise to the power m. Here n = 2, so √4 = 2, and m = 3, so 2³ = 8. Taking the root first keeps the numbers small and easy."
+    },
+    {
+      "id": 52,
+      "text": "Which expression is equal to x^(1/2), for x ≥ 0?",
+      "options": [
+        "√x",
+        "x/2",
+        "x²",
+        "1/x²"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "A power of 1/2 is the same as a square root.",
+      "explanation": "The rule a^(1/n) = ⁿ√a with n = 2 gives x^(1/2) = √x. This is why expressions like 5√x are not polynomials: √x has a fractional exponent. An exponent of 1/2 is not the same as dividing by 2."
+    },
+    {
+      "id": 53,
+      "text": "Evaluate 64^(1/3).",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "4"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "The cube root of 64 is 4, because 4 × 4 × 4 = 64.",
+      "explanation": "An exponent of 1/3 means take the cube root. We need a number that multiplied by itself three times gives 64, and 4 × 4 × 4 = 64. Note that 8 is the square root of 64, which would be 64^(1/2), not 64^(1/3)."
+    },
+    {
+      "id": 54,
+      "text": "In the radical ⁿ√a, what is the number a called?",
+      "options": [
+        "The radicand",
+        "The index",
+        "The exponent",
+        "The coefficient"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The radicand is the number written under the radical symbol.",
+      "explanation": "A radical has three parts: the radical symbol √, the index n (the small number that tells which root to take), and the radicand a (the number inside). In ∛27, the index is 3 and the radicand is 27. For a square root, the index 2 is usually not written."
+    },
+    {
+      "id": 55,
+      "text": "In ∛8, what does the small 3 (the index) tell you?",
+      "options": [
+        "Take the cube root, the number that multiplied by itself three times gives 8",
+        "Multiply 8 by 3",
+        "Divide 8 by 3",
+        "Raise 8 to the power 3"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The index tells you which root to take; 3 means cube root.",
+      "explanation": "The index is the small number in the notch of the radical symbol. An index of 3 means cube root, so ∛8 asks which number times itself three times gives 8. The answer is 2, because 2 × 2 × 2 = 8."
+    },
+    {
+      "id": 56,
+      "text": "What is √36?",
+      "options": [
+        "18",
+        "12",
+        "6",
+        "1296"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "6 × 6 = 36, so √36 = 6.",
+      "explanation": "The square root of a number is the value that, multiplied by itself, gives that number. Since 6 × 6 = 36, √36 = 6. Dividing 36 by 2 to get 18 is a common mistake."
+    },
+    {
+      "id": 57,
+      "text": "Simplify √50.",
+      "options": [
+        "25√2",
+        "5√2",
+        "2√5",
+        "10√5"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "50 = 25 × 2, and √25 = 5, so √50 = 5√2.",
+      "explanation": "To simplify a square root, find the largest perfect square that divides the number. A perfect square is a number like 4, 9, 16 or 25 that has a whole-number root. Since 50 = 25 × 2, we get √50 = √25 · √2 = 5√2."
+    },
+    {
+      "id": 58,
+      "text": "Simplify √48.",
+      "options": [
+        "3√4",
+        "2√12",
+        "16√3",
+        "4√3"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "48 = 16 × 3, and √16 = 4, so √48 = 4√3.",
+      "explanation": "The largest perfect square dividing 48 is 16. So √48 = √16 · √3 = 4√3. Writing 2√12 is correct in value but not fully simplified, because 12 still contains the perfect square 4."
+    },
+    {
+      "id": 59,
+      "text": "Simplify 3√5 + 7√5.",
+      "options": [
+        "10√10",
+        "10√5",
+        "21√5",
+        "10"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "These are like radicals, so add the numbers in front: 3 + 7 = 10.",
+      "explanation": "Like radicals have the same index and the same radicand (the number inside). You combine them like like terms: 3√5 + 7√5 = (3 + 7)√5 = 10√5. The radicand stays as 5; it does not get added."
+    },
+    {
+      "id": 60,
+      "text": "A student writes √2 + √3 = √5. Why is this wrong?",
+      "options": [
+        "√2 + √3 actually equals √6",
+        "√2 and √3 are unlike radicals, so they cannot be combined by adding the numbers inside",
+        "Square roots can never be added",
+        "The correct answer is 5"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Only like radicals (same radicand) can be combined.",
+      "explanation": "Adding radicals works only when the radicands are the same, as in 2√3 + 4√3 = 6√3. √2 and √3 have different radicands, so √2 + √3 cannot be simplified further. You can check: √2 + √3 ≈ 1.41 + 1.73 = 3.14, but √5 ≈ 2.24."
+    },
+    {
+      "id": 61,
+      "text": "Simplify √(25/9).",
+      "options": [
+        "25/3",
+        "5/9",
+        "25/9",
+        "5/3"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Take the square root of the top and the bottom: √25 = 5 and √9 = 3.",
+      "explanation": "The root of a fraction can be split into the root of the top over the root of the bottom: √(a/b) = √a / √b. Here √25 = 5 and √9 = 3. So √(25/9) = 5/3."
+    },
+    {
+      "id": 62,
+      "text": "What does it mean to rationalize the denominator?",
+      "options": [
+        "Turn the whole fraction into a whole number",
+        "Rewrite the expression so that no radical remains in the denominator",
+        "Remove every radical from the numerator",
+        "Change the fraction into a decimal"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Rationalizing removes the root from the bottom of a fraction without changing its value.",
+      "explanation": "The denominator is the bottom of a fraction. Rationalizing means rewriting the fraction so the denominator has no square root, while the value stays the same. We do this by multiplying the top and bottom by a suitable expression, such as √3 or a conjugate."
+    },
+    {
+      "id": 63,
+      "text": "Rationalize 1/√3.",
+      "options": [
+        "3/√3",
+        "√3/3",
+        "1/3",
+        "√3"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Multiply the top and bottom by √3: √3/(√3 · √3) = √3/3.",
+      "explanation": "Multiplying the top and bottom by √3 does not change the value, because √3/√3 = 1. The bottom becomes √3 · √3 = 3, which has no radical. So 1/√3 = √3/3."
+    },
+    {
+      "id": 64,
+      "text": "Rationalize 5/√3.",
+      "options": [
+        "5/3",
+        "15/√3",
+        "5√3/3",
+        "5√3"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Multiply the top and bottom by √3 to get 5√3/3.",
+      "explanation": "Multiply both the numerator and the denominator by √3. The top becomes 5√3 and the bottom becomes √3 · √3 = 3. The answer 5√3/3 has no radical in the denominator."
+    },
+    {
+      "id": 65,
+      "text": "Rationalize 2/√5.",
+      "options": [
+        "2/5",
+        "2√5/5",
+        "2√5",
+        "√5/2"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Multiply the top and bottom by √5 to get 2√5/5.",
+      "explanation": "To clear √5 from the bottom, multiply the top and bottom by √5. The top becomes 2√5 and the bottom becomes √5 · √5 = 5. So 2/√5 = 2√5/5."
+    },
+    {
+      "id": 66,
+      "text": "What is the conjugate of 4 + √7?",
+      "options": [
+        "4 − √7",
+        "−4 − √7",
+        "4 + √7",
+        "√7 − 4"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "A conjugate keeps the first term and changes the sign in the middle.",
+      "explanation": "The conjugate of a + √b is a − √b: the same two terms with the middle sign changed. Multiplying a pair of conjugates removes the radical, because (a + √b)(a − √b) = a² − b. That is why conjugates are used to rationalize denominators like 4 + √7."
+    },
+    {
+      "id": 67,
+      "text": "Why do we multiply by the conjugate to rationalize 1/(2 + √3)?",
+      "options": [
+        "Because the conjugate always equals 1",
+        "Because (2 + √3)(2 − √3) = 4 − 3 = 1, which has no radical",
+        "Because it removes the radical from the numerator only",
+        "Because 2 + √3 is already a whole number"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Conjugates multiply to give a difference of squares, which clears the root.",
+      "explanation": "Multiplying (2 + √3) by its conjugate (2 − √3) uses the pattern (a + b)(a − b) = a² − b². This gives 2² − (√3)² = 4 − 3 = 1. Since 1 has no radical, the denominator is now rational."
+    },
+    {
+      "id": 68,
+      "text": "Rationalize 1/(2 + √3).",
+      "options": [
+        "2 + √3",
+        "2 − √3",
+        "(2 − √3)/7",
+        "1/(2 − √3)"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Multiply by (2 − √3)/(2 − √3); the bottom becomes 1.",
+      "explanation": "Multiply the top and bottom by the conjugate 2 − √3. The top becomes 2 − √3 and the bottom becomes (2 + √3)(2 − √3) = 4 − 3 = 1. Dividing by 1 changes nothing, so the answer is 2 − √3."
+    },
+    {
+      "id": 69,
+      "text": "What does it mean to simplify an algebraic expression?",
+      "options": [
+        "Change its value to make it smaller",
+        "Find the value of x that makes it zero",
+        "Write it in an equivalent but simpler, more useful form",
+        "Replace every variable with the number 1"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Simplifying changes how an expression looks, not what it equals.",
+      "explanation": "An algebraic expression is a mix of numbers, variables and operations, like 3x + 5x. Simplifying means rewriting it in a shorter, cleaner form that has the same value for every x, such as 8x. Common tools are combining like terms, using exponent laws, removing brackets and factoring."
+    },
+    {
+      "id": 70,
+      "text": "What are like terms?",
+      "options": [
+        "Terms with the same number in front",
+        "Terms with the same variables raised to the same powers",
+        "Any terms that contain the letter x",
+        "Terms that have the same sign"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Like terms have identical variable parts, such as 3x² and 7x².",
+      "explanation": "A term is a single part of an expression, such as 5x or −2x². Like terms have exactly the same variables with the same exponents. 3x and 5x are like terms, but 3x and 3x² are not, because the powers of x are different."
+    },
+    {
+      "id": 71,
+      "text": "Which pair are like terms?",
+      "options": [
+        "4x² and −9x²",
+        "4x² and 4x",
+        "3x and 3y",
+        "5xy and 5x"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Both have exactly x², so they are like terms.",
+      "explanation": "Like terms must have the same variable part, including the same exponents. 4x² and −9x² both have x², so they combine to −5x². The other pairs differ in either the power or the variable."
+    },
+    {
+      "id": 72,
+      "text": "Simplify 7x² − 3x².",
+      "options": [
+        "4x²",
+        "4",
+        "4x⁴",
+        "10x²"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Like terms: subtract the numbers in front, 7 − 3 = 4, and keep x².",
+      "explanation": "7x² and 3x² are like terms because both have x². To combine them, subtract the coefficients (the numbers in front): 7 − 3 = 4. The variable part x² stays the same, so the answer is 4x²."
+    },
+    {
+      "id": 73,
+      "text": "Simplify 3(x + 5) + 2x.",
+      "options": [
+        "5x + 5",
+        "5x + 15",
+        "3x + 17",
+        "6x + 15"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Expand to 3x + 15, then add 2x: 5x + 15.",
+      "explanation": "First use the distributive property: 3(x + 5) = 3x + 15. Then combine the like terms 3x and 2x to get 5x. The constant 15 has no like term, so the answer is 5x + 15."
+    },
+    {
+      "id": 74,
+      "text": "Simplify 6x⁵ / 3x² (with x ≠ 0).",
+      "options": [
+        "3x³",
+        "2x⁷",
+        "2x³",
+        "2x^2.5"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Divide the numbers (6 ÷ 3 = 2) and subtract the exponents (5 − 2 = 3).",
+      "explanation": "Deal with the numbers and the variables separately. The numbers give 6 ÷ 3 = 2. The variables give x⁵ / x² = x⁵⁻² = x³ by the quotient rule. So the answer is 2x³."
+    },
+    {
+      "id": 75,
+      "text": "Simplify 7x + 3x − 2x.",
+      "options": [
+        "12x",
+        "10x",
+        "8",
+        "8x"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "All three are like terms: 7 + 3 − 2 = 8.",
+      "explanation": "Every term contains just x, so they are all like terms. Add and subtract their coefficients: 7 + 3 − 2 = 8. The x stays, giving 8x."
+    },
+    {
+      "id": 76,
+      "text": "What is algebraic manipulation?",
+      "options": [
+        "Changing the value of an expression to get a nicer number",
+        "Guessing values of x until the answer works",
+        "Removing all the variables from an expression",
+        "Changing the form of an expression while keeping its value the same"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Manipulation rewrites an expression into another equivalent form.",
+      "explanation": "Algebraic manipulation means rearranging or rewriting an expression without changing what it equals. For example, 3x + 6 can be rewritten as 3(x + 2). Both forms give the same value for every x, so they are equivalent."
+    },
+    {
+      "id": 77,
+      "text": "Which expression is equivalent to 3x + 6?",
+      "options": [
+        "3(x + 2)",
+        "3(x + 6)",
+        "x + 2",
+        "9x"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Taking out the common factor 3 gives 3(x + 2).",
+      "explanation": "Both 3x and 6 can be divided by 3. Taking 3 outside the brackets gives 3(x + 2). You can check by expanding: 3 × x + 3 × 2 = 3x + 6."
+    },
+    {
+      "id": 78,
+      "text": "Simplify 5(2x − 3) + 4x.",
+      "options": [
+        "14x − 3",
+        "6x − 15",
+        "14x − 15",
+        "10x − 11"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Expand to 10x − 15, then add 4x: 14x − 15.",
+      "explanation": "Use the distributive property first: 5(2x − 3) = 10x − 15. Then combine the like terms 10x and 4x to get 14x. The −15 stays the same, so the answer is 14x − 15."
+    },
+    {
+      "id": 79,
+      "text": "Expand −3(x − 4).",
+      "options": [
+        "−3x − 12",
+        "−3x + 4",
+        "3x − 12",
+        "−3x + 12"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Multiply −3 by each term: −3 · x = −3x and −3 · (−4) = +12.",
+      "explanation": "When a negative number is distributed, it must multiply every term, including the signs. −3 × x = −3x, and −3 × (−4) = +12, because a negative times a negative is positive. A common mistake is to write −12."
+    },
+    {
+      "id": 80,
+      "text": "Simplify 7x + 4x − 3x.",
+      "options": [
+        "14x",
+        "10x",
+        "4x",
+        "8x"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "7 + 4 − 3 = 8, so the answer is 8x.",
+      "explanation": "All the terms contain x, so they are like terms. Combine their coefficients: 7 + 4 = 11, then 11 − 3 = 8. The answer is 8x."
+    },
+    {
+      "id": 81,
+      "text": "Which step is correct when simplifying 4(x + 2) − x?",
+      "options": [
+        "4x + 2 − x = 3x + 2",
+        "4x + 8 − x = 5x + 8",
+        "4x + 8 − x = 3x + 8",
+        "4x + 8 − x = 4x + 7"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Expand fully to 4x + 8, then subtract x to get 3x + 8.",
+      "explanation": "First multiply the 4 by both terms in the brackets: 4x + 8. Then combine the x-terms: 4x − x = 3x. The constant 8 has nothing to combine with, so the answer is 3x + 8."
+    },
+    {
+      "id": 82,
+      "text": "A company's cost is C = 500 + 25x, where x is the number of units. What is C when x = 20?",
+      "options": [
+        "525",
+        "10500",
+        "1000",
+        "545"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "C = 500 + 25 × 20 = 500 + 500 = 1000.",
+      "explanation": "Substitute means replace the variable with the given number. Put x = 20 into the formula: C = 500 + 25 × 20. Multiply first (25 × 20 = 500), then add: 500 + 500 = 1000."
+    },
+    {
+      "id": 83,
+      "text": "What does factoring an expression mean?",
+      "options": [
+        "Expanding all the brackets in it",
+        "Writing it as a product of simpler expressions",
+        "Adding all of its terms together",
+        "Finding the value of the expression at x = 0"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Factoring turns a sum into a multiplication, such as x² − 9 = (x − 3)(x + 3).",
+      "explanation": "A factor is something you multiply by. Factoring means rewriting an expression as a product (a multiplication) of factors. It is the opposite of expanding: expanding (x + 2)(x + 3) gives x² + 5x + 6, and factoring x² + 5x + 6 takes you back."
+    },
+    {
+      "id": 84,
+      "text": "What is the greatest common factor (GCF) of 18x³ and 12x²?",
+      "options": [
+        "6x³",
+        "3x",
+        "36x⁵",
+        "6x²"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "6 is the largest number dividing 18 and 12, and x² is the highest power shared.",
+      "explanation": "The GCF is the largest expression that divides every term. The largest number that divides both 18 and 12 is 6, and the highest power of x in both terms is x². So the GCF is 6x², and 18x³ + 12x² = 6x²(3x + 2)."
+    },
+    {
+      "id": 85,
+      "text": "Factor x² − 49.",
+      "options": [
+        "(x − 7)(x + 7)",
+        "(x − 7)²",
+        "(x + 7)²",
+        "(x − 49)(x + 1)"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "This is a difference of squares: a² − b² = (a − b)(a + b).",
+      "explanation": "A difference of squares is one perfect square minus another. Here x² − 49 = x² − 7². The pattern a² − b² = (a − b)(a + b) gives (x − 7)(x + 7)."
+    },
+    {
+      "id": 86,
+      "text": "Which identity is correct?",
+      "options": [
+        "(a + b)² = a² + b²",
+        "(a + b)² = a² + ab + b²",
+        "(a + b)² = 2a + 2b",
+        "(a + b)² = a² + 2ab + b²"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Squaring a sum gives a middle term of 2ab.",
+      "explanation": "An algebraic identity is an equation that is true for every value of the variables. (a + b)² means (a + b)(a + b), which expands to a² + ab + ab + b² = a² + 2ab + b². Forgetting the middle term 2ab is a very common mistake."
+    },
+    {
+      "id": 87,
+      "text": "Expand (x − 5)².",
+      "options": [
+        "x² − 10x + 25",
+        "x² − 25",
+        "x² + 25",
+        "x² − 5x + 25"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Use (a − b)² = a² − 2ab + b² with a = x and b = 5.",
+      "explanation": "(x − 5)² means (x − 5)(x − 5). Using the identity (a − b)² = a² − 2ab + b², we get x² − 2(x)(5) + 25 = x² − 10x + 25. Writing just x² − 25 drops the middle term."
+    },
+    {
+      "id": 88,
+      "text": "A student writes (2x + 3)² = 4x² + 9. What is missing?",
+      "options": [
+        "The middle term 6x",
+        "The constant term 3",
+        "Nothing, the answer is correct",
+        "The middle term 12x"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "The middle term is 2ab = 2(2x)(3) = 12x.",
+      "explanation": "Using (a + b)² = a² + 2ab + b² with a = 2x and b = 3 gives 4x² + 2(2x)(3) + 9. The middle term is 12x, so the full answer is 4x² + 12x + 9. A square of a sum always has this middle term."
+    },
+    {
+      "id": 89,
+      "text": "Factor x² + 7x + 12.",
+      "options": [
+        "(x + 2)(x + 6)",
+        "(x + 3)(x + 4)",
+        "(x + 1)(x + 12)",
+        "(x − 3)(x − 4)"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Find two numbers that multiply to 12 and add to 7: 3 and 4.",
+      "explanation": "To factor a trinomial x² + bx + c, look for two numbers that multiply to c and add to b. Here 3 × 4 = 12 and 3 + 4 = 7. So x² + 7x + 12 = (x + 3)(x + 4)."
+    },
+    {
+      "id": 90,
+      "text": "A student factors x² − 36 as (x − 6)². What is the correct factorization?",
+      "options": [
+        "(x + 6)²",
+        "(x − 18)(x + 2)",
+        "(x − 6)(x + 6)",
+        "(x − 36)(x + 1)"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "x² − 36 is a difference of squares, so it factors into (x − 6)(x + 6).",
+      "explanation": "(x − 6)² expands to x² − 12x + 36, which is not the same as x² − 36. The correct pattern for a² − b² is (a − b)(a + b). With a = x and b = 6, that gives (x − 6)(x + 6)."
+    },
+    {
+      "id": 91,
+      "text": "What is an algebraic fraction?",
+      "options": [
+        "A fraction that has only whole numbers on top and bottom",
+        "Any decimal number",
+        "A fraction that is always equal to 1",
+        "A fraction whose numerator and/or denominator contains an algebraic expression"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "An algebraic fraction has variables on the top, the bottom or both, like (x + 1)/(x − 2).",
+      "explanation": "An algebraic fraction (also called a rational expression) is like an ordinary fraction, but its numerator (top) or denominator (bottom) contains variables. Examples are 3/x and (x² − 4)/(x + 2). The denominator must never be zero."
+    },
+    {
+      "id": 92,
+      "text": "What is a complex fraction?",
+      "options": [
+        "A fraction with a negative number on top",
+        "A fraction whose denominator is zero",
+        "A fraction whose numerator, denominator or both contain fractions",
+        "A fraction with a square root on top"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "A complex fraction is a fraction that has fractions inside it.",
+      "explanation": "A complex fraction is a 'fraction of fractions', such as (1/x + 1/2)/(1/x). To simplify it, you can multiply the top and bottom by the LCD (lowest common denominator) of the small fractions. Another way is to remember that dividing by a fraction means multiplying by its reciprocal."
+    },
+    {
+      "id": 93,
+      "text": "Simplify (x² − 16)/(x − 4), for x ≠ 4.",
+      "options": [
+        "x − 4",
+        "x + 4",
+        "x² − 4",
+        "x + 16"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Factor the top as (x − 4)(x + 4), then cancel (x − 4).",
+      "explanation": "The numerator is a difference of squares: x² − 16 = (x − 4)(x + 4). Then (x − 4) appears as a factor on the top and bottom, so it cancels. The answer is x + 4, with the note x ≠ 4 because the original denominator cannot be zero."
+    },
+    {
+      "id": 94,
+      "text": "Simplify (x² − 25)/(x + 5), for x ≠ −5.",
+      "options": [
+        "x + 5",
+        "x − 25",
+        "x − 5",
+        "x² − 5"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "x² − 25 = (x − 5)(x + 5); cancel (x + 5) to get x − 5.",
+      "explanation": "First factor the numerator using the difference of squares: (x − 5)(x + 5). The factor (x + 5) is on both the top and bottom, so it cancels. The result is x − 5, with x ≠ −5."
+    },
+    {
+      "id": 95,
+      "text": "What are the correct steps for simplifying (x² − 4)/(x² + 2x)?",
+      "options": [
+        "Factor, cancel common factors, then state the restrictions",
+        "Cancel the x² terms first, then factor",
+        "Add the top and the bottom together",
+        "Cross-multiply, then cancel the x terms"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Always factor first; only common factors (not terms) can be cancelled.",
+      "explanation": "Factoring gives (x − 2)(x + 2) on top and x(x + 2) on the bottom. Now the common factor (x + 2) cancels, leaving (x − 2)/x. The restrictions come from the original bottom: x ≠ 0 and x ≠ −2."
+    },
+    {
+      "id": 96,
+      "text": "Why can't (x + 5)/x be simplified by cancelling the x's?",
+      "options": [
+        "Because x is always zero",
+        "Because the fraction is already equal to 5",
+        "Because only numbers, not letters, can be cancelled",
+        "x is a term being added on top, not a factor of the whole numerator"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "You can only cancel factors that multiply the whole top and bottom, not added terms.",
+      "explanation": "Cancelling works only for factors, which multiply the entire numerator and denominator. In x + 5, the x is added to 5, so it is a term, not a factor. For example, with x = 1, (1 + 5)/1 = 6, but cancelling the x's would wrongly give 5."
+    },
+    {
+      "id": 97,
+      "text": "What are the restrictions on x for (x² − 9)/(x² + 3x)?",
+      "options": [
+        "x ≠ 3 and x ≠ −3",
+        "x ≠ 9",
+        "There are no restrictions",
+        "x ≠ 0 and x ≠ −3"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "The bottom x(x + 3) is zero when x = 0 or x = −3.",
+      "explanation": "A restriction is a value x cannot take because it would make the denominator zero. Factor the denominator: x² + 3x = x(x + 3). This is zero when x = 0 or x = −3, so those two values are not allowed."
+    },
+    {
+      "id": 98,
+      "text": "The z-score formula is z = (x − μ)/σ. Find z when x = 85, μ = 70 and σ = 5.",
+      "options": [
+        "3",
+        "15",
+        "17",
+        "1"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "z = (85 − 70)/5 = 15/5 = 3.",
+      "explanation": "A z-score tells how many standard deviations a value is from the mean. μ (mu) is the mean and σ (sigma) is the standard deviation. Subtract first: 85 − 70 = 15, then divide: 15 ÷ 5 = 3."
+    },
+    {
+      "id": 99,
+      "text": "What is the domain of a function?",
+      "options": [
+        "The set of all input values (x-values) the function is allowed to take",
+        "The set of all output values the function produces",
+        "The highest point on the graph",
+        "The point where the graph crosses the y-axis"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Domain = the allowed inputs.",
+      "explanation": "A function takes an input and gives an output. The domain is every input value that is permitted, meaning values that do not cause problems such as dividing by zero. The set of outputs is called the range."
+    },
+    {
+      "id": 100,
+      "text": "What is the range of a function?",
+      "options": [
+        "The set of all input values the function can take",
+        "The set of all output values (y-values) the function produces",
+        "The difference between the largest and smallest x-values",
+        "The list of x-intercepts of the graph"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Range = the outputs you actually get.",
+      "explanation": "The range is the collection of every result the function gives when you feed in all values from its domain. For f(x) = x², the outputs are never negative, so the range is y ≥ 0. Inputs belong to the domain, outputs to the range."
+    },
+    {
+      "id": 101,
+      "text": "Which value must be excluded from the domain of f(x) = 1/(x − 5)?",
+      "options": [
+        "x = 0",
+        "x = −5",
+        "x = 5",
+        "x = 1"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "At x = 5 the denominator is 0, and division by zero is undefined.",
+      "explanation": "A fraction is undefined when its denominator (bottom) is zero. Setting x − 5 = 0 gives x = 5. Every other real number is allowed, so the domain is all real numbers except 5."
+    },
+    {
+      "id": 102,
+      "text": "What is the domain of f(x) = √(x − 3)?",
+      "options": [
+        "x > 3",
+        "x ≤ 3",
+        "All real numbers",
+        "x ≥ 3"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "The expression under the square root must be at least 0: x − 3 ≥ 0.",
+      "explanation": "In real numbers, we cannot take the square root of a negative number. So we need x − 3 ≥ 0, which gives x ≥ 3. The value x = 3 is allowed because √0 = 0."
+    },
+    {
+      "id": 103,
+      "text": "What is the range of f(x) = x²?",
+      "options": [
+        "All real numbers",
+        "y > 0",
+        "y ≥ 0",
+        "y ≤ 0"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Squaring never gives a negative number, and 0² = 0.",
+      "explanation": "Any real number squared is zero or positive, for example (−3)² = 9 and 0² = 0. So the outputs of x² are never below zero. The range is y ≥ 0, or [0, ∞) in interval notation."
+    },
+    {
+      "id": 104,
+      "text": "What are the domain and range of f(x) = 2x + 5?",
+      "options": [
+        "Domain all real numbers, range y ≥ 5",
+        "Both are all real numbers",
+        "Domain x ≥ 0, range all real numbers",
+        "Domain x ≠ 5, range y ≠ 0"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "A straight line with nonzero slope accepts any input and reaches every output.",
+      "explanation": "There is no division by zero and no square root, so any x can be used: the domain is all real numbers. Since the line keeps rising forever in both directions, it also reaches every y-value. So the range is all real numbers too."
+    },
+    {
+      "id": 105,
+      "text": "A water tank holds A(t) = 500 − 20t litres after t minutes. What is the practical domain?",
+      "options": [
+        "All real numbers",
+        "t ≥ 0",
+        "0 ≤ t ≤ 25",
+        "0 ≤ t ≤ 500"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Time can't be negative, and the tank is empty when 500 − 20t = 0, at t = 25.",
+      "explanation": "The practical domain is the set of inputs that make sense in real life, which can be smaller than the mathematical domain. Time starts at t = 0, and the water runs out when 500 − 20t = 0, which gives t = 25. After that the formula would give negative litres, which is impossible."
+    },
+    {
+      "id": 106,
+      "text": "What is a function?",
+      "options": [
+        "A rule that can give two different outputs for the same input",
+        "Any list of numbers",
+        "An equation that has no solution",
+        "A rule that gives exactly one output for every allowed input"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "A function pairs each input with exactly one output.",
+      "explanation": "You can think of a function as a machine: an input goes in, a rule is applied, and one output comes out. For example, each student registration number maps to exactly one program, so that is a function. If one input could give two outputs, it would not be a function."
+    },
+    {
+      "id": 107,
+      "text": "If f(x) = 3x + 4, what is f(5)?",
+      "options": [
+        "15",
+        "23",
+        "19",
+        "12"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Replace x with 5: 3(5) + 4 = 19.",
+      "explanation": "f(5) means 'the output of f when the input is 5'. It does not mean f times 5. Substitute x = 5 to get 3 × 5 + 4 = 15 + 4 = 19."
+    },
+    {
+      "id": 108,
+      "text": "What does the notation f(x) mean?",
+      "options": [
+        "f multiplied by x",
+        "f divided by x",
+        "The output of the function f when the input is x",
+        "The domain of the function"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "f(x) is read 'f of x' and means the output for input x.",
+      "explanation": "In function notation, f is the name of the function and x is the input. f(x) stands for the output you get. For example, if f(x) = 3x + 4, then f(2) = 10. It is a common mistake to read f(x) as f times x."
+    },
+    {
+      "id": 109,
+      "text": "What is a piecewise function?",
+      "options": [
+        "A function whose graph is always a straight line",
+        "A function that has no domain",
+        "A function that only works for whole numbers",
+        "A function that uses different rules for different intervals of input"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "A piecewise function switches rules depending on where x is.",
+      "explanation": "A piecewise function is built from pieces, each with its own formula and its own interval of x-values. For example, f(x) = 2x + 1 when x < 3 and f(x) = x + 4 when x ≥ 3. They are useful when a rule changes at a threshold, such as delivery charges after a certain distance."
+    },
+    {
+      "id": 110,
+      "text": "f(x) = 2x + 1 when x < 3, and f(x) = x + 4 when x ≥ 3. What is f(3)?",
+      "options": [
+        "6",
+        "5",
+        "10",
+        "7"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "3 satisfies x ≥ 3, so use x + 4: 3 + 4 = 7.",
+      "explanation": "In a piecewise function, first decide which rule applies to the input. Since 3 is not less than 3, the first rule does not apply; the condition x ≥ 3 is true, so we use x + 4. That gives 3 + 4 = 7."
+    },
+    {
+      "id": 111,
+      "text": "What is a step function?",
+      "options": [
+        "A function whose output stays constant over each interval and jumps at certain thresholds",
+        "A function whose graph is a smooth curve",
+        "A function that always increases by 1",
+        "A function that has only one output for all inputs"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "A step function looks like a staircase: flat pieces with jumps.",
+      "explanation": "In a step function, the output is the same for every input in an interval, then suddenly changes at a threshold. Its graph looks like stairs. Real examples include parking fees, shipping weight bands, tax brackets and subscription tiers."
+    },
+    {
+      "id": 112,
+      "text": "Parking costs Rs. 100 for 0–2 hours, Rs. 200 for over 2 up to 4 hours, and Rs. 350 for more than 4 hours. What is the fee for 3 hours?",
+      "options": [
+        "Rs. 100",
+        "Rs. 300",
+        "Rs. 350",
+        "Rs. 200"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "3 hours falls in the over-2-up-to-4-hour band, which costs Rs. 200.",
+      "explanation": "This is a step function: the fee stays the same inside each time band. 3 hours is more than 2 but not more than 4, so it is in the middle band. The fee is Rs. 200, no matter where in that band the time falls."
+    },
+    {
+      "id": 113,
+      "text": "What does the function f(x) = |x − 3| measure?",
+      "options": [
+        "The distance between x and −3",
+        "Three times the value of x",
+        "The distance between x and 3",
+        "The square of x minus 3"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "|x − a| always measures how far x is from a.",
+      "explanation": "Absolute value means distance, and |x − 3| is the distance between x and 3 on the number line. For example, both x = 1 and x = 5 are 2 units from 3, so f(1) = f(5) = 2. The smallest value is 0, at x = 3."
+    },
+    {
+      "id": 114,
+      "text": "What is the minimum value of f(x) = |x − 3|, and where does it occur?",
+      "options": [
+        "0, at x = 3",
+        "3, at x = 0",
+        "0, at x = −3",
+        "−3, at x = 3"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The distance from 3 is smallest (zero) when x is exactly 3.",
+      "explanation": "Absolute value is never negative, so the smallest possible output is 0. |x − 3| = 0 only when x − 3 = 0, which means x = 3. This point is the bottom corner (vertex) of the V-shaped graph."
+    },
+    {
+      "id": 115,
+      "text": "What is the range of f(x) = |x − 3|?",
+      "options": [
+        "All real numbers",
+        "y ≥ 3",
+        "y ≥ 0",
+        "y ≤ 0"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Absolute values are never negative, so outputs start at 0.",
+      "explanation": "Since an absolute value is a distance, it can be 0 or positive but never negative. The function reaches 0 at x = 3 and grows without limit on both sides. So the range is y ≥ 0."
+    },
+    {
+      "id": 116,
+      "text": "How is absolute error defined?",
+      "options": [
+        "observed value + true value",
+        "true value ÷ observed value",
+        "|observed value − true value|",
+        "observed value − true value, keeping its sign"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Absolute error is the size of the difference, ignoring whether it is too high or too low.",
+      "explanation": "Error is how far a measurement is from the true (correct) value. Taking the absolute value removes the sign, so being 2 too high and 2 too low both count as an error of 2. It is used in measurement, lab work, quality control and data analysis."
+    },
+    {
+      "id": 117,
+      "text": "A scale shows 102 g for an object whose true weight is 100 g. What is the absolute error?",
+      "options": [
+        "−2 g",
+        "102 g",
+        "202 g",
+        "2 g"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "|102 − 100| = 2.",
+      "explanation": "Absolute error = |observed − true|. The observed reading is 102 and the true value is 100, so the difference is 2. Absolute error is never negative."
+    },
+    {
+      "id": 118,
+      "text": "A sensor's reading has an error of −12 units. What is its absolute error?",
+      "options": [
+        "12",
+        "−12",
+        "0",
+        "144"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "|−12| = 12; absolute error ignores the direction.",
+      "explanation": "The negative sign only says the reading was too low. Absolute error measures size, not direction. So the absolute error is |−12| = 12."
+    },
+    {
+      "id": 119,
+      "text": "A lab temperature deviation is D(T) = |T − 25|. What is D(20)?",
+      "options": [
+        "−5",
+        "5",
+        "45",
+        "20"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "|20 − 25| = |−5| = 5.",
+      "explanation": "Substitute T = 20 into the function: D(20) = |20 − 25| = |−5|. The absolute value of −5 is 5. So 20°C is 5 degrees away from the target of 25°C."
+    },
+    {
+      "id": 120,
+      "text": "What is an intercept on a graph?",
+      "options": [
+        "The highest point of the graph",
+        "The slope of the graph",
+        "The point where two graphs are parallel",
+        "A point where the graph crosses an axis"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Intercepts are where the graph meets the x-axis or the y-axis.",
+      "explanation": "An intercept is a crossing point with an axis. The x-intercept is where the graph meets the x-axis, and the y-intercept is where it meets the y-axis. They are useful starting points for reading and sketching graphs."
+    },
+    {
+      "id": 121,
+      "text": "To find the x-intercept of a graph, what do you set equal to zero?",
+      "options": [
+        "x",
+        "y",
+        "Both x and y",
+        "The slope"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Every point on the x-axis has y = 0.",
+      "explanation": "The x-axis is the horizontal line where y = 0. So to find where a graph crosses it, set y = 0 and solve for x. To find the y-intercept, do the opposite: set x = 0."
+    },
+    {
+      "id": 122,
+      "text": "What are the intercepts of y = 2x − 6?",
+      "options": [
+        "x-intercept (3, 0) and y-intercept (0, −6)",
+        "x-intercept (−3, 0) and y-intercept (0, 6)",
+        "x-intercept (6, 0) and y-intercept (0, −3)",
+        "x-intercept (0, 3) and y-intercept (−6, 0)"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Set y = 0 to get x = 3; set x = 0 to get y = −6.",
+      "explanation": "For the x-intercept, set y = 0: 0 = 2x − 6, so x = 3, giving (3, 0). For the y-intercept, set x = 0: y = 2(0) − 6 = −6, giving (0, −6). Each intercept has a zero in one of its coordinates."
+    },
+    {
+      "id": 123,
+      "text": "A graph is symmetric about the y-axis when:",
+      "options": [
+        "f(−x) = −f(x) for every x",
+        "f(−x) = f(x) for every x",
+        "f(x) = 0 for every x",
+        "the graph passes through (1, 1)"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "y-axis symmetry means the left side mirrors the right side.",
+      "explanation": "Symmetry means one half of the graph is a mirror image of the other. For y-axis symmetry, the outputs at x and −x are equal, as with f(x) = x², where f(3) = f(−3) = 9. Functions like this are called even functions."
+    },
+    {
+      "id": 124,
+      "text": "Which function is symmetric about the origin?",
+      "options": [
+        "f(x) = x³",
+        "f(x) = x²",
+        "f(x) = x² − 4",
+        "f(x) = |x|"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "x³ satisfies f(−x) = −f(x), which is origin symmetry.",
+      "explanation": "A graph is symmetric about the origin if f(−x) = −f(x), meaning rotating it half a turn about (0, 0) gives the same graph. For x³, (−2)³ = −8 = −(2³). Functions like this are called odd functions; the other options are symmetric about the y-axis."
+    },
+    {
+      "id": 125,
+      "text": "What is the scale on a graph's axis?",
+      "options": [
+        "The highest value shown on the graph",
+        "The value that each gridline (or step) on the axis represents",
+        "The title written at the top of the graph",
+        "The point where the axes meet"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Scale tells you how much each gridline is worth.",
+      "explanation": "The scale is the amount each step on an axis stands for, such as 1, 2, 5 or 100 units. Reading the scale correctly is essential: if each gridline is 5°C, then the third gridline is 15°C. Misreading the scale changes how steep or flat a graph seems."
+    },
+    {
+      "id": 126,
+      "text": "On a graph, each vertical gridline represents 5°C. A point sits on the 3rd gridline above zero. What temperature is shown?",
+      "options": [
+        "15°C",
+        "3°C",
+        "8°C",
+        "5°C"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "3 gridlines × 5°C each = 15°C.",
+      "explanation": "Multiply the number of gridlines by the value of each one. Three gridlines at 5°C each give 3 × 5 = 15°C. Reading it as 3°C ignores the scale."
+    },
+    {
+      "id": 127,
+      "text": "What is a transformation of a function?",
+      "options": [
+        "A completely new function with a different shape",
+        "A change in a graph's position, size or orientation that keeps the basic shape of the parent function",
+        "A change that only affects the domain",
+        "Replacing the function with its inverse"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Transformations move, stretch or flip a graph without changing its basic shape.",
+      "explanation": "A parent function is the simplest form of a family, such as f(x) = x². A transformation shifts, stretches, compresses or reflects the graph of that parent. The graph moves or changes size, but its basic shape (such as a U-shape) stays the same."
+    },
+    {
+      "id": 128,
+      "text": "How does the graph of f(x) + 4 compare with the graph of f(x)?",
+      "options": [
+        "It is shifted down 4 units",
+        "It is shifted right 4 units",
+        "It is shifted up 4 units",
+        "It is shifted left 4 units"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Adding a number outside the function moves the graph up.",
+      "explanation": "f(x) + 4 adds 4 to every output (y-value). That moves every point of the graph 4 units up. Changes outside the function affect the graph vertically, in the direction you expect."
+    },
+    {
+      "id": 129,
+      "text": "How does the graph of f(x − 2) compare with the graph of f(x)?",
+      "options": [
+        "It is shifted right 2 units",
+        "It is shifted left 2 units",
+        "It is shifted up 2 units",
+        "It is shifted down 2 units"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Subtracting inside the brackets moves the graph right.",
+      "explanation": "Changes inside the function act horizontally and in the opposite direction to what you might expect. f(x − h) shifts the graph right by h, and f(x + h) shifts it left by h. So f(x − 2) moves the graph 2 units to the right."
+    },
+    {
+      "id": 130,
+      "text": "The graph of y = 3f(x) is the graph of f(x):",
+      "options": [
+        "Compressed vertically by a factor of 3",
+        "Stretched vertically by a factor of 3",
+        "Shifted up 3 units",
+        "Stretched horizontally by a factor of 3"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Multiplying the outputs by 3 makes the graph 3 times as tall.",
+      "explanation": "In a·f(x), the number a multiplies every y-value. When a > 1, the graph is stretched vertically (pulled away from the x-axis). So 3f(x) is three times as tall as f(x)."
+    },
+    {
+      "id": 131,
+      "text": "What does the transformation −f(x) do to a graph?",
+      "options": [
+        "Reflects it over the x-axis",
+        "Reflects it over the y-axis",
+        "Shifts it down 1 unit",
+        "Shifts it left 1 unit"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "A minus sign outside flips the graph upside down across the x-axis.",
+      "explanation": "−f(x) changes the sign of every y-value, so points above the x-axis go below it and vice versa. This is a reflection (mirror image) over the x-axis. A minus sign inside, f(−x), reflects over the y-axis instead."
+    },
+    {
+      "id": 132,
+      "text": "What does the transformation f(2x) do to a graph?",
+      "options": [
+        "Stretches it horizontally by a factor of 2",
+        "Stretches it vertically by a factor of 2",
+        "Shifts it right 2 units",
+        "Compresses it horizontally by a factor of 2"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "A number multiplying x inside squeezes the graph toward the y-axis.",
+      "explanation": "Inside changes act horizontally and opposite to intuition. In f(2x), the graph reaches each output at half the x-value, so it is squeezed horizontally by a factor of 2. On the other hand, f(x/3) stretches the graph horizontally by 3."
+    },
+    {
+      "id": 133,
+      "text": "If f(x) = x², what is the vertex of y = f(x) − 5?",
+      "options": [
+        "(5, 0)",
+        "(−5, 0)",
+        "(0, 5)",
+        "(0, −5)"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "Subtracting 5 outside moves the vertex of x² down from (0, 0) to (0, −5).",
+      "explanation": "The parent graph y = x² has its vertex (lowest point) at (0, 0). Subtracting 5 outside the function shifts the whole graph down 5 units. The new vertex is (0, −5)."
+    },
+    {
+      "id": 134,
+      "text": "In the combined form g(x) = a·f(b(x − h)) + k, what does k control?",
+      "options": [
+        "The horizontal shift",
+        "The vertical stretch",
+        "The vertical shift",
+        "The horizontal stretch"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "k is added outside the function, so it moves the graph up or down.",
+      "explanation": "In this standard form, a gives the vertical stretch (and a reflection over the x-axis if negative), b gives the horizontal stretch, h gives the horizontal shift and k gives the vertical shift. A positive k moves the graph up; a negative k moves it down."
+    },
+    {
+      "id": 135,
+      "text": "In g(x) = a·f(b(x − h)) + k, what does a negative value of a do?",
+      "options": [
+        "It reflects the graph over the x-axis",
+        "It reflects the graph over the y-axis",
+        "It shifts the graph left",
+        "It shifts the graph down"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "A negative a flips the graph upside down.",
+      "explanation": "The number a multiplies all the outputs. Its size gives a vertical stretch or compression, and a negative sign flips all y-values, reflecting the graph over the x-axis. A negative b would reflect it over the y-axis instead."
+    },
+    {
+      "id": 136,
+      "text": "When applying combined transformations, which step is usually done last?",
+      "options": [
+        "The vertical shift",
+        "The horizontal shift",
+        "The horizontal stretch",
+        "The reflection"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The usual order ends with the vertical shift (adding k).",
+      "explanation": "A safe order is: horizontal shift and stretch first, then reflections, then the vertical stretch, and finally the vertical shift. Doing the vertical shift last avoids stretching a shift you have already made. Following a fixed order prevents mistakes."
+    },
+    {
+      "id": 137,
+      "text": "Which equation describes the graph of f(x) stretched vertically by 2 and then shifted up 3?",
+      "options": [
+        "y = 2f(x + 3)",
+        "y = 2f(x) + 3",
+        "y = f(2x) + 3",
+        "y = 3f(x) + 2"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "Multiply f(x) by 2 for the stretch, then add 3 for the upward shift.",
+      "explanation": "A vertical stretch by 2 multiplies the outputs: 2f(x). Shifting up 3 adds 3 outside the function: 2f(x) + 3. Putting 3 inside the brackets would shift the graph left instead."
+    },
+    {
+      "id": 138,
+      "text": "For f(x) = x², describe y = −2f(x − 3) + 4.",
+      "options": [
+        "Vertex at (−3, 4), opens upward and is wider",
+        "Vertex at (3, 4), opens downward and is narrower",
+        "Vertex at (3, −4), opens upward and is narrower",
+        "Vertex at (4, 3), opens downward and is wider"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "h = 3 and k = 4 give the vertex (3, 4); a = −2 flips it and makes it narrower.",
+      "explanation": "x − 3 shifts the vertex right 3, and + 4 shifts it up 4, so the vertex moves from (0, 0) to (3, 4). The negative sign in −2 reflects the U-shape so it opens downward. The size 2 stretches it vertically, which makes it look narrower."
+    },
+    {
+      "id": 139,
+      "text": "A graph has x-intercepts at x = 2 and x = 5. What are the x-intercepts of the graph of f(x − 3)?",
+      "options": [
+        "x = −1 and x = 2",
+        "x = 2 and x = 5",
+        "x = 5 and x = 8",
+        "x = 6 and x = 15"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "f(x − 3) shifts the graph right 3, so add 3 to each intercept.",
+      "explanation": "A horizontal shift moves every point, including the intercepts. f(x − 3) moves the graph 3 units to the right. So 2 becomes 5 and 5 becomes 8."
+    },
+    {
+      "id": 140,
+      "text": "A graph has a y-intercept of 4. What is the y-intercept of f(x) − 6?",
+      "options": [
+        "10",
+        "4",
+        "−2",
+        "−6"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Shifting down 6 changes the y-intercept from 4 to 4 − 6 = −2.",
+      "explanation": "f(x) − 6 subtracts 6 from every y-value, moving the graph down 6 units. The y-intercept is the point where x = 0, and its y-value changes from 4 to 4 − 6. So the new y-intercept is −2."
+    },
+    {
+      "id": 141,
+      "text": "Which of the following is a polynomial?",
+      "options": [
+        "3x⁻² + 1",
+        "4x³ − 2x + 7",
+        "5√x + 2",
+        "4/x + 3"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "A polynomial has only whole-number exponents, with no variable under a root or in a denominator.",
+      "explanation": "A polynomial is a sum of terms like aₙxⁿ, where the exponents are whole numbers (0, 1, 2, …). 3x⁻² has a negative exponent, √x has a fractional exponent (1/2), and 4/x has x in the denominator. Only 4x³ − 2x + 7 follows all the rules."
+    },
+    {
+      "id": 142,
+      "text": "What is the degree of a polynomial?",
+      "options": [
+        "The number of terms in the polynomial",
+        "The coefficient of the first term",
+        "The constant term",
+        "The highest exponent of the variable with a nonzero coefficient"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "The degree is the largest power of x that appears.",
+      "explanation": "The degree tells you the highest power of the variable in the polynomial. For 5x⁴ − 3x⁷ + 2x − 9, the highest power is 7, so the degree is 7, even though that term is not written first. A nonzero constant like 9 has degree 0."
+    },
+    {
+      "id": 143,
+      "text": "What is the degree of 7x⁵ − 2x³ + x − 10?",
+      "options": [
+        "5",
+        "4",
+        "7",
+        "10"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "The highest power of x is 5.",
+      "explanation": "Look at every exponent: 5, 3, 1 and 0 (for the constant −10). The largest is 5, so the degree is 5. The number of terms (4) and the leading coefficient (7) are different ideas."
+    },
+    {
+      "id": 144,
+      "text": "What is a zero (root) of a polynomial P(x)?",
+      "options": [
+        "The value of P(x) when x = 0",
+        "The coefficient of the highest power",
+        "The highest point on the graph",
+        "A value c that makes P(c) = 0"
+      ],
+      "correctIndex": 3,
+      "shortExplanation": "A zero is an input that gives output 0; it is an x-intercept of the graph.",
+      "explanation": "A zero, or root, is a number c for which P(c) = 0. On the graph, zeros are the x-intercepts, where the curve touches or crosses the x-axis. For example, x² − 9 has zeros 3 and −3, because 3² − 9 = 0 and (−3)² − 9 = 0."
+    },
+    {
+      "id": 145,
+      "text": "What does the multiplicity of a zero mean?",
+      "options": [
+        "The value of the polynomial at that zero",
+        "The number of times its factor is repeated in the polynomial",
+        "The degree of the whole polynomial",
+        "The number of terms in the polynomial"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "In (x − 2)³, the zero 2 has multiplicity 3 because (x − 2) appears three times.",
+      "explanation": "Multiplicity counts how many times a factor appears. In (x − 2)³(x + 1), the zero 2 has multiplicity 3 and the zero −1 has multiplicity 1. Odd multiplicity means the graph crosses the x-axis; even multiplicity means it touches and bounces back."
+    },
+    {
+      "id": 146,
+      "text": "In P(x) = (x − 2)²(x + 3), what does the graph do at x = 2?",
+      "options": [
+        "It touches the x-axis and bounces back without crossing",
+        "It crosses the x-axis straight through",
+        "It never reaches the x-axis",
+        "It has a gap at x = 2"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "x = 2 has even multiplicity (2), so the graph touches and turns around.",
+      "explanation": "The factor (x − 2) appears twice, so the zero 2 has multiplicity 2, which is even. At a zero with even multiplicity, the graph touches the x-axis and bounces back. At a zero with odd multiplicity, such as −3 here, it crosses the axis."
+    },
+    {
+      "id": 147,
+      "text": "What does the Remainder Theorem state?",
+      "options": [
+        "When P(x) is divided by (x − c), the remainder is always 0",
+        "When P(x) is divided by (x − c), the remainder equals P(c)",
+        "P(c) is always equal to c",
+        "The remainder equals the degree of P(x)"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "To find the remainder of division by (x − c), just evaluate P(c).",
+      "explanation": "The Remainder Theorem gives a shortcut: instead of doing long division by (x − c), substitute x = c into the polynomial. For example, for P(x) = 2x³ − 5x² + 4x − 1, the remainder on dividing by (x − 3) is P(3) = 20. If the remainder is 0, then (x − c) is a factor."
+    },
+    {
+      "id": 148,
+      "text": "If P(4) = 0 for a polynomial P(x), what can you conclude?",
+      "options": [
+        "(x + 4) is a factor of P(x)",
+        "P(x) has degree 4",
+        "(x − 4) is a factor of P(x)",
+        "P(0) = 4"
+      ],
+      "correctIndex": 2,
+      "shortExplanation": "Factor Theorem: P(c) = 0 means (x − c) is a factor.",
+      "explanation": "The Factor Theorem says (x − c) is a factor of P(x) exactly when P(c) = 0. Here c = 4, so (x − 4) is a factor. Be careful with the sign: a zero at x = 4 gives the factor (x − 4), not (x + 4)."
+    },
+    {
+      "id": 149,
+      "text": "In synthetic division of x³ − 2x² − 5x + 6 by (x − 3), the bottom row is 1, 1, −2, 0. What is the quotient?",
+      "options": [
+        "x³ + x² − 2x",
+        "x² + x − 2",
+        "x² + x − 2 with remainder 3",
+        "x + 1"
+      ],
+      "correctIndex": 1,
+      "shortExplanation": "The last number (0) is the remainder; the others give a quotient one degree lower.",
+      "explanation": "In synthetic division, the last number in the bottom row is the remainder, here 0. The other numbers 1, 1, −2 are the coefficients of the quotient, which has degree one less than the original (2 instead of 3). So the quotient is x² + x − 2, and (x − 3) is a factor."
+    },
+    {
+      "id": 150,
+      "text": "What is the end behavior of P(x) = 6x⁴ − x³ + 2?",
+      "options": [
+        "It rises on both ends",
+        "It falls on both ends",
+        "It falls on the left and rises on the right",
+        "It rises on the left and falls on the right"
+      ],
+      "correctIndex": 0,
+      "shortExplanation": "Even degree with a positive leading coefficient: both ends go up.",
+      "explanation": "End behavior is what the graph does for very large positive or negative x, and it is decided by the leading term (the term with the highest power). Here it is 6x⁴: the degree is even and the coefficient 6 is positive. Like the parabola y = x², the graph rises on both ends."
+    }
+  ]
+}
